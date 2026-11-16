@@ -1,1 +1,0 @@
-RunMe() executed from a memory-mapped DLL (no LoadLibrary).

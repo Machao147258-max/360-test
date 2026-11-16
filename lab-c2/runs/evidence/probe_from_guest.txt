@@ -1,5 +1,0 @@
-== identity
-COMPUTERNAME=XIAOJIE USERNAME=vix DATE=周日 2026/10/04 16:14:18.01
-== ipv4
-   IPv4 Address. . . . . . . . . . . : 192.168.253.140
-== firewall state
