@@ -1,0 +1,84 @@
+== time 16:30:42.53 
+== loader process 
+INFO: No tasks are running which match the specified criteria.
+== trace (full) 
+16:28:28.283 pid=4992 == start
+16:28:28.283 pid=4992 build mode | LCS_FORCE_RUN (gates log-only)
+16:28:28.283 pid=4992 GATE-SANDBOX | cpu<2
+16:28:28.283 pid=4992 gates passed
+16:28:28.286 pid=4992 ntdll unhook | ok
+16:28:28.286 pid=4992 patch AMSI | amsi-not-loaded
+16:28:28.286 pid=4992 patch ETW | ok
+16:28:28.286 pid=4992 payload | decrypted=194048 bytes magic=4D5A
+16:28:28.286 pid=4992 path | PE -> reflective map
+16:28:28.288 pid=4992 MAP alloc-ok | base-relative, headers copied next
+16:28:28.288 pid=4992 MAP sections-ok
+16:28:28.288 pid=4992 MAP reloc-ok
+16:28:28.290 pid=4992 MAP imports-ok
+16:28:28.292 pid=4992 MAP protections-ok | payload平文已擦除, 起线程
+16:28:28.292 pid=4992 MAP thread-started | waiting on beacon (forever-loop)
+== defender active detections 
+
+
+ThreatID             : 2147810991
+Resources            : {file:_C:\Users\Public\loader.exe}
+InitialDetectionTime : 2026/10/4 16:20:00
+ActionSuccess        : True
+
+ThreatID             : 2147810991
+Resources            : {file:_C:\Users\Public\loader.exe}
+InitialDetectionTime : 2026/10/4 16:26:59
+ActionSuccess        : True
+
+ThreatID             : 2147810991
+Resources            : {file:_C:\Users\Public\loader.exe}
+InitialDetectionTime : 2026/10/4 16:24:40
+ActionSuccess        : True
+
+ThreatID             : 2147731849
+Resources            : {file:_C:\Users\Public\loader.exe, process:_pid:4992,ProcessStart:134355761081550626}
+InitialDetectionTime : 2026/10/4 16:29:35
+ActionSuccess        : True
+
+ThreatID             : 2147810991
+Resources            : {file:_C:\Users\Public\loader.exe}
+InitialDetectionTime : 2026/10/4 16:19:14
+ActionSuccess        : True
+
+
+
+
+== defender threat catalog 
+
+
+ThreatName : Trojan:Win32/Bearfoos.B!ml
+Resources  : 
+IsActive   : False
+
+ThreatName : Trojan:Win32/Sabsik.EN.A!ml
+Resources  : 
+IsActive   : False
+
+
+
+
+== defender operational log (last 12) 
+
+TimeCreated          Id LevelDisplayName
+-----------          -- ----------------
+2026/10/4 16:30:06 1117 資訊              
+2026/10/4 16:30:06 1116 警告              
+2026/10/4 16:29:35 1116 警告              
+2026/10/4 16:29:35 2010 資訊              
+2026/10/4 16:27:18 1117 資訊              
+2026/10/4 16:27:00 2010 資訊              
+2026/10/4 16:26:59 1116 警告              
+2026/10/4 16:25:17 1117 資訊              
+2026/10/4 16:25:01 1116 警告              
+2026/10/4 16:24:40 5007 資訊              
+2026/10/4 16:24:40 5007 資訊              
+2026/10/4 16:24:38 5007 資訊              
+
+
+
+== end 16:30:53.38 

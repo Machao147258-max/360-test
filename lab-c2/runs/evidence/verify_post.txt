@@ -1,0 +1,45 @@
+== time 周日 2026/10/04 17:25:53.55 
+== boot time 
+
+2026年10月4日 17:24:24
+
+
+== loader process (ldr.exe) 
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+ldr.exe                       2072 Services                   0      9,428 K
+ldr.exe                       7964 Services                   0      2,188 K
+== HKCU Run 
+
+
+ERROR: The system was unable to find the specified registry key or value.
+== HKLM Run 
+
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run
+    lcs    REG_SZ    C:\Users\Public\ldr.exe
+
+== task lcs_onlogon 
+
+Folder: \
+HostName:      XIAOJIE
+TaskName:      \lcs_onlogon
+Next Run Time: N/A
+Status:        Ready
+Logon Mode:    Interactive/Background
+== task lcs_5min 
+ERROR: The system cannot find the file specified.
+== trace tail 
+17:24:58.387 pid=2072 ntdll unhook | ok
+17:24:58.428 pid=2072 patch AMSI | amsi-not-loaded
+17:24:59.672 pid=2072 patch ETW | ok
+17:24:59.875 pid=2072 payload | decrypted=194560 bytes magic=4D5A
+17:24:59.875 pid=2072 path | PE -> reflective map
+17:24:59.877 pid=2072 MAP sections-ok
+17:24:59.879 pid=2072 MAP reloc-ok
+17:24:59.887 pid=2072 MAP imports-ok
+17:24:59.889 pid=2072 MAP protections-ok | cleartext payload wiped, starting thread
+17:24:59.903 pid=2072 MAP thread-started | waiting on beacon (forever-loop)
+17:25:02.067 pid=4256 singleton | another instance is running -> exit
+17:26:00.342 pid=5312 singleton | another instance is running -> exit
+== end 17:26:04.80 

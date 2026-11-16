@@ -1,0 +1,161 @@
+== BEFORE 
+Total free bytes                :    262,959,104 (250.8 MB)
+Total bytes                     : 31,103,905,792 ( 29.0 GB)
+Total quota free bytes          :    262,959,104 (250.8 MB)
+Unavailable pool bytes          :              0 (  0.0 KB)
+Quota unavailable pool bytes    :              0 (  0.0 KB)
+Used bytes                      : 24,569,364,480 ( 22.9 GB)
+Total Reserved bytes            :  6,271,582,208 (  5.8 GB)
+Volume storage reserved bytes   :  6,203,027,456 (  5.8 GB)
+Available committed bytes       :              0 (  0.0 KB)
+Pool available bytes            :              0 (  0.0 KB)
+== C:\Windows.old size before removal 
+               0 File(s)              0 bytes
+               0 File(s)              0 bytes
+== 1) delete the x86 installer 
+rc=0 
+== 2) clear system temp 
+Deleted file - C:\Windows\Temp\Application_1FB220C3-4DC1-0000-25A5-B31FC14DDD01.evtx
+Deleted file - C:\Windows\Temp\Application_258B726F-53C6-0000-ABFB-8C25C653DD01.evtx
+Deleted file - C:\Windows\Temp\Application_336BA7AF-53C9-0000-3A2C-9C33C953DD01.evtx
+Deleted file - C:\Windows\Temp\Application_336BA7AF-53C9-0000-8DF2-6C33C953DD01.evtx
+Deleted file - C:\Windows\Temp\Application_55A1DF77-4DC2-0000-549D-A355C24DDD01.evtx
+Deleted file - C:\Windows\Temp\Application_61C254F5-4E18-0000-39A2-C361184EDD01.evtx
+Deleted file - C:\Windows\Temp\Application_6E196A66-4DC6-0000-4C0B-1B6EC64DDD01.evtx
+Deleted file - C:\Windows\Temp\Application_90A7AE6F-4DC4-0000-B034-A990C44DDD01.evtx
+Deleted file - C:\Windows\Temp\Application_C60A32B9-4DC7-0000-1CB6-0BC6C74DDD01.evtx
+Deleted file - C:\Windows\Temp\AppxErrorReport_1FB220C3-4DC1-0000-25A5-B31FC14DDD01.txt
+Deleted file - C:\Windows\Temp\AppxErrorReport_258B726F-53C6-0000-ABFB-8C25C653DD01.txt
+Deleted file - C:\Windows\Temp\AppxErrorReport_336BA7AF-53C9-0000-3A2C-9C33C953DD01.txt
+Deleted file - C:\Windows\Temp\AppxErrorReport_336BA7AF-53C9-0000-8DF2-6C33C953DD01.txt
+Deleted file - C:\Windows\Temp\AppxErrorReport_55A1DF77-4DC2-0000-549D-A355C24DDD01.txt
+Deleted file - C:\Windows\Temp\AppxErrorReport_61C254F5-4E18-0000-39A2-C361184EDD01.txt
+Deleted file - C:\Windows\Temp\AppxErrorReport_6E196A66-4DC6-0000-4C0B-1B6EC64DDD01.txt
+Deleted file - C:\Windows\Temp\AppxErrorReport_90A7AE6F-4DC4-0000-B034-A990C44DDD01.txt
+Deleted file - C:\Windows\Temp\AppxErrorReport_C60A32B9-4DC7-0000-1CB6-0BC6C74DDD01.txt
+Deleted file - C:\Windows\Temp\bb3a785178f443fda931098a5a9a306b.db.ses
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppReadiness_Admin_1FB220C3-4DC1-0000-25A5-B31FC14DDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppReadiness_Admin_258B726F-53C6-0000-ABFB-8C25C653DD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppReadiness_Admin_336BA7AF-53C9-0000-3A2C-9C33C953DD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppReadiness_Admin_336BA7AF-53C9-0000-8DF2-6C33C953DD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppReadiness_Admin_55A1DF77-4DC2-0000-549D-A355C24DDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppReadiness_Admin_61C254F5-4E18-0000-39A2-C361184EDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppReadiness_Admin_6E196A66-4DC6-0000-4C0B-1B6EC64DDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppReadiness_Admin_90A7AE6F-4DC4-0000-B034-A990C44DDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppReadiness_Admin_C60A32B9-4DC7-0000-1CB6-0BC6C74DDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppReadiness_Operational_1FB220C3-4DC1-0000-25A5-B31FC14DDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppReadiness_Operational_258B726F-53C6-0000-ABFB-8C25C653DD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppReadiness_Operational_336BA7AF-53C9-0000-3A2C-9C33C953DD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppReadiness_Operational_336BA7AF-53C9-0000-8DF2-6C33C953DD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppReadiness_Operational_55A1DF77-4DC2-0000-549D-A355C24DDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppReadiness_Operational_61C254F5-4E18-0000-39A2-C361184EDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppReadiness_Operational_6E196A66-4DC6-0000-4C0B-1B6EC64DDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppReadiness_Operational_90A7AE6F-4DC4-0000-B034-A990C44DDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppReadiness_Operational_C60A32B9-4DC7-0000-1CB6-0BC6C74DDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppXDeploymentServer_Operational_1FB220C3-4DC1-0000-25A5-B31FC14DDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppXDeploymentServer_Operational_258B726F-53C6-0000-ABFB-8C25C653DD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppXDeploymentServer_Operational_336BA7AF-53C9-0000-3A2C-9C33C953DD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppXDeploymentServer_Operational_336BA7AF-53C9-0000-8DF2-6C33C953DD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppXDeploymentServer_Operational_55A1DF77-4DC2-0000-549D-A355C24DDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppXDeploymentServer_Operational_61C254F5-4E18-0000-39A2-C361184EDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppXDeploymentServer_Operational_6E196A66-4DC6-0000-4C0B-1B6EC64DDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppXDeploymentServer_Operational_90A7AE6F-4DC4-0000-B034-A990C44DDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppXDeploymentServer_Operational_C60A32B9-4DC7-0000-1CB6-0BC6C74DDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppXPackaging_Operational_1FB220C3-4DC1-0000-25A5-B31FC14DDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppXPackaging_Operational_258B726F-53C6-0000-ABFB-8C25C653DD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppXPackaging_Operational_336BA7AF-53C9-0000-3A2C-9C33C953DD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppXPackaging_Operational_336BA7AF-53C9-0000-8DF2-6C33C953DD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppXPackaging_Operational_55A1DF77-4DC2-0000-549D-A355C24DDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppXPackaging_Operational_61C254F5-4E18-0000-39A2-C361184EDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppXPackaging_Operational_6E196A66-4DC6-0000-4C0B-1B6EC64DDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppXPackaging_Operational_90A7AE6F-4DC4-0000-B034-A990C44DDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-AppXPackaging_Operational_C60A32B9-4DC7-0000-1CB6-0BC6C74DDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-StateRepository_Operational_1FB220C3-4DC1-0000-25A5-B31FC14DDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-StateRepository_Operational_258B726F-53C6-0000-ABFB-8C25C653DD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-StateRepository_Operational_336BA7AF-53C9-0000-3A2C-9C33C953DD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-StateRepository_Operational_336BA7AF-53C9-0000-8DF2-6C33C953DD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-StateRepository_Operational_55A1DF77-4DC2-0000-549D-A355C24DDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-StateRepository_Operational_61C254F5-4E18-0000-39A2-C361184EDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-StateRepository_Operational_6E196A66-4DC6-0000-4C0B-1B6EC64DDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-StateRepository_Operational_90A7AE6F-4DC4-0000-B034-A990C44DDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-StateRepository_Operational_C60A32B9-4DC7-0000-1CB6-0BC6C74DDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-Store_Operational_1FB220C3-4DC1-0000-25A5-B31FC14DDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-Store_Operational_258B726F-53C6-0000-ABFB-8C25C653DD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-Store_Operational_336BA7AF-53C9-0000-3A2C-9C33C953DD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-Store_Operational_336BA7AF-53C9-0000-8DF2-6C33C953DD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-Store_Operational_55A1DF77-4DC2-0000-549D-A355C24DDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-Store_Operational_61C254F5-4E18-0000-39A2-C361184EDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-Store_Operational_6E196A66-4DC6-0000-4C0B-1B6EC64DDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-Store_Operational_90A7AE6F-4DC4-0000-B034-A990C44DDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-Store_Operational_C60A32B9-4DC7-0000-1CB6-0BC6C74DDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-WindowsUpdateClient_Operational_1FB220C3-4DC1-0000-25A5-B31FC14DDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-WindowsUpdateClient_Operational_258B726F-53C6-0000-ABFB-8C25C653DD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-WindowsUpdateClient_Operational_336BA7AF-53C9-0000-3A2C-9C33C953DD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-WindowsUpdateClient_Operational_336BA7AF-53C9-0000-8DF2-6C33C953DD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-WindowsUpdateClient_Operational_55A1DF77-4DC2-0000-549D-A355C24DDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-WindowsUpdateClient_Operational_61C254F5-4E18-0000-39A2-C361184EDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-WindowsUpdateClient_Operational_6E196A66-4DC6-0000-4C0B-1B6EC64DDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-WindowsUpdateClient_Operational_90A7AE6F-4DC4-0000-B034-A990C44DDD01.evtx
+Deleted file - C:\Windows\Temp\Microsoft-Windows-WindowsUpdateClient_Operational_C60A32B9-4DC7-0000-1CB6-0BC6C74DDD01.evtx
+Deleted file - C:\Windows\Temp\MpSigStub.log
+Deleted file - C:\Windows\Temp\System_1FB220C3-4DC1-0000-25A5-B31FC14DDD01.evtx
+Deleted file - C:\Windows\Temp\System_258B726F-53C6-0000-ABFB-8C25C653DD01.evtx
+Deleted file - C:\Windows\Temp\System_336BA7AF-53C9-0000-3A2C-9C33C953DD01.evtx
+Deleted file - C:\Windows\Temp\System_336BA7AF-53C9-0000-8DF2-6C33C953DD01.evtx
+Deleted file - C:\Windows\Temp\System_55A1DF77-4DC2-0000-549D-A355C24DDD01.evtx
+Deleted file - C:\Windows\Temp\System_61C254F5-4E18-0000-39A2-C361184EDD01.evtx
+Deleted file - C:\Windows\Temp\System_6E196A66-4DC6-0000-4C0B-1B6EC64DDD01.evtx
+Deleted file - C:\Windows\Temp\System_90A7AE6F-4DC4-0000-B034-A990C44DDD01.evtx
+Deleted file - C:\Windows\Temp\System_C60A32B9-4DC7-0000-1CB6-0BC6C74DDD01.evtx
+C:\Windows\Temp\vmware-vmsvc-SYSTEM.log
+The process cannot access the file because it is being used by another process.
+Deleted file - C:\Windows\Temp\vmware-vmtoolsd-20751.log
+Deleted file - C:\Windows\Temp\vmware-vmtoolsd-SYSTEM.log
+Deleted file - C:\Windows\Temp\vmware-vmtoolsd-vix.log
+Deleted file - C:\Windows\Temp\vmware-vmusr-20751.log
+C:\Windows\Temp\vmware-vmusr-vix.log
+The process cannot access the file because it is being used by another process.
+Deleted file - C:\Windows\Temp\vmware-vmvss-SYSTEM.log
+== 3) clear user temp 
+Deleted file - C:\Users\vix\AppData\Local\Temp\.ses
+Deleted file - C:\Users\vix\AppData\Local\Temp\MpCmdRun.log
+Deleted file - C:\Users\vix\AppData\Local\Temp\msedge_installer.log
+Deleted file - C:\Users\vix\AppData\Local\Temp\vixScript0
+Deleted file - C:\Users\vix\AppData\Local\Temp\vixScript1
+Deleted file - C:\Users\vix\AppData\Local\Temp\vixScript2
+Deleted file - C:\Users\vix\AppData\Local\Temp\vixScript3
+Deleted file - C:\Users\vix\AppData\Local\Temp\vixScript4
+Deleted file - C:\Users\vix\AppData\Local\Temp\vixScript5
+Deleted file - C:\Users\vix\AppData\Local\Temp\wct4C27.tmp
+Deleted file - C:\Users\vix\AppData\Local\Temp\wct4F8E.tmp
+Deleted file - C:\Users\vix\AppData\Local\Temp\wct5428.tmp
+Deleted file - C:\Users\vix\AppData\Local\Temp\wct5EF7.tmp
+Deleted file - C:\Users\vix\AppData\Local\Temp\wct7626.tmp
+Deleted file - C:\Users\vix\AppData\Local\Temp\wctA45A.tmp
+Deleted file - C:\Users\vix\AppData\Local\Temp\wctDE2C.tmp
+Deleted file - C:\Users\vix\AppData\Local\Temp\wmsetup.log
+Deleted file - C:\Users\vix\AppData\Local\Temp\wsu7A7D.tmp
+Deleted file - C:\Users\vix\AppData\Local\Temp\nsr1B29.tmp\DuiLib.dll
+Deleted file - C:\Users\vix\AppData\Local\Temp\nsr1B29.tmp\installer-helper.dll
+Deleted file - C:\Users\vix\AppData\Local\Temp\nsrD5B5.tmp\DuiLib.dll
+Deleted file - C:\Users\vix\AppData\Local\Temp\nsrD5B5.tmp\installer-helper.dll
+== 4) remove Windows.old (takeown + icacls + rd) 
+
+SUCCESS: The file (or folder): "C:\Windows.old" now owned by user "xiaojie\vix".
+processed file: C:\Windows.old
+Successfully processed 1 files; Failed processing 0 files
+rd_rc=0 
+== leftovers under Windows.old (should be tiny/none) 
+  gone 
+== AFTER 
+Total free bytes                :    316,805,120 (302.1 MB)
+Total bytes                     : 31,103,905,792 ( 29.0 GB)
+Total quota free bytes          :    316,805,120 (302.1 MB)
+Unavailable pool bytes          :              0 (  0.0 KB)
+Quota unavailable pool bytes    :              0 (  0.0 KB)
+Used bytes                      : 24,245,207,040 ( 22.6 GB)
+Total Reserved bytes            :  6,541,893,632 (  6.1 GB)
+Volume storage reserved bytes   :  6,472,286,208 (  6.0 GB)
+Available committed bytes       :              0 (  0.0 KB)
+Pool available bytes            :              0 (  0.0 KB)
+== end 18:46:39.63 

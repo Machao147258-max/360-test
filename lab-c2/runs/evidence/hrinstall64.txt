@@ -1,0 +1,14 @@
+== kill the old x86 dialog (privileged task, VIX token cannot do it) 
+SUCCESS: The scheduled task "lcs_hrk" has successfully been created.
+SUCCESS: Attempted to run the scheduled task "lcs_hrk".
+SUCCESS: The scheduled task "lcs_hrk" was successfully deleted.
+== silent install /S on the x64 build 
+SUCCESS: The scheduled task "lcs_hr64" has successfully been created.
+SUCCESS: Attempted to run the scheduled task "lcs_hr64".
+== state after 45s 
+[SC] EnumQueryServicesStatus:OpenService FAILED 1060:
+
+The specified service does not exist as an installed service.
+
+File Not Found
+== end 18:19:37.43 

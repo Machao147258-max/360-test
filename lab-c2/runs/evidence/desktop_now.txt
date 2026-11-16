@@ -1,0 +1,29 @@
+== time 周日 2026/10/04 17:35:16.40 
+== sessions 
+'qwinsta' is not recognized as an internal or external command,
+operable program or batch file.
+== explorer.exe (interactive shell present?) 
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+explorer.exe                  5096 Console                    1    140,272 K
+== our payload 
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+ldr.exe                       1932 Services                   0      8,420 K
+== vmware user process (indicates console session) 
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+vmtoolsd.exe                  3436 Services                   0     27,592 K
+== autologon state 
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
+    AutoAdminLogon    REG_SZ    1
+
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
+    DefaultUserName    REG_SZ    vix
+
+== end 17:35:20.10 

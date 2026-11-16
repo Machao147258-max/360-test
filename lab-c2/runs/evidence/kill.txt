@@ -1,0 +1,13 @@
+== before 
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+ldr.exe                       2072 Services                   0      5,364 K
+ldr.exe                       8040 Console                    1     11,368 K
+== create+run privileged kill task 
+SUCCESS: The scheduled task "lcs_kill" has successfully been created.
+SUCCESS: Attempted to run the scheduled task "lcs_kill".
+== after 
+INFO: No tasks are running which match the specified criteria.
+SUCCESS: The scheduled task "lcs_kill" was successfully deleted.
+== end 17:30:59.90 

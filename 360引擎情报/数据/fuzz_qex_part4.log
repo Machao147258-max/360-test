@@ -1,0 +1,94 @@
+[part4] 基线：真实 qex.vdb.enc 头 → EAX=0x00000000 out0=0x37 ins=1098
+[part4] 用例 90 个，开始（每例一行，实时）
+   [  1/90] qex.vdb.enc|fill=00x512                      EAX=0x00000000 out0=0x01 ins=  1819 ok 
+   [  2/90] qex.vdb.enc|fill=41x512                      EAX=0x00000000 out0=0x00 ins=  1380 ok 
+   [  3/90] qex.vdb.enc|fill=ffx512                      EAX=0x00000000 out0=0x00 ins=  1239 ok 
+   [  4/90] qex.vdb.enc|fill=90x512                      EAX=0x00000000 out0=0x00 ins=  1137 ok 
+   [  5/90] qex.vdb.enc|fill=0fx512                      EAX=0x00000000 out0=0x00 ins=  1093 ok 
+!! [  6/90] qex.vdb.enc|fill=80x512                      EAX=0x00000000 out0=0x3f ins=  1094 TYPE returned
+   [  7/90] qex.vdb.enc|mut#0                            EAX=0x00000000 out0=0x37 ins=  1098 ok 
+   [  8/90] qex.vdb.enc|mut#1                            EAX=0x00000000 out0=0x37 ins=  1098 ok 
+   [  9/90] qex.vdb.enc|mut#2                            EAX=0x00000000 out0=0x37 ins=  1098 ok 
+!! [ 10/90] qex.vdb.enc|mut#3                            EAX=0x00000000 out0=0x00 ins=  1102 TYPE returned
+   [ 11/90] qex.vdb.enc|mut#4                            EAX=0x00000000 out0=0x37 ins=  1098 ok 
+   [ 12/90] qex.vdb.enc|mut#5                            EAX=0x00000000 out0=0x37 ins=  1098 ok 
+   [ 13/90] qex.vdb.enc|mut#6                            EAX=0x00000000 out0=0x37 ins=  1098 ok 
+   [ 14/90] qex.vdb.enc|mut#7                            EAX=0x00000000 out0=0x37 ins=  1098 ok 
+!! [ 15/90] qex.vdb.enc|mut#8                            EAX=0x00000000 out0=0x00 ins=  1094 TYPE returned
+!! [ 16/90] qex.vdb.enc|mut#9                            EAX=0x00000000 out0=0x00 ins=  1093 TYPE returned
+   [ 17/90] qex.vdb.enc|mut#10                           EAX=0x00000000 out0=0x37 ins=  1099 ok 
+!! [ 18/90] qex.vdb.enc|mut#11                           EAX=0x00000000 out0=0x00 ins=  1097 TYPE returned
+   [ 19/90] qex.vdb.enc|mut#12                           EAX=0x00000000 out0=0x37 ins=  1098 ok 
+   [ 20/90] qex.vdb.enc|mut#13                           EAX=0x00000000 out0=0x37 ins=  1098 ok 
+   [ 21/90] qex.vdb.enc|mut#14                           EAX=0x00000000 out0=0x37 ins=  1098 ok 
+   [ 22/90] qex.vdb.enc|mut#15                           EAX=0x00000000 out0=0x37 ins=  1098 ok 
+!! [ 23/90] qex.vdb.enc|mut#16                           EAX=0x00000000 out0=0x00 ins=  1097 TYPE returned
+   [ 24/90] qex.vdb.enc|mut#17                           EAX=0x00000000 out0=0x37 ins=  1098 ok 
+   [ 25/90] qex.vdb.enc|mut#18                           EAX=0x00000000 out0=0x37 ins=  1098 ok 
+!! [ 26/90] qex.vdb.enc|mut#19                           EAX=0x00000000 out0=0x00 ins=  1422 TYPE returned
+   [ 27/90] qex.vdb.enc|mut#20                           EAX=0x00000000 out0=0x37 ins=  1098 ok 
+!! [ 28/90] qex.vdb.enc|mut#21                           EAX=0x00000000 out0=0x00 ins=  1097 TYPE returned
+   [ 29/90] qex.vdb.enc|mut#22                           EAX=0x00000000 out0=0x37 ins=  1098 ok 
+!! [ 30/90] qex.vdb.enc|mut#23                           EAX=0x00000000 out0=0x00 ins=  1097 TYPE returned
+   [ 31/90] patt.enc|fill=00x512                         EAX=0x00000000 out0=0x01 ins=  1819 ok 
+   [ 32/90] patt.enc|fill=41x512                         EAX=0x00000000 out0=0x00 ins=  1380 ok 
+   [ 33/90] patt.enc|fill=ffx512                         EAX=0x00000000 out0=0x00 ins=  1239 ok 
+   [ 34/90] patt.enc|fill=90x512                         EAX=0x00000000 out0=0x00 ins=  1137 ok 
+   [ 35/90] patt.enc|fill=0fx512                         EAX=0x00000000 out0=0x00 ins=  1093 ok 
+!! [ 36/90] patt.enc|fill=80x512                         EAX=0x00000000 out0=0x3f ins=  1094 TYPE returned
+   [ 37/90] patt.enc|mut#0                               EAX=0x00000000 out0=0x37 ins=  1098 ok 
+   [ 38/90] patt.enc|mut#1                               EAX=0x00000000 out0=0x37 ins=  1098 ok 
+   [ 39/90] patt.enc|mut#2                               EAX=0x00000000 out0=0x37 ins=  1098 ok 
+!! [ 40/90] patt.enc|mut#3                               EAX=0x00000000 out0=0x00 ins=  1102 TYPE returned
+   [ 41/90] patt.enc|mut#4                               EAX=0x00000000 out0=0x37 ins=  1098 ok 
+   [ 42/90] patt.enc|mut#5                               EAX=0x00000000 out0=0x37 ins=  1098 ok 
+   [ 43/90] patt.enc|mut#6                               EAX=0x00000000 out0=0x37 ins=  1098 ok 
+   [ 44/90] patt.enc|mut#7                               EAX=0x00000000 out0=0x37 ins=  1098 ok 
+!! [ 45/90] patt.enc|mut#8                               EAX=0x00000000 out0=0x00 ins=  1094 TYPE returned
+!! [ 46/90] patt.enc|mut#9                               EAX=0x00000000 out0=0x00 ins=  1093 TYPE returned
+   [ 47/90] patt.enc|mut#10                              EAX=0x00000000 out0=0x37 ins=  1099 ok 
+!! [ 48/90] patt.enc|mut#11                              EAX=0x00000000 out0=0x00 ins=  1097 TYPE returned
+   [ 49/90] patt.enc|mut#12                              EAX=0x00000000 out0=0x37 ins=  1098 ok 
+   [ 50/90] patt.enc|mut#13                              EAX=0x00000000 out0=0x37 ins=  1098 ok 
+   [ 51/90] patt.enc|mut#14                              EAX=0x00000000 out0=0x37 ins=  1098 ok 
+   [ 52/90] patt.enc|mut#15                              EAX=0x00000000 out0=0x37 ins=  1098 ok 
+!! [ 53/90] patt.enc|mut#16                              EAX=0x00000000 out0=0x00 ins=  1097 TYPE returned
+   [ 54/90] patt.enc|mut#17                              EAX=0x00000000 out0=0x37 ins=  1098 ok 
+   [ 55/90] patt.enc|mut#18                              EAX=0x00000000 out0=0x37 ins=  1098 ok 
+!! [ 56/90] patt.enc|mut#19                              EAX=0x00000000 out0=0x00 ins=  1422 TYPE returned
+   [ 57/90] patt.enc|mut#20                              EAX=0x00000000 out0=0x37 ins=  1098 ok 
+!! [ 58/90] patt.enc|mut#21                              EAX=0x00000000 out0=0x00 ins=  1097 TYPE returned
+   [ 59/90] patt.enc|mut#22                              EAX=0x00000000 out0=0x37 ins=  1098 ok 
+!! [ 60/90] patt.enc|mut#23                              EAX=0x00000000 out0=0x00 ins=  1097 TYPE returned
+   [ 61/90] MacroDef.enc|fill=00x512                     EAX=0x00000000 out0=0x01 ins=  1819 ok 
+   [ 62/90] MacroDef.enc|fill=41x512                     EAX=0x00000000 out0=0x00 ins=  1380 ok 
+   [ 63/90] MacroDef.enc|fill=ffx512                     EAX=0x00000000 out0=0x00 ins=  1239 ok 
+   [ 64/90] MacroDef.enc|fill=90x512                     EAX=0x00000000 out0=0x00 ins=  1137 ok 
+   [ 65/90] MacroDef.enc|fill=0fx512                     EAX=0x00000000 out0=0x00 ins=  1093 ok 
+!! [ 66/90] MacroDef.enc|fill=80x512                     EAX=0x00000000 out0=0x3f ins=  1094 TYPE returned
+   [ 67/90] MacroDef.enc|mut#0                           EAX=0x00000000 out0=0x37 ins=  1098 ok 
+   [ 68/90] MacroDef.enc|mut#1                           EAX=0x00000000 out0=0x37 ins=  1098 ok 
+   [ 69/90] MacroDef.enc|mut#2                           EAX=0x00000000 out0=0x37 ins=  1098 ok 
+!! [ 70/90] MacroDef.enc|mut#3                           EAX=0x00000000 out0=0x00 ins=  1102 TYPE returned
+   [ 71/90] MacroDef.enc|mut#4                           EAX=0x00000000 out0=0x37 ins=  1098 ok 
+   [ 72/90] MacroDef.enc|mut#5                           EAX=0x00000000 out0=0x37 ins=  1098 ok 
+   [ 73/90] MacroDef.enc|mut#6                           EAX=0x00000000 out0=0x37 ins=  1098 ok 
+   [ 74/90] MacroDef.enc|mut#7                           EAX=0x00000000 out0=0x37 ins=  1098 ok 
+!! [ 75/90] MacroDef.enc|mut#8                           EAX=0x00000000 out0=0x00 ins=  1094 TYPE returned
+!! [ 76/90] MacroDef.enc|mut#9                           EAX=0x00000000 out0=0x00 ins=  1093 TYPE returned
+   [ 77/90] MacroDef.enc|mut#10                          EAX=0x00000000 out0=0x37 ins=  1099 ok 
+!! [ 78/90] MacroDef.enc|mut#11                          EAX=0x00000000 out0=0x00 ins=  1097 TYPE returned
+   [ 79/90] MacroDef.enc|mut#12                          EAX=0x00000000 out0=0x37 ins=  1098 ok 
+   [ 80/90] MacroDef.enc|mut#13                          EAX=0x00000000 out0=0x37 ins=  1098 ok 
+   [ 81/90] MacroDef.enc|mut#14                          EAX=0x00000000 out0=0x37 ins=  1098 ok 
+   [ 82/90] MacroDef.enc|mut#15                          EAX=0x00000000 out0=0x37 ins=  1098 ok 
+!! [ 83/90] MacroDef.enc|mut#16                          EAX=0x00000000 out0=0x00 ins=  1097 TYPE returned
+   [ 84/90] MacroDef.enc|mut#17                          EAX=0x00000000 out0=0x37 ins=  1098 ok 
+   [ 85/90] MacroDef.enc|mut#18                          EAX=0x00000000 out0=0x37 ins=  1098 ok 
+!! [ 86/90] MacroDef.enc|mut#19                          EAX=0x00000000 out0=0x00 ins=  1422 TYPE returned
+   [ 87/90] MacroDef.enc|mut#20                          EAX=0x00000000 out0=0x37 ins=  1098 ok 
+!! [ 88/90] MacroDef.enc|mut#21                          EAX=0x00000000 out0=0x00 ins=  1097 TYPE returned
+   [ 89/90] MacroDef.enc|mut#22                          EAX=0x00000000 out0=0x37 ins=  1098 ok 
+!! [ 90/90] MacroDef.enc|mut#23                          EAX=0x00000000 out0=0x00 ins=  1097 TYPE returned
+[part4] 完成 90 例 / 1.2s / 73.4 例/秒
+[part4] 汇总：TYPE=27

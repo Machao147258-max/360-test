@@ -1,0 +1,33 @@
+== 约定 cdecl ==
+  qex.vdb.enc         
+    cdecl     EAX=0x80070057 stop=normal                       out=000000000000000000000000 stubs=0
+  patt.enc            
+    cdecl     EAX=0x80070057 stop=normal                       out=000000000000000000000000 stubs=0
+  MacroDef.enc        
+    cdecl     EAX=0x80070057 stop=normal                       out=000000000000000000000000 stubs=0
+  random512           
+    cdecl     EAX=0x80070057 stop=normal                       out=000000000000000000000000 stubs=0
+  zeros512            
+    cdecl     EAX=0x80070057 stop=normal                       out=000000000000000000000000 stubs=0
+== 约定 fastcall ==
+  qex.vdb.enc         
+    fastcall  EAX=0x00000000 stop=normal                       out=378000000000000000000000 stubs=0
+  patt.enc            
+    fastcall  EAX=0x00000000 stop=normal                       out=378000000000000000000000 stubs=0
+  MacroDef.enc        
+    fastcall  EAX=0x00000000 stop=normal                       out=378000000000000000000000 stubs=0
+  random512           
+    fastcall  EAX=0x00000000 stop=normal                       out=000000000000000000000000 stubs=0
+  zeros512            
+    fastcall  EAX=0x00000000 stop=normal                       out=018000000000000000000000 stubs=0
+== 约定 thiscall ==
+  qex.vdb.enc         
+    thiscall  EAX=0x80070057 stop=normal                       out=000000000000000000000000 stubs=0
+  patt.enc            
+    thiscall  EAX=0x80070057 stop=normal                       out=000000000000000000000000 stubs=0
+  MacroDef.enc        
+    thiscall  EAX=0x80070057 stop=normal                       out=000000000000000000000000 stubs=0
+  random512           
+    thiscall  EAX=0x80070057 stop=normal                       out=000000000000000000000000 stubs=0
+  zeros512            
+    thiscall  EAX=0x80070057 stop=normal                       out=000000000000000000000000 stubs=0

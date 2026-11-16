@@ -1,0 +1,76 @@
+== free space on C: 
+Total free bytes                :    263,036,928 (250.9 MB)
+Total bytes                     : 31,103,905,792 ( 29.0 GB)
+Total quota free bytes          :    263,036,928 (250.9 MB)
+Unavailable pool bytes          :              0 (  0.0 KB)
+Quota unavailable pool bytes    :              0 (  0.0 KB)
+Used bytes                      : 24,569,352,192 ( 22.9 GB)
+Total Reserved bytes            :  6,271,516,672 (  5.8 GB)
+Volume storage reserved bytes   :  6,203,027,456 (  5.8 GB)
+Available committed bytes       :              0 (  0.0 KB)
+Pool available bytes            :              0 (  0.0 KB)
+== C:\Users\Public total 
+              79 File(s)      130447944 bytes
+               0 File(s)              0 bytes
+               0 File(s)              0 bytes
+               1 File(s)           2256 bytes
+               0 File(s)              0 bytes
+               0 File(s)              0 bytes
+               1 File(s)            999 bytes
+               0 File(s)              0 bytes
+               0 File(s)              0 bytes
+               0 File(s)              0 bytes
+              81 File(s)      130451199 bytes
+== C:\Users\Public top level (big items first) 
+  huorong64.exe = 71591792 bytes 
+  huorong.exe = 54918856 bytes 
+  ldr.exe = 375296 bytes 
+  ldr_165300.exe = 373248 bytes 
+  ctrl_cmd.exe = 344064 bytes 
+== C:\Windows\Temp total 
+              99 File(s)      117228972 bytes
+               0 File(s)              0 bytes
+               0 File(s)              0 bytes
+              99 File(s)      117228972 bytes
+== user temp total 
+              18 File(s)      147689797 bytes
+               0 File(s)              0 bytes
+               0 File(s)              0 bytes
+               0 File(s)              0 bytes
+               2 File(s)        2281280 bytes
+               2 File(s)        2281280 bytes
+               0 File(s)              0 bytes
+              22 File(s)      152252357 bytes
+== recycle bin total 
+== top level of C: 
+ Volume in drive C has no label.
+ Volume Serial Number is 7266-3086
+
+ Directory of C:\
+
+2026/10/04  15:40                 9 id2.txt
+2026/03/07  07:54    <DIR>          inetpub
+2024/04/01  15:26    <DIR>          PerfLogs
+2026/10/04  15:10    <DIR>          Program Files
+2026/03/07  08:04    <DIR>          Program Files (x86)
+2026/10/04  15:18    <DIR>          Users
+2026/10/04  15:41                22 vmctl-check.txt
+2026/10/04  15:21                13 who.txt
+2026/10/04  17:09    <DIR>          Windows
+2026/09/26  21:52    <DIR>          Windows.old
+               3 File(s)             44 bytes
+               7 Dir(s)       263032832 bytes free
+== pagefile / hiberfil 
+ Volume in drive C has no label.
+ Volume Serial Number is 7266-3086
+
+ Directory of C:\
+
+
+ Directory of C:\
+
+
+ Directory of C:\
+
+File Not Found
+== end 18:46:19.29 

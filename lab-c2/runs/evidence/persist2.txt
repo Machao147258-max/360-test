@@ -1,0 +1,21 @@
+== payload C:\Users\Public\ldr.exe 
+== delete old tasks 
+SUCCESS: The scheduled task "lcs_onlogon" was successfully deleted.
+SUCCESS: The scheduled task "lcs_5min" was successfully deleted.
+== task at boot (no logon needed) 
+SUCCESS: The scheduled task "lcs_onstart" has successfully been created.
+rc=0 
+== task every minute (self-heal, no logon needed) 
+SUCCESS: The scheduled task "lcs_1min" has successfully been created.
+rc=0 
+== task at logon 
+SUCCESS: The scheduled task "lcs_onlogon" has successfully been created.
+rc=0 
+== verify 
+TaskName:      \lcs_onstart
+Status:        Ready
+TaskName:      \lcs_1min
+Status:        Ready
+TaskName:      \lcs_onlogon
+Status:        Ready
+== end 17:18:40.34 

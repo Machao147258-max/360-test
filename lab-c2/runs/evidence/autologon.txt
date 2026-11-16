@@ -1,0 +1,24 @@
+== set 
+The operation completed successfully.
+The operation completed successfully.
+The operation completed successfully.
+The operation completed successfully.
+== verify 
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
+    AutoAdminLogon    REG_SZ    1
+
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
+    DefaultUserName    REG_SZ    vix
+
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
+    DefaultDomainName    REG_SZ    XIAOJIE
+
+== current interactive session 
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+explorer.exe                  5448 Console                    1    194,236 K
+== end 17:32:31.72 

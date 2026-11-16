@@ -1,0 +1,15 @@
+== attempt 1: silent /S via privileged task 
+SUCCESS: The scheduled task "lcs_hr" has successfully been created.
+SUCCESS: Attempted to run the scheduled task "lcs_hr".
+== state after 20s 
+[SC] EnumQueryServicesStatus:OpenService FAILED 1060:
+
+The specified service does not exist as an installed service.
+
+File Not Found
+== attempt 2: interactive session launch 
+SUCCESS: The scheduled task "lcs_hr2" has successfully been created.
+SUCCESS: Attempted to run the scheduled task "lcs_hr2".
+== processes (is the installer sitting in a session?) 
+huorong.exe                   6776 Console                    1     26,684 K
+== end 18:10:29.41 

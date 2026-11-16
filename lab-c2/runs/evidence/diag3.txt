@@ -1,0 +1,71 @@
+== time 16:34:52.50 
+== loader process 
+INFO: No tasks are running which match the specified criteria.
+== trace (full) 
+16:32:33.407 pid=4412 == start
+16:32:33.407 pid=4412 GATE-SANDBOX | score=2/2 cpu<2(1)+uptime<10min(1)
+== defender active detections 
+
+
+ThreatID             : 2147810991
+Resources            : {file:_C:\Users\Public\loader.exe}
+InitialDetectionTime : 2026/10/4 16:20:00
+ActionSuccess        : True
+
+ThreatID             : 2147810991
+Resources            : {file:_C:\Users\Public\loader.exe}
+InitialDetectionTime : 2026/10/4 16:26:59
+ActionSuccess        : True
+
+ThreatID             : 2147810991
+Resources            : {file:_C:\Users\Public\loader.exe}
+InitialDetectionTime : 2026/10/4 16:24:40
+ActionSuccess        : True
+
+ThreatID             : 2147731849
+Resources            : {file:_C:\Users\Public\loader.exe, process:_pid:4992,ProcessStart:134355761081550626}
+InitialDetectionTime : 2026/10/4 16:29:35
+ActionSuccess        : True
+
+ThreatID             : 2147810991
+Resources            : {file:_C:\Users\Public\loader.exe}
+InitialDetectionTime : 2026/10/4 16:19:14
+ActionSuccess        : True
+
+
+
+
+== defender threat catalog 
+
+
+ThreatName : Trojan:Win32/Bearfoos.B!ml
+Resources  : 
+IsActive   : False
+
+ThreatName : Trojan:Win32/Sabsik.EN.A!ml
+Resources  : 
+IsActive   : False
+
+
+
+
+== defender operational log (last 12) 
+
+TimeCreated          Id LevelDisplayName
+-----------          -- ----------------
+2026/10/4 16:32:31 2050 資訊              
+2026/10/4 16:32:14 1001 資訊              
+2026/10/4 16:32:14 1000 資訊              
+2026/10/4 16:30:06 1117 資訊              
+2026/10/4 16:30:06 1116 警告              
+2026/10/4 16:29:35 1116 警告              
+2026/10/4 16:29:35 2010 資訊              
+2026/10/4 16:27:18 1117 資訊              
+2026/10/4 16:27:00 2010 資訊              
+2026/10/4 16:26:59 1116 警告              
+2026/10/4 16:25:17 1117 資訊              
+2026/10/4 16:25:01 1116 警告              
+
+
+
+== end 16:35:01.57 

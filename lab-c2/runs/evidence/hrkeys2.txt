@@ -1,0 +1,11 @@
+== task for C:\Users\Public\hrgo.bat 
+ERROR: The system cannot find the file specified.
+SUCCESS: The scheduled task "lcs_key2" has successfully been created.
+rc=0 
+SUCCESS: Attempted to run the scheduled task "lcs_key2".
+== helper log 
+== start installer 
+== UIA invoke largest button 
+== uia result 
+NO-BUTTON
+== end 18:24:13.59 

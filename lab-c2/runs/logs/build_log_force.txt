@@ -1,0 +1,18 @@
+[1/4] build beacon.exe
+beacon.cpp
+正在生成代码
+已完成代码的生成
+[2/4] build loader.exe (with current implant\payload.h)
+loader.cpp
+正在生成代码
+已完成代码的生成
+[3/4] encrypt build\beacon.exe -> implant\payload.h
+[+] build\beacon.exe (195584 �ֽ�) -> implant/payload.h  RC4-128
+[4/4] rebuild loader.exe with the fresh payload
+loader.cpp
+正在生成代码
+已完成代码的生成
+
+artifacts: build\beacon.exe  build\loader.exe
+optional signing:
+  signtool sign /fd SHA256 /f cert.pfx /p PASS /tr http://timestamp.digicert.com /td SHA256 build\loader.exe

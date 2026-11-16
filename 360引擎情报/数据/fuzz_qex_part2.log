@@ -1,0 +1,37 @@
+[part2] 基线：真实 qex.vdb.enc 头 → EAX=0x00000000 out0=0x37 ins=1098
+[part2] 用例 33 个，开始（每例一行，实时）
+   [  1/33] qex.vdb.enc|magic=1ef17ada                   EAX=0x00000000 out0=0x37 ins=  1098 ok 
+   [  2/33] qex.vdb.enc|magic=1ef17adb                   EAX=0x00000000 out0=0x00 ins=  1097 ok 
+   [  3/33] qex.vdb.enc|magic=1ef17ad9                   EAX=0x00000000 out0=0x00 ins=  1097 ok 
+   [  4/33] qex.vdb.enc|magic=1ef17bda                   EAX=0x00000000 out0=0x00 ins=  1097 ok 
+   [  5/33] qex.vdb.enc|magic=1ef27ada                   EAX=0x00000000 out0=0x00 ins=  1097 ok 
+   [  6/33] qex.vdb.enc|magic=1ff17ada                   EAX=0x00000000 out0=0x00 ins=  1097 ok 
+   [  7/33] qex.vdb.enc|magic=00f17ada                   EAX=0x00000000 out0=0x00 ins=  1739 ok 
+   [  8/33] qex.vdb.enc|magic=df7af11e                   EAX=0x00000000 out0=0x00 ins=  1093 ok 
+   [  9/33] qex.vdb.enc|magic=0da7af11                   EAX=0x00000000 out0=0x00 ins=  1144 ok 
+   [ 10/33] qex.vdb.enc|magic=00000000                   EAX=0x00000000 out0=0x01 ins=  1819 ok 
+   [ 11/33] qex.vdb.enc|magic=ffffffff                   EAX=0x00000000 out0=0x00 ins=  1239 ok 
+   [ 12/33] patt.enc|magic=1ef17ada                      EAX=0x00000000 out0=0x37 ins=  1098 ok 
+   [ 13/33] patt.enc|magic=1ef17adb                      EAX=0x00000000 out0=0x00 ins=  1097 ok 
+   [ 14/33] patt.enc|magic=1ef17ad9                      EAX=0x00000000 out0=0x00 ins=  1097 ok 
+   [ 15/33] patt.enc|magic=1ef17bda                      EAX=0x00000000 out0=0x00 ins=  1097 ok 
+   [ 16/33] patt.enc|magic=1ef27ada                      EAX=0x00000000 out0=0x00 ins=  1097 ok 
+   [ 17/33] patt.enc|magic=1ff17ada                      EAX=0x00000000 out0=0x00 ins=  1097 ok 
+   [ 18/33] patt.enc|magic=00f17ada                      EAX=0x00000000 out0=0x00 ins=  1739 ok 
+   [ 19/33] patt.enc|magic=df7af11e                      EAX=0x00000000 out0=0x00 ins=  1093 ok 
+   [ 20/33] patt.enc|magic=0da7af11                      EAX=0x00000000 out0=0x00 ins=  1144 ok 
+   [ 21/33] patt.enc|magic=00000000                      EAX=0x00000000 out0=0x01 ins=  1819 ok 
+   [ 22/33] patt.enc|magic=ffffffff                      EAX=0x00000000 out0=0x00 ins=  1239 ok 
+   [ 23/33] MacroDef.enc|magic=1ef17ada                  EAX=0x00000000 out0=0x37 ins=  1098 ok 
+   [ 24/33] MacroDef.enc|magic=1ef17adb                  EAX=0x00000000 out0=0x00 ins=  1097 ok 
+   [ 25/33] MacroDef.enc|magic=1ef17ad9                  EAX=0x00000000 out0=0x00 ins=  1097 ok 
+   [ 26/33] MacroDef.enc|magic=1ef17bda                  EAX=0x00000000 out0=0x00 ins=  1097 ok 
+   [ 27/33] MacroDef.enc|magic=1ef27ada                  EAX=0x00000000 out0=0x00 ins=  1097 ok 
+   [ 28/33] MacroDef.enc|magic=1ff17ada                  EAX=0x00000000 out0=0x00 ins=  1097 ok 
+   [ 29/33] MacroDef.enc|magic=00f17ada                  EAX=0x00000000 out0=0x00 ins=  1739 ok 
+   [ 30/33] MacroDef.enc|magic=df7af11e                  EAX=0x00000000 out0=0x00 ins=  1093 ok 
+   [ 31/33] MacroDef.enc|magic=0da7af11                  EAX=0x00000000 out0=0x00 ins=  1144 ok 
+   [ 32/33] MacroDef.enc|magic=00000000                  EAX=0x00000000 out0=0x01 ins=  1819 ok 
+   [ 33/33] MacroDef.enc|magic=ffffffff                  EAX=0x00000000 out0=0x00 ins=  1239 ok 
+[part2] 完成 33 例 / 0.5s / 73.3 例/秒
+[part2] 汇总：无异常

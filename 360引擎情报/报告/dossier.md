@@ -1,0 +1,2596 @@
+# module dossiers
+
+### 360Safe.exe
+- arch: x86  size: 1,446,536
+- entry: 0x101242
+- sections: .text(1150560B), .rdata(137518B), .data(66156B), .rsrc(59696B), .reloc(43602B)
+- imports:
+  - KERNEL32.dll: GlobalFindAtomW, SetUnhandledExceptionFilter, lstrlenA, CreateProcessW, GetVersionExW, GlobalUnlock, GlobalLock, GlobalAlloc, InterlockedExchange, ProcessIdToSessionId, DeviceIoControl, GetFullPathNameW, FindFirstFileW, FindClose, CreateMutexW, ReleaseMutex, Process32NextW, Process32FirstW, CreateToolhelp32Snapshot, GetLongPathNameW, GetShortPathNameW, GetStartupInfoW, GetTempFileNameW, GetTempPathW, CopyFileW, GetDiskFreeSpaceExW, GetLogicalDriveStringsW, GlobalFree, WaitForMultipleObjects, GlobalAddAtomW, SystemTimeToFileTime, CreateDirectoryW, FreeResource, GetFileAttributesExW, QueryDosDeviceW, GetDriveTypeW, GetExitCodeProcess, GetSystemWindowsDirectoryW, ResetEvent, FindNextFileW ...
+  - USER32.dll: CreateWindowExW, SetWindowLongW, MessageBoxW, SendMessageTimeoutW, GetClassInfoExW, LoadCursorW, RegisterClassExW, ShowWindow, DialogBoxParamW, PostMessageW, EndDialog, DestroyWindow, WaitForInputIdle, IsWindow, GetWindowThreadProcessId, AllowSetForegroundWindow, LoadStringW, wsprintfW, SetCursor, IntersectRect, IsIconic, SetForegroundWindow, GetDC, ReleaseDC, FindWindowW, CharNextW, PeekMessageW, GetMessageW, TranslateMessage, DispatchMessageW, UnregisterClassA, DefWindowProcW, GetActiveWindow, BringWindowToTop, SetActiveWindow, OffsetRect, OpenClipboard, GetWindowLongW, SetWindowPos, MapWindowPoints ...
+  - GDI32.dll: DeleteObject, DeleteDC, GetTextExtentPoint32W, SelectObject, CreateCompatibleDC
+  - ADVAPI32.dll: SetNamedSecurityInfoW, GetTokenInformation, CryptGenRandom, CryptReleaseContext, CryptAcquireContextW, LookupPrivilegeValueW, AdjustTokenPrivileges, GetNamedSecurityInfoW, SetEntriesInAclW, RegUnLoadKeyW, RegLoadKeyW, RegEnumValueW, DuplicateTokenEx, GetLengthSid, SetTokenInformation, LookupAccountSidW, RegCreateKeyA, ConvertStringSidToSidW, SaferCreateLevel, SaferComputeTokenFromLevel, CreateProcessAsUserW, SaferCloseLevel, QueryServiceStatus, OpenSCManagerW, OpenServiceW, StartServiceW, ChangeServiceConfigW, ControlService, CloseServiceHandle, RegOpenKeyW, RegQueryInfoKeyW, RegSetValueExW, RegEnumKeyExW, RegCreateKeyExW, RegDeleteValueW, RegDeleteKeyW, RegOpenKeyExW, RegQueryValueExW, RegCloseKey, OpenProcessToken ...
+  - SHELL32.dll: CommandLineToArgvW, ShellExecuteW, ShellExecuteExW, SHCreateDirectoryExW, SHChangeNotify, SHGetFolderPathW, SHGetSpecialFolderPathW, SHAppBarMessage
+  - ole32.dll: CoInitialize, CoCreateInstance, CoTaskMemFree, CoTaskMemAlloc, CoTaskMemRealloc, CoCreateGuid, CoUninitialize, CreateStreamOnHGlobal
+  - OLEAUT32.dll: VariantChangeType, SysStringLen, SystemTimeToVariantTime, VariantTimeToSystemTime, SysStringByteLen, SysAllocStringByteLen, VariantCopy, SafeArrayLock, VarUI4FromStr, VariantInit, SysAllocString, VariantClear, SysFreeString, DispCallFunc, SysAllocStringLen, SafeArrayCopy, SafeArrayGetVartype, SafeArrayGetLBound, SafeArrayGetUBound, SafeArrayDestroy, SafeArrayRedim, SafeArrayCreate, SafeArrayUnlock
+  - SHLWAPI.dll: SHDeleteValueW, PathFindExtensionW, PathIsURLW, PathStripToRootW, PathIsDirectoryW, SHDeleteKeyW, PathFindFileNameA, SHGetValueA, SHSetValueA, PathRemoveExtensionW, StrCmpIW, PathIsRootW, StrStrIA, UrlGetPartW, PathFindFileNameW, SHSetValueW, StrStrIW, SHGetValueW, StrCmpNIW, PathAddBackslashW, PathFileExistsW, PathCombineW, PathRemoveFileSpecW, PathIsRelativeW, PathAppendW, PathCanonicalizeW
+  - COMCTL32.dll: InitCommonControlsEx
+  - MSIMG32.dll: AlphaBlend
+  - VERSION.dll: GetFileVersionInfoW, GetFileVersionInfoSizeW, VerQueryValueW
+  - gdiplus.dll: GdipCloneImage, GdipDisposeImage, GdipFree, GdipCreateBitmapFromFileICM, GdipCreateBitmapFromStream, GdipAlloc, GdipGetImageHeight, GdipGetImageWidth, GdipDrawImageRectRectI, GdipCreateBitmapFromStreamICM, GdipCreateBitmapFromFile, GdipCreateHBITMAPFromBitmap
+  - WINTRUST.dll: WTHelperProvDataFromStateData, WinVerifyTrust
+  - CRYPT32.dll: CertGetNameStringW, CryptStringToBinaryA, CryptMsgClose, CertCloseStore, CertFreeCertificateContext, CertFindCertificateInStore, CryptMsgGetParam, CryptQueryObject, CryptDecodeObject, CryptBinaryToStringA
+  - RPCRT4.dll: RpcStringBindingComposeW, RpcBindingFromStringBindingW, RpcAsyncInitializeHandle, NdrClientCall2, NdrAsyncClientCall, RpcBindingFree, RpcStringFreeW, RpcAsyncCompleteCall
+  - PSAPI.DLL: GetModuleFileNameExW
+  - IPHLPAPI.DLL: GetAdaptersInfo, NotifyAddrChange, GetIpAddrTable
+  - WS2_32.dll: WSACreateEvent, WSAResetEvent, ntohs, ntohl, htons, htonl, WSACloseEvent
+  - WININET.dll: InternetSetCookieW, InternetOpenW, InternetOpenUrlW, InternetCloseHandle, HttpQueryInfoW, InternetReadFile
+  - WTSAPI32.dll: WTSFreeMemory, WTSQuerySessionInformationW
+  - USERENV.dll: CreateEnvironmentBlock, DestroyEnvironmentBlock, ExpandEnvironmentStringsForUserW
+  - ntdll.dll: RtlCreateHeap, ZwAllocateVirtualMemory, ZwProtectVirtualMemory, NtDelayExecution, RtlAllocateHeap, RtlReAllocateHeap, ZwFreeVirtualMemory, ZwQueryVirtualMemory, RtlDestroyHeap, ZwQuerySystemInformation
+- device (3):
+  - \\.\360SelfProtection
+  - \\.\PhysicalDrive%d
+  - \\.\X:
+- dosdev (2):
+  - \\.\360SelfProtection
+  - \\.\PhysicalDrive%d
+- registry (77):
+  - :SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards
+  - LSoftware\Classes
+  - SOFTWARE\360MachineSignature
+  - SOFTWARE\360Safe
+  - SOFTWARE\360Safe\360EntSecurity\CustomInfo
+  - SOFTWARE\360Safe\360EntSecurity\Theme\
+  - SOFTWARE\360Safe\360EntSecurity\softmgr
+  - SOFTWARE\360Safe\360MedalWall
+  - SOFTWARE\360Safe\360krnlsvc
+  - SOFTWARE\360Safe\Animate
+  - SOFTWARE\360Safe\Coop
+  - SOFTWARE\360Safe\Feedback
+  - SOFTWARE\360Safe\LiveUp\updatecfg
+  - SOFTWARE\360Safe\Liveup
+  - SOFTWARE\360Safe\Theme
+  - SOFTWARE\360Safe\Update
+  - SOFTWARE\360Safe\netmon
+  - SOFTWARE\360Safe\safemon
+  - SOFTWARE\360Safe\setting
+  - SOFTWARE\360Safe\shopstore
+  - SOFTWARE\360Safe\softmgr
+  - SOFTWARE\360Safe\stat
+  - SOFTWARE\360Safe\tijian_debug
+  - SOFTWARE\360Safe\tpi
+  - SOFTWARE\360TotalSecurity\DeepScan
+  - SOFTWARE\360safe
+  - SOFTWARE\360safe\customized
+  - SOFTWARE\LiveUpdate360
+  - SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\360EDRSensor.exe
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\360ExtHost.exe
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\360Safe.exe
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\360asset.exe
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\360chrome.exe
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\360safe.exe
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\360sd.exe
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\360se6.exe
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\IEXPLORE.EXE
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\MMScan.exe
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{B69F34DD-F0F9-42DC-9EDD-957187DA688D}
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run32
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\Run\360Disabled
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\Run\QQDisabled
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\360se6
+  - SYSTEM\CurrentControlSet\Control\ComputerName\ActiveComputername
+  - SYSTEM\CurrentControlSet\Control\Session Manager\Environment
+  - SYSTEM\CurrentControlSet\Services\ZhuDongFangYu
+  - Software\360Chrome\Update\ClientState\{27D39816-7A3D-406c-9ABC-97FB55674016}
+  - Software\360EntSecurity
+  - Software\360Safe
+  - Software\360Safe\360EntSecurity
+  - Software\360Safe\360Preview
+  - Software\360Safe\SkinView
+  - Software\360Safe\safeid
+  - Software\360Safe\safemon
+- url (44):
+  - &https://www.globalsign.com/repository/0
+  - 'http://www.360.cn/weishi/cht/index.html#http://dl.360safe.com/setupbeta.exe'http://dl.360safe.com/offlinepackv4.exe
+  - -http://ocsp.globalsign.com/codesigningrootr450F
+  - /FORCECOVER /URL:http://pinst.360.cn/360safebeta/safebeta_home.cab
+  - /FORCECOVER /URL:http://pinst.360.cn/360safebeta/safebeta_home_jisu.cab
+  - /url=https://hd.safe.360.cn/bindphone.html /showtitle=0 /from=safejisu /noloading
+  - /url=https://hd.safe.360.cn/detail.html  /from=jisusafeicon
+  - 0http://crl.globalsign.com/codesigningrootr45.crl0U
+  - 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+  - 3http://ocsp.globalsign.com/gsgccr45evcodesignca20200U
+  - 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  - 4https://update.360safe.com/safe/checkupdate_jisu.ini2http://update.360safe.com/safe/checkupdate_cht.ini&
+  - 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  - 6http://crl.globalsign.com/gsgccr45evcodesignca2020.crl0
+  - 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  - :http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+  - @http://secure.globalsign.com/cacert/gsgccr45evcodesignca2020.crt0?
+  - Ihttp://skin.wsm.360.cn/ws9.0/skin_11_0_v2_latest.json
+  - Ihttp://tools.wsm.360.cn/image/upload
+  - Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0
+  - Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+  - Tohama4pdown://|h13=15|https://tools.soft.360.cn/jump?id=41
+  - [.]color=rgb(60,60,255);hovercolor=rgb(60,60,255);link=http://popwndmgr.sd.360.cn/jump?id=1001[/.]
+  - http://bbs.360safe.com/forum.php?mod=viewthread&tid=22972&extra=page%3D1%26orderby%3Dheats
+  - http://down.360safe.com/setup.exe
+  - http://down.360safe.com/setupbeta.exe
+  - http://feedback.safe.360.cn
+  - http://metro.ts.360safe.com:11010/ts/
+  - http://ocsp.digicert.com0A
+  - http://ocsp.digicert.com0C
+  - http://ocsp.digicert.com0]
+  - http://s.360.cn/safe/instcomp.htm?Softid=321&Error=%s&Status=%d&Exver=%s&Reaver=%s&sysver=%d.%d.%d&md5=%s
+  - http://s.360.cn/safe/instcomp.htm?soft=2022080210&status=%d&mid=%s&m2=%s&sysver=%s&t=%d
+  - http://se.360.cn/wel/whyFree.html
+  - http://www.360.cn
+  - http://www.360.cn/about/guide.html
+  - http://www.360.cn/privacy/v4/index.html
+  - http://www.360.cn/weishi/index.html?source=fileerr
+  - https://tools.soft.360.cn/jump?id=105
+  - https://tools.soft.360.cn/jump?id=165
+  - https://uc.safe.360.cn/api/weishiApi/upgradeConfig
+  - https://upgrade.safe.360.cn/upgrade/info
+  - https://weishi.360.cn/jisu/
+  - zhttp://s.360.cn/safe/xxzx.html?stype=msgcenter&type={stattype}&pt={pt}&uid={uid}&pid={pid}&m={mid}&ver={ver}&v={v}&zt={zt}#
+- guid (10):
+  - BSafeMainTips-{7AF9F8A9-6A61-406a-8889-2FB4C150C332}
+  - CLSID\{B69F34DD-F0F9-42DC-9EDD-957187DA688D}
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{B69F34DD-F0F9-42DC-9EDD-957187DA688D}
+  - Software\360Chrome\Update\ClientState\{27D39816-7A3D-406c-9ABC-97FB55674016}
+  - Software\360\360se6\Update\ClientState\{02E720BD-2B50-4404-947C-65DBE64F6970}
+  - {0CF3482E-1C1B-45d2-BDA8-DE24E35177C4}
+  - {1099D519-05E2-47e9-B669-413DDCD5D53D}
+  - {1B52F5D0-1AC9-4923-885F-E1DC5C46E989}
+  - {51799B20-2102-4b13-BA0F-681BA45B8FCA}_exp_login_%s
+  - {D5812D5A-29E3-4499-AAFB-8CB37748B969}_safeid3.0
+- ip (3):
+  - 0.0.0.0
+  - <assemblyIdentity type="win32" name="Microsoft.Windows.Common-Controls" version="6.0.0.0" processorArchitecture="x86" publicKeyToken="6595b64144ccf1df" language="*"></assemblyIdentity>
+  - amain_version=1.0.0.1&op=loginforse
+- path (1):
+  - C:\vmagent_new\bin\joblist\985800\out\Release\360Safe.pdb
+- api (6):
+  - NtDelayExecution
+  - ZwAllocateVirtualMemory
+  - ZwFreeVirtualMemory
+  - ZwProtectVirtualMemory
+  - ZwQuerySystemInformation
+  - ZwQueryVirtualMemory
+- ioctl_hint (1):
+  - DeviceIoControl
+- protect (15):
+  - /enable /protection
+  - /funname=YouthProtection /MODULEUPATE=1
+  - 360TeenProtect.Mode.Changed
+  - ActiveProtection
+  - NetPayProtect
+  - Utils\360Protect.dll
+  - VirtualProtect
+  - YouthProtection
+  - ZwProtectVirtualMemory
+  - \\.\360SelfProtection
+  - browser_protect
+  - mode_protect
+  - protection_status
+  - safebox\sprotect.ini
+  - softprotect
+
+### 360tray.exe
+- ERROR FileNotFoundError: [WinError 2] 系统找不到指定的文件。: '解包\\360payload\\360tray.exe'
+
+### 360AppLoader.exe
+- arch: x86  size: 459,008
+- entry: 0x31e86
+- sections: .text(312140B), .rdata(73192B), .data(39544B), .rsrc(36020B)
+- imports:
+  - KERNEL32.dll: DuplicateHandle, GetVolumeInformationW, GetFullPathNameW, SetErrorMode, FileTimeToLocalFileTime, LocalFileTimeToFileTime, GetFileAttributesW, GetFileSizeEx, GetFileTime, GetTickCount, GetStartupInfoW, HeapAlloc, HeapFree, RtlUnwind, ExitThread, CreateThread, RaiseException, UnhandledExceptionFilter, IsDebuggerPresent, HeapReAlloc, HeapSize, GetSystemInfo, GetStdHandle, GetModuleFileNameA, FreeEnvironmentStringsW, GetEnvironmentStringsW, SetHandleCount, GetFileType, GetStartupInfoA, HeapCreate, GetFileSize, QueryPerformanceCounter, GetSystemTimeAsFileTime, GetCPInfo, GetACP, GetOEMCP, IsValidCodePage, LCMapStringA, LCMapStringW, InitializeCriticalSectionAndSpinCount ...
+  - USER32.dll: GetNextDlgTabItem, GetNextDlgGroupItem, InvalidateRgn, InvalidateRect, SetRect, IsRectEmpty, CopyAcceleratorTableW, CharNextW, CharUpperW, UnregisterClassW, ReleaseCapture, SetCapture, GetDesktopWindow, GetSysColorBrush, EndPaint, BeginPaint, GetWindowDC, ClientToScreen, GrayStringW, DrawTextExW, DrawTextW, TabbedTextOutW, GetDC, ReleaseDC, DestroyMenu, SetWindowContextHelpId, MapDialogRect, GetWindowThreadProcessId, SetCursor, GetMessageW, GetCursorPos, ValidateRect, SetMenuItemBitmaps, GetMenuCheckMarkDimensions, LoadBitmapW, ModifyMenuW, EnableMenuItem, CheckMenuItem, RegisterWindowMessageW, SendDlgItemMessageA ...
+  - GDI32.dll: ExtSelectClipRgn, DeleteDC, GetStockObject, GetBkColor, GetTextColor, GetRgnBox, SetWindowExtEx, ScaleViewportExtEx, SetViewportExtEx, OffsetViewportOrgEx, SetViewportOrgEx, SelectObject, Escape, TextOutW, RectVisible, PtVisible, GetWindowExtEx, SetMapMode, RestoreDC, SaveDC, DeleteObject, GetMapMode, CreateRectRgnIndirect, ExtTextOutW, CreateBitmap, GetObjectW, SetBkColor, SetTextColor, GetClipBox, ScaleWindowExtEx, GetViewportExtEx, GetDeviceCaps
+  - COMDLG32.dll: GetFileTitleW
+  - WINSPOOL.DRV: ClosePrinter, DocumentPropertiesW, OpenPrinterW
+  - ADVAPI32.dll: RegOpenKeyW, RegQueryValueExA, RegSetValueExW, RegCreateKeyExW, RegQueryValueW, RegEnumKeyExW, RegEnumKeyW, RegDeleteKeyW, OpenProcessToken, GetTokenInformation, RegOpenKeyExW, RegQueryValueExW, RegCloseKey
+  - SHELL32.dll: ShellExecuteW, ShellExecuteExW
+  - COMCTL32.dll: 
+  - SHLWAPI.dll: PathFindFileNameW, SHGetValueW, PathFileExistsW, PathAddBackslashW, PathCombineW, PathRemoveFileSpecW, PathAppendW, StrCmpNIW, StrStrIW, PathFindExtensionW, PathStripToRootW, PathIsRelativeW, PathIsUNCW
+  - oledlg.dll: OleUIBusyW
+  - ole32.dll: CreateILockBytesOnHGlobal, StgCreateDocfileOnILockBytes, StgOpenStorageOnILockBytes, CoGetClassObject, CLSIDFromProgID, OleInitialize, CoTaskMemAlloc, OleUninitialize, CLSIDFromString, CoFreeUnusedLibraries, CoRevokeClassObject, OleIsCurrentClipboard, CoTaskMemFree, CoInitialize, CoUninitialize, OleFlushClipboard, CoRegisterMessageFilter
+  - OLEAUT32.dll: SysAllocString, SysStringLen, VariantInit, VariantClear, SysAllocStringByteLen, SysStringByteLen, SysAllocStringLen, VariantChangeType, VariantCopy, SafeArrayDestroy, VariantTimeToSystemTime, SystemTimeToVariantTime, OleCreateFontIndirect, SysFreeString
+  - VERSION.dll: GetFileVersionInfoW, GetFileVersionInfoSizeW, VerQueryValueW
+- device (2):
+  - \\.\360SelfProtection
+  - \\.\PhysicalDrive%d
+- dosdev (2):
+  - \\.\360SelfProtection
+  - \\.\PhysicalDrive%d
+- registry (19):
+  - :SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards
+  - ASoftware\Classes\
+  - SOFTWARE\360MachineSignature
+  - SOFTWARE\Classes\QQBrowser.File\shell\open\command
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\2345Explorer.exe
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\360Safe.exe
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\360chrome.exe
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\360safe.exe
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\360sd.exe
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\360se6.exe
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\IEXPLORE.EXE
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\msedge.exe
+  - Software\360Safe
+  - Software\Microsoft\Windows\CurrentVersion\Policies\Comdlg32
+  - Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+  - Software\Microsoft\Windows\CurrentVersion\Policies\Network
+  - Software\Microsoft\Windows\CurrentVersion\Uninstall\Google Chrome
+  - Software\Microsoft\Windows\CurrentVersion\Uninstall\SogouExplorer
+  - Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Google Chrome
+- url (33):
+  - "http://ocsp2.globalsign.com/rootr306
+  - "http://ocsp2.globalsign.com/rootr606
+  - %http://crl.globalsign.com/root-r3.crl0G
+  - %http://crl.globalsign.com/root-r6.crl0G
+  - &https://www.globalsign.com/repository/0
+  - *http://crl3.digicert.com/assured-cs-g1.crl00
+  - *http://crl4.digicert.com/assured-cs-g1.crl0L
+  - ,http://crl3.digicert.com/sha2-assured-ts.crl02
+  - ,http://crl4.digicert.com/sha2-assured-ts.crl0
+  - -http://ocsp.globalsign.com/ca/gstsacasha384g40C
+  - .http://www.digicert.com/ssl-cps-repository.htm0
+  - /http://crl3.digicert.com/sha2-assured-cs-g1.crl05
+  - /http://crl4.digicert.com/sha2-assured-cs-g1.crl0L
+  - 0http://crl.globalsign.com/ca/gstsacasha384g4.crl0
+  - 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0:
+  - 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0O
+  - 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0P
+  - 4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0
+  - 4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
+  - 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
+  - 7http://secure.globalsign.com/cacert/gstsacasha384g4.crt0
+  - @http://cacerts.digicert.com/DigiCertAssuredIDCodeSigningCA-1.crt0
+  - Bhttp://cacerts.digicert.com/DigiCertSHA2AssuredIDCodeSigningCA.crt0
+  - Chttp://cacerts.digicert.com/DigiCertSHA2AssuredIDTimestampingCA.crt0
+  - http://down.360safe.com/setup.exe
+  - http://down.360safe.com/setupbeta.exe
+  - http://ocsp.digicert.com0C
+  - http://ocsp.digicert.com0L
+  - http://ocsp.digicert.com0N
+  - http://ocsp.digicert.com0O
+  - http://www.360.cn 0
+  - http://www.digicert.com/CPS0
+  - https://www.digicert.com/CPS0
+- guid (2):
+  - <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"></supportedOS>
+  - <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>
+- ip (2):
+  - 0.0.0.0
+  - <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0"><dependency><dependentAssembly><assemblyIdentity type="win32" name="Microsoft.Windows.Common-Controls" version="6.0.0.0" processorArchitecture="x86" publicKeyToken="65
+- path (6):
+  - C:\vmagent_new\bin\joblist\562952\out\Release\360AppLoader.pdb
+  - f:\dd\vctools\vc7libs\ship\atlmfc\include\afxwin1.inl
+  - f:\dd\vctools\vc7libs\ship\atlmfc\include\afxwin2.inl
+  - f:\dd\vctools\vc7libs\ship\atlmfc\src\mfc\appcore.cpp
+  - f:\dd\vctools\vc7libs\ship\atlmfc\src\mfc\auxdata.cpp
+  - f:\dd\vctools\vc7libs\ship\atlmfc\src\mfc\filecore.cpp
+- ioctl_hint (1):
+  - DeviceIoControl
+- protect (2):
+  - VirtualProtect
+  - \\.\360SelfProtection
+
+### safemon\safemon64.dll
+- arch: x64  size: 1,982,600
+- entry: 0xfeedc
+- sections: .text(1223759B), .rdata(354057B), .data(279408B), .pdata(61080B), .share(576B), .rsrc(92520B), .reloc(12600B)
+- imports:
+  - KERNEL32.dll: GetPrivateProfileIntA, ExpandEnvironmentStringsW, FindResourceW, SizeofResource, LoadResource, LockResource, FreeResource, FindResourceA, IsDBCSLeadByte, LoadLibraryExA, GetComputerNameW, GetTempPathW, WriteProcessMemory, CreateDirectoryA, SetEndOfFile, VirtualQuery, IsDebuggerPresent, GetSystemDirectoryA, lstrcpyA, GetModuleFileNameW, GetProcessId, GetThreadId, GetThreadContext, MapViewOfFile, UnmapViewOfFile, QueryFullProcessImageNameA, DuplicateHandle, VirtualAlloc, VirtualFree, IsBadStringPtrW, LoadLibraryW, CreateMutexA, GetSystemTimeAsFileTime, FileTimeToLocalFileTime, QueryDosDeviceW, GetFileSizeEx, SetEvent, CreateEventA, GetPrivateProfileSectionA, WaitForMultipleObjects ...
+  - USER32.dll: ShowWindow, KillTimer, LoadCursorA, SetWindowLongA, GetMessageA, DestroyWindow, SendMessageA, GetWindowLongA, TranslateMessage, DispatchMessageA, DefWindowProcA, RegisterClassA, CreateWindowExA, MoveWindow, CallWindowProcA, GetClassNameW, FindWindowA, EnumChildWindows, IsWindow, SetWindowLongPtrA, GetWindowRect, GetDC, SetRect, GetWindowLongPtrA, EndPaint, BeginPaint, LoadBitmapA, RegisterClassExA, GetClassInfoExA, InvalidateRect, SetTimer, IsWindowEnabled, GetClientRect, GetParent, LoadStringA, UnhookWinEvent, SetWinEventHook, GetClassNameA, GetWindowTextA, CharNextA ...
+  - GDI32.dll: SetStretchBltMode, CreateSolidBrush, CombineRgn, CreatePolygonRgn, CreateRectRgn, CreateFontIndirectA, LineTo, MoveToEx, SetTextColor, GetStockObject, CreateDIBSection, DeleteObject, CreatePen, GetDeviceCaps, BitBlt, CreateCompatibleBitmap, SetViewportOrgEx, ExtTextOutA, SetBkColor, StretchBlt, SetBkMode, DeleteDC, GetObjectA, SelectObject, CreateCompatibleDC
+  - ADVAPI32.dll: RegOpenKeyExA, SetSecurityDescriptorDacl, AddAccessAllowedAce, InitializeAcl, InitializeSecurityDescriptor, SetSecurityInfo, GetSecurityDescriptorSacl, ConvertStringSecurityDescriptorToSecurityDescriptorW, RegQueryValueExA, RegQueryValueExW, RegOpenKeyExW, ConvertSidToStringSidA, LookupAccountNameW, RegDeleteValueA, RegQueryInfoKeyA, RegCreateKeyExA, RegEnumKeyExA, RegDeleteKeyA, RegSetValueExA, RegCloseKey, RegOpenKeyW, RegEnumKeyExW, GetTokenInformation, OpenProcessToken, IsValidSid, ConvertSidToStringSidW
+  - SHELL32.dll: SHGetPathFromIDListW, SHGetSpecialFolderLocation, SHGetMalloc, CommandLineToArgvW, SHGetSpecialFolderPathA, ShellExecuteW, SHGetFolderPathW
+  - ole32.dll: StringFromCLSID, GetHGlobalFromStream, OleInitialize, CLSIDFromString, CLSIDFromProgID, CoGetClassObject, OleLockRunning, OleUninitialize, CreateStreamOnHGlobal, StringFromGUID2, CoCreateGuid, OleRun, CoTaskMemAlloc, CoTaskMemFree, CoTaskMemRealloc, CoUninitialize, CoInitialize, CoCreateInstance
+  - OLEAUT32.dll: GetErrorInfo, OleCreateFontIndirect, UnRegisterTypeLib, SysAllocStringLen, VarBstrCmp, VariantClear, VariantInit, SysFreeString, DispCallFunc, SysStringLen, LoadTypeLib, VarUI4FromStr, LoadRegTypeLib, SysAllocString, SysStringByteLen, SysAllocStringByteLen
+  - SHLWAPI.dll: PathFileExistsA, PathFileExistsW, StrCmpW, StrChrW, StrDupW, SHGetValueA, SHGetValueW, StrCmpNIA, PathFindFileNameA, PathRemoveFileSpecA, StrChrA, UrlGetPartA, PathGetArgsW, PathFindExtensionW, PathMatchSpecW, AssocQueryStringW, UrlUnescapeW, StrToIntA, StrCmpNW, PathUnquoteSpacesA, StrStrW, SHSetValueW, UrlGetPartW, SHSetValueA, SHDeleteKeyA, PathAddBackslashW, UrlUnescapeA, wnsprintfW, StrDupA, PathAppendW, PathCombineW, StrStrIA, StrStrIW, StrCpyNW, StrCmpNIW, StrCmpIW, PathFindFileNameW, PathCombineA, StrTrimA, PathAppendA
+  - OLEACC.dll: AccessibleObjectFromPoint, AccessibleObjectFromEvent
+  - VERSION.dll: VerQueryValueW, VerQueryValueA, GetFileVersionInfoA, GetFileVersionInfoSizeA, GetFileVersionInfoW, GetFileVersionInfoSizeW
+  - WS2_32.dll: WSAGetLastError, getpeername, ntohl
+  - imagehlp.dll: ImageNtHeader, ImageDirectoryEntryToDataEx, ImageDirectoryEntryToData
+  - PSAPI.DLL: GetModuleInformation
+  - IPHLPAPI.DLL: GetAdaptersInfo
+  - NETAPI32.dll: NetApiBufferFree, NetWkstaUserGetInfo
+- device (2):
+  - \\.\360SelfProtection
+  - \\.\PhysicalDrive%d
+- dosdev (2):
+  - \\.\360SelfProtection
+  - \\.\PhysicalDrive%d
+- registry (40):
+  - KSOFTWARE\Microsoft\Cryptography
+  - SOFTWARE\360MachineSignature
+  - SOFTWARE\360Safe\360Scan
+  - SOFTWARE\360Safe\Coop
+  - SOFTWARE\360Safe\Liveup
+  - SOFTWARE\360Safe\safemon
+  - SOFTWARE\360Safe\safemon\Traying
+  - SOFTWARE\Microsoft\Internet Explorer\AboutURLs
+  - SOFTWARE\Microsoft\Office
+  - SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\360safe.exe
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\IEXPLORE.EXE
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{B69F34DD-F0F9-42DC-9EDD-957187DA688D}
+  - SOFTWARE\Wow6432Node\360Safe\Coop
+  - SOFTWARE\Wow6432Node\360Safe\LiveUp
+  - SOFTWARE\Wow6432Node\360Safe\safemon
+  - SOFTWARE\Wow6432Node\360Safe\stat
+  - SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\App Paths\360safe.exe
+  - SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\App Paths\360sd.exe
+  - SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\
+  - SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\QQPCMgr
+  - Software\360Safe
+  - Software\360\360se5\default\option
+  - Software\360\360se6\Chrome
+  - Software\360\360se6\Update64\ClientState\{02E720BD-2B50-4404-947C-65DBE64F6970}
+  - Software\360\360se6\Update\ClientState\{02E720BD-2B50-4404-947C-65DBE64F6970}
+  - Software\360chromeX\chrome
+  - Software\360chromeX\update\clientstate\{3D30AC46-8F09-8BE3-6B29-DD54B0E9EDA6}
+  - Software\360chrome\chrome
+  - Software\360chrome\update\clientstate\{27D39816-7A3D-406c-9ABC-97FB55674016}
+  - Software\Classes\WdTsIndexStore.1
+  - Software\Microsoft\Internet Explorer\EUPP
+  - Software\Microsoft\Internet Explorer\EUPP\DSP
+  - Software\Microsoft\Internet Explorer\Main
+  - Software\Microsoft\Internet Explorer\TabbedBrowsing
+  - Software\Microsoft\Windows\CurrentVersion\ThemeManager
+  - Software\Microsoft\Windows\Shell\Associations\UrlAssociations\http\UserChoice
+  - Software\Wow6432Node\360Safe\safemon
+  - Software\Wow6432Node\Microsoft\Internet Explorer\Main
+  - eSOFTWARE\Wow6432Node\360Safe\Liveup
+- url (37):
+  - !https://info.warning.360.cn/warn/
+  - &https://www.globalsign.com/repository/0
+  - -http://ocsp.globalsign.com/codesigningrootr450F
+  - 0http://crl.globalsign.com/codesigningrootr45.crl0U
+  - 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+  - 3http://ocsp.globalsign.com/gsgccr45evcodesignca20200U
+  - 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  - 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  - 6http://crl.globalsign.com/gsgccr45evcodesignca2020.crl0
+  - 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  - :http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+  - <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  - @http://secure.globalsign.com/cacert/gsgccr45evcodesignca2020.crt0?
+  - Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0
+  - Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+  - http://info.warning.360.cn/warn/
+  - http://ocsp.digicert.com0A
+  - http://ocsp.digicert.com0C
+  - http://ocsp.digicert.com0]
+  - http://s.360.cn/wangdun/Operator.html?stype=hijack
+  - http://s.360.cn/wangdun/wdcom.html
+  - http://so.360.cn/index.htm
+  - http://stat.360safe.com/360safeurl/?type=v2passive
+  - http://url.wd.360safe.com/urlreport.php
+  - http://wd.360.cn/report/?url=%s
+  - http://wd.stat.360safe.com/360safeurl/?type=nwdmp
+  - http://webid.360.cn/nameplate_v2.php?host=%s&key=%s&m=%s&c=%d&v=%s&rnd=%d&from=safemon2
+  - http://www.hao123.com/indexk.htm
+  - https://addons.mozilla.org/
+  - xmlns:dc="http://purl.org/dc/elements/1.1/"
+  - xmlns:exif="http://ns.adobe.com/exif/1.0/">
+  - xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/"
+  - xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+  - xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
+  - xmlns:tiff="http://ns.adobe.com/tiff/1.0/"
+  - xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+  - xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+- guid (10):
+  - &@CLSID\{B69F34DD-F0F9-42DC-9EDD-957187DA688D}\InprocServer32
+  - 'TypeLib' = s '{BB67E9B5-A1A3-4206-A443-DE93D592682C}'
+  - CLSID = s '{B69F34DD-F0F9-42DC-9EDD-957187DA688D}'
+  - ForceRemove {B69F34DD-F0F9-42DC-9EDD-957187DA688D} = s 'SafeMon Class'
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{B69F34DD-F0F9-42DC-9EDD-957187DA688D}
+  - Software\360\360se6\Update64\ClientState\{02E720BD-2B50-4404-947C-65DBE64F6970}
+  - Software\360\360se6\Update\ClientState\{02E720BD-2B50-4404-947C-65DBE64F6970}
+  - Software\360chromeX\update\clientstate\{3D30AC46-8F09-8BE3-6B29-DD54B0E9EDA6}
+  - Software\360chrome\update\clientstate\{27D39816-7A3D-406c-9ABC-97FB55674016}
+  - {CEA18E46-3491-43D1-BE73-768FFC3A34B3}
+- ip (3):
+  - 1.3.6.1.4.1.311.2.1.12
+  - </description><dependency><dependentAssembly><assemblyIdentity type="win32" name="Microsoft.Windows.Common-Controls" version="6.0.0.0" processorArchitecture="x86" publicKeyToken="6595b64144ccf1df" language="*"></assemblyIdentity></dependent
+  - <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0"><assemblyIdentity version="1.0.0.0" processorArchitecture="x86" name="360SafeMon" type="win32"></assemblyIdentity><description>
+- path (1):
+  - C:\vmagent_new\bin\joblist\961123\out\Release\safemon64.pdb
+- api (5):
+  - NtQueryEvent
+  - NtQueryInformationProcess
+  - NtQueryObject
+  - ZwQueryObject
+  - ZwQuerySystemInformation
+- ioctl_hint (1):
+  - DeviceIoControl
+- protect (15):
+  - %wsProtected Secure Preferences_%0d
+  - .?AVCHookHomepageSoProtect@@
+  - E-mail Protection
+  - VirtualProtect
+  - VirtualProtectEx
+  - \\.\360SelfProtection
+  - enable_mailprotect
+  - enable_protect_download
+  - enable_protect_im
+  - enable_seprotect
+  - exec_protect_%s-%d.%d.%d.%d
+  - extensions\InternetProtection@360safe.com.xpi
+  - id-kp-emailProtection
+  - protect_%s-%d.%d.%d.%d
+  - protection
+
+### safemon\SelfProtectAPI2.dll
+- arch: x86  size: 203,736
+- entry: 0x140d8
+- sections: .text(133966B), .rdata(26117B), .data(19552B), .rsrc(3480B), .reloc(10848B)
+- imports:
+  - KERNEL32.dll: GetOverlappedResult, GetLastError, ReadFile, CreateEventW, CreateThread, InitializeCriticalSection, WaitForSingleObject, SetEvent, GetTickCount, GetFileInformationByHandle, GetVersion, OpenProcess, GetSystemInfo, OpenThread, FreeLibrary, GetPrivateProfileIntW, InterlockedExchange, RaiseException, DeleteCriticalSection, GetCurrentThreadId, GetModuleFileNameW, GetModuleHandleW, lstrcmpiW, LoadLibraryExW, MultiByteToWideChar, SizeofResource, LoadResource, FindResourceW, GetCurrentProcessId, ReleaseMutex, HeapWalk, HeapLock, HeapUnlock, CreateToolhelp32Snapshot, OutputDebugStringW, CreateMutexW, GetFileSizeEx, SetFilePointerEx, LocalFileTimeToFileTime, SystemTimeToFileTime ...
+  - USER32.dll: SetWindowTextW, SendMessageW, GetDlgItem, EndDialog, DialogBoxParamW, RegisterClassW, GetWindowRect, SetWindowPos, GetDesktopWindow, GetSystemMetrics, LoadStringW, SetActiveWindow, CharNextW, GetClassInfoW
+  - ADVAPI32.dll: RegQueryValueExA, RegEnumKeyExW, RegQueryInfoKeyW, RegDeleteValueW, RegDeleteKeyW, RegSetValueExW, RegQueryValueExW, RegOpenKeyExW, RegCreateKeyExW, RegCloseKey, OpenProcessToken, LookupPrivilegeValueW, AdjustTokenPrivileges, OpenSCManagerW, OpenServiceW, CloseServiceHandle, DeleteService
+  - ole32.dll: CoTaskMemRealloc, CoCreateInstance, CoTaskMemFree, CoTaskMemAlloc
+  - OLEAUT32.dll: VarUI4FromStr
+  - SHLWAPI.dll: PathRemoveFileSpecW, PathAppendW, PathIsDirectoryW, PathFileExistsW, SHGetValueW, PathCombineW
+  - VERSION.dll: GetFileVersionInfoW, GetFileVersionInfoSizeW, VerQueryValueW
+  - PSAPI.DLL: EnumProcessModules, GetModuleInformation, GetModuleFileNameExW
+- device (4):
+  - \\.\360SelfProtection
+  - \\.\360SpShadow0
+  - \\.\PhysicalDrive%d
+  - \\\\\\\\\\
+- dosdev (3):
+  - \\.\360SelfProtection
+  - \\.\360SpShadow0
+  - \\.\PhysicalDrive%d
+- registry (9):
+  - :SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards
+  - SOFTWARE\360MachineSignature
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\360safe.exe
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\360safebox.exe
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\360sd.exe
+  - SYSTEM\CurrentControlSet\Services\360SelfProtection
+  - System\CurrentControlSet\Services\360FsFlt
+  - System\CurrentControlSet\Services\360FsFlt\Enum
+  - \Registry\Machine\System\CurrentControlSet\Services\%s
+- service (14):
+  - Beep.sys
+  - KpDrv.sys
+  - Null.sysSafeMon0.sys
+  - PciDump.sys
+  - System32\Drivers\Hookport.sys
+  - acpidisk.sys
+  - ati64si.sys
+  - cdaudio.sys
+  - drivers\efimon.sys
+  - efimon.sys
+  - msaclue.sys
+  - richdisk.sys
+  - system32\DRIVERS\360FsFlt.sys
+  - system32\drivers\360SelfProtection.sys
+- url (29):
+  - "http://ocsp2.globalsign.com/rootr606
+  - %http://crl.globalsign.com/root-r6.crl0G
+  - &https://www.globalsign.com/repository/0
+  - *http://crl3.digicert.com/assured-cs-g1.crl00
+  - *http://crl4.digicert.com/assured-cs-g1.crl0L
+  - ,http://crl3.digicert.com/sha2-assured-ts.crl02
+  - ,http://crl4.digicert.com/sha2-assured-ts.crl0
+  - -http://ocsp.globalsign.com/ca/gstsacasha384g40C
+  - .http://www.digicert.com/ssl-cps-repository.htm0
+  - /http://crl3.digicert.com/sha2-assured-cs-g1.crl05
+  - /http://crl4.digicert.com/sha2-assured-cs-g1.crl0L
+  - 0http://crl.globalsign.com/ca/gstsacasha384g4.crl0
+  - 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0:
+  - 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0O
+  - 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0P
+  - 4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0
+  - 4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
+  - 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
+  - 7http://secure.globalsign.com/cacert/gstsacasha384g4.crt0
+  - @http://cacerts.digicert.com/DigiCertAssuredIDCodeSigningCA-1.crt0
+  - Bhttp://cacerts.digicert.com/DigiCertSHA2AssuredIDCodeSigningCA.crt0
+  - Chttp://cacerts.digicert.com/DigiCertSHA2AssuredIDTimestampingCA.crt0
+  - http://ocsp.digicert.com0C
+  - http://ocsp.digicert.com0L
+  - http://ocsp.digicert.com0N
+  - http://ocsp.digicert.com0O
+  - http://www.360.cn 0
+  - http://www.digicert.com/CPS0
+  - https://www.digicert.com/CPS0
+- path (1):
+  - C:\vmagent_new\bin\joblist\638839\out\Release\SelfProtectAPI2.pdb
+- api (6):
+  - NtLoadDriver
+  - ZwCreateFile
+  - ZwQueryInformationProcess
+  - ZwQueryInformationThread
+  - ZwQuerySystemInformation
+  - ZwQueryVirtualMemory
+- ioctl_hint (1):
+  - DeviceIoControl
+- protect (9):
+  - 360SelfProtection
+  - C:\vmagent_new\bin\joblist\638839\out\Release\SelfProtectAPI2.pdb
+  - HookPort
+  - SYSTEM\CurrentControlSet\Services\360SelfProtection
+  - SelfProtectAPI2.dll
+  - System32\Drivers\Hookport.sys
+  - \\.\360SelfProtection
+  - hookport
+  - system32\drivers\360SelfProtection.sys
+
+### safemon\360SPTool.exe
+- arch: x86  size: 216,296
+- entry: 0xd4b9
+- sections: .text(106291B), .rdata(21970B), .data(18076B), .rsrc(59124B), .reloc(9004B)
+- imports:
+  - KERNEL32.dll: GetTickCount, OpenProcess, GetModuleHandleW, InterlockedIncrement, CreateProcessW, InitializeCriticalSection, LeaveCriticalSection, EnterCriticalSection, DeleteCriticalSection, GetFileSize, MoveFileExW, GetCurrentProcess, WaitForSingleObject, InterlockedCompareExchange, GetSystemDirectoryW, Sleep, ReadProcessMemory, MoveFileW, DeleteFileW, DebugBreak, FlushFileBuffers, WriteConsoleW, GetConsoleOutputCP, WriteConsoleA, SetStdHandle, GetCurrentProcessId, LoadLibraryA, lstrlenA, GetStringTypeW, GetStringTypeA, LCMapStringA, MultiByteToWideChar, DeviceIoControl, WriteFile, WideCharToMultiByte, SetEndOfFile, SetFilePointer, GetFileSizeEx, CreateFileW, CloseHandle ...
+  - USER32.dll: GetWindow, FindWindowW, PostMessageW, wvsprintfW, CharNextW, GetWindowRect, GetParent, SetTimer, GetDlgItem, SetWindowTextW, EndDialog, ShowWindow, GetLayeredWindowAttributes, IsWindowVisible, IntersectRect, DialogBoxParamW, LoadStringW, MessageBoxW, GetWindowThreadProcessId, RegisterClassW, GetClassInfoW, SetWindowPos, GetDesktopWindow, GetSystemMetrics
+  - ADVAPI32.dll: RegEnumKeyExW, RegOpenKeyExW, AdjustTokenPrivileges, LookupPrivilegeValueW, DeleteService, OpenProcessToken, RegQueryValueExW, CloseServiceHandle, ControlService, ChangeServiceConfigW, OpenServiceW, OpenSCManagerW, RegCloseKey, RegDeleteValueW, RegQueryValueExA
+  - SHELL32.dll: SHGetSpecialFolderPathW
+  - OLEAUT32.dll: VariantClear, SysFreeString, SysAllocString, VariantInit
+  - SHLWAPI.dll: SHDeleteKeyW, SHDeleteValueW, PathRemoveFileSpecW, PathFileExistsW, PathCombineW, PathAppendW, SHGetValueW, SHSetValueW
+  - IMM32.dll: ImmDisableIME
+  - WINTRUST.dll: WTHelperProvDataFromStateData, WinVerifyTrust
+  - CRYPT32.dll: CertGetNameStringW
+  - VERSION.dll: GetFileVersionInfoSizeW, VerQueryValueW, GetFileVersionInfoW
+  - PSAPI.DLL: GetModuleFileNameExW
+- device (3):
+  - \\.\360SelfProtection
+  - \\.\PhysicalDrive%d
+  - \\.\qutmipc
+- dosdev (3):
+  - \\.\360SelfProtection
+  - \\.\PhysicalDrive%d
+  - \\.\qutmipc
+- registry (10):
+  - :SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards
+  - SOFTWARE\360MachineSignature
+  - SOFTWARE\360Safe\360Scan
+  - SOFTWARE\360Safe\360krnlsvc
+  - SOFTWARE\360Safe\safemon
+  - SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\360safe.exe
+  - SYSTEM\CurrentControlSet\Services\360SelfProtection
+  - SYSTEM\CurrentControlSet\Services\EfiMon
+  - SYSTEM\CurrentControlSet\Services\HookPort
+  - SYSTEM\CurrentControlSet\Services\ZhuDongFangYu
+- service (5):
+  - 360SelfProtection.sys
+  - \Drivers\360fsflt.sys
+  - \Drivers\360selfprotection.sys
+  - efimon.sys
+  - hookport.sys
+- url (18):
+  - "http://ocsp2.globalsign.com/rootr306
+  - "http://ocsp2.globalsign.com/rootr606
+  - %http://crl.globalsign.com/root-r3.crl0G
+  - %http://crl.globalsign.com/root-r6.crl0G
+  - &https://www.globalsign.com/repository/0
+  - -http://ocsp.globalsign.com/ca/gstsacasha384g40C
+  - -http://ocsp.globalsign.com/codesigningrootr450F
+  - 0http://crl.globalsign.com/ca/gstsacasha384g4.crl0
+  - 0http://crl.globalsign.com/codesigningrootr45.crl0U
+  - 3http://ocsp.globalsign.com/gsgccr45evcodesignca20200U
+  - 6http://crl.globalsign.com/gsgccr45evcodesignca2020.crl0
+  - 7http://secure.globalsign.com/cacert/gstsacasha384g4.crt0
+  - :http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+  - @http://secure.globalsign.com/cacert/gsgccr45evcodesignca2020.crt0?
+  - http://s.360.cn/safe/instcomp.htm?soft=23080716&status=0&mid=%s&%s
+  - http://s.360.cn/safe/instcomp.htm?soft=23080716&status=1&mid=%s&%s
+  - http://s.360.cn/safe/instcomp.htm?soft=23080716&status=2&mid=%s&%s
+  - http://s.360.cn/safe/sptool.htm?err=%s&type=%s&%s
+- path (1):
+  - C:\vmagent_new\bin\joblist\749753\out\Release\360SPTool.pdb
+- api (1):
+  - NtQueryInformationProcess
+- ioctl_hint (4):
+  - DeviceIoControl
+  - ERR_IOCTL_CONTROL_SEFLPROTECTION_ALL|LastErr=%d
+  - ERR_IOCTL_GET_STATE_SELFPROTECTION_ALL|LastErr=%d
+  - ERR_IOCTL_QUERY_PROCESS_PROTECT|LastErr=%d
+- protect (15):
+  - 360SelfProtection.sys
+  - ERR_IOCTL_CONTROL_SEFLPROTECTION_ALL|LastErr=%d
+  - ERR_IOCTL_GET_STATE_SELFPROTECTION_ALL|LastErr=%d
+  - ERR_IOCTL_QUERY_PROCESS_PROTECT|LastErr=%d
+  - EnableProtectRule
+  - HookPort
+  - LocalVer=%s&OS=%s&x64=%d&DriverVer=%s&360procmon.dll=%d&360tray.exe=%d&SelfProtectAPI2.dll=%d
+  - NOT_BE_PROTECTED
+  - SYSTEM\CurrentControlSet\Services\360SelfProtection
+  - SYSTEM\CurrentControlSet\Services\HookPort
+  - SelfProtectAPI2.dll
+  - \Drivers\360selfprotection.sys
+  - \\.\360SelfProtection
+  - hookport.sys
+  - x360SelfProtection
+
+### safemon\360SelfProtection.sys
+- arch: x86  size: 202,792
+- entry: 0x28e85
+- sections: .text(129300B), .rdata(12324B), .data(24468B), INIT(4308B), .rsrc(1016B), .reloc(10096B)
+- imports:
+  - ntoskrnl.exe: InterlockedExchange, RtlImageDirectoryEntryToData, ObfDereferenceObject, ObReferenceObjectByHandle, _stricmp, IoGetCurrentProcess, MmIsAddressValid, MmUserProbeAddress, PsLookupProcessByProcessId, PsProcessType, PsThreadType, PsLookupThreadByThreadId, RtlInitUnicodeString, ZwFreeVirtualMemory, ZwAllocateVirtualMemory, ZwClose, ZwQueryInformationProcess, ObOpenObjectByPointer, _wcsicmp, wcslen, ProbeForRead, KeGetCurrentThread, PsGetCurrentProcessId, MmSectionObjectType, IoFreeIrp, KeSetEvent, KeWaitForSingleObject, IofCallDriver, ExFreePool, IoAllocateIrp, KeClearEvent, IoGetRelatedDeviceObject, KeInitializeEvent, ExAllocatePoolWithTag, IoGetDeviceObjectPointer, ZwQuerySymbolicLinkObject, ZwOpenSymbolicLinkObject, ZwQueryValueKey, ZwOpenKey, RtlPrefixUnicodeString ...
+  - HAL.dll: KfLowerIrql, KeGetCurrentIrql, KfAcquireSpinLock, KfReleaseSpinLock, KfRaiseIrql
+- registry (36):
+  - SOFTWARE\360CN
+  - SOFTWARE\360SAFE
+  - SOFTWARE\360TOTALSECURITY
+  - SOFTWARE\MICROSOFT\WINDOWS NT\CURRENTVERSION\APPCOMPATFLAGS\LAYERS
+  - SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\EXPLORER\STARTUPAPPROVED\RUN
+  - SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\RUN
+  - SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\RUN\360DISABLE
+  - SOFTWARE\PSAFE\PROTEGE
+  - Software\Microsoft\Windows NT\CurrentVersion\Windows
+  - \FileSystem\Filters\FltMgr
+  - \FileSystem\Filters\qutmdrv
+  - \FileSystem\FltMgr
+  - \FileSystem\Ntfs
+  - \FileSystem\exfat
+  - \FileSystem\fastfat
+  - \REGISTRY\MACHINE\SYSTEM\CONTROLSET00%d\SERVICES
+  - \REGISTRY\MACHINE\SYSTEM\CURRENTCONTROLSET\ENUM
+  - \REGISTRY\MACHINE\SYSTEM\CURRENTCONTROLSET\SERVICES
+  - \Registry\Machine\SOFTWARE\360Safe\safemon
+  - \Registry\Machine\SOFTWARE\360Safe\softmgr\DisableSvc2
+  - \Registry\Machine\SOFTWARE\Microsoft\EnterpriseCertificates\Disallowed
+  - \Registry\Machine\SOFTWARE\Microsoft\SystemCertificates\Disallowed
+  - \Registry\Machine\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+  - \Registry\Machine\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\360Disabled
+  - \Registry\Machine\SOFTWARE\Policies\Microsoft\SystemCertificates\Disallowed
+  - \Registry\Machine\SYSTEM\CurrentControlSet\Control\Windows
+  - \Registry\Machine\SYSTEM\CurrentControlSet\Control\hivelist
+  - \Registry\Machine\SYSTEM\CurrentControlSet\Enum\SW\
+  - \Registry\Machine\SYSTEM\CurrentControlSet\Services\360SelfProtection
+  - \Registry\Machine\SYSTEM\CurrentControlSet\Services\HookPort
+  - \Registry\Machine\SYSTEM\Select
+  - \Registry\Machine\System\CurrentControlSet\Control
+  - \Registry\Machine\System\CurrentControlSet\Services\
+  - \SOFTWARE\Microsoft\SystemCertificates\Disallowed
+  - \SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+  - \SOFTWARE\Policies\Microsoft\SystemCertificates\Disallowed
+- service (13):
+  - 360selfprotection.SYS
+  - SelfProtection.sys
+  - \SystemRoot\System32\Win32k.sys
+  - \SystemRoot\System32\win32k.sys
+  - \SystemRoot\system32\drivers\360SelfProtection.sys
+  - \SystemRoot\system32\drivers\hookport.sys
+  - \SystemRoot\system32\drivers\srv.sys
+  - system32\drivers\360SelfProtection.sys
+  - system32\drivers\hookport.sys
+  - vmwvscrd.sys
+  - win32k.sys
+  - win32kbase.sys
+  - win32kfull.sys
+- url (33):
+  - "http://ocsp2.globalsign.com/rootr606
+  - %http://crl.globalsign.com/root-r6.crl0G
+  - &https://www.globalsign.com/repository/0
+  - *http://crl3.digicert.com/assured-cs-g1.crl00
+  - *http://crl4.digicert.com/assured-cs-g1.crl0L
+  - ,http://crl3.digicert.com/sha2-assured-ts.crl02
+  - ,http://crl4.digicert.com/sha2-assured-ts.crl0
+  - -http://ocsp.globalsign.com/ca/gstsacasha384g40C
+  - .http://www.digicert.com/ssl-cps-repository.htm0
+  - 0http://crl.globalsign.com/ca/gstsacasha384g4.crl0
+  - 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0:
+  - 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0P
+  - 4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0
+  - 4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
+  - 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
+  - 7http://secure.globalsign.com/cacert/gstsacasha384g4.crt0
+  - @http://cacerts.digicert.com/DigiCertAssuredIDCodeSigningCA-1.crt0
+  - Chttp://cacerts.digicert.com/DigiCertSHA2AssuredIDTimestampingCA.crt0
+  - Dhttp://crl.microsoft.com/pki/crl/products/MicrosoftCodeVerifRoot.crl0
+  - http://ocsp.digicert.com0C
+  - http://ocsp.digicert.com0L
+  - http://ocsp.digicert.com0O
+  - http://s.symcb.com/pca3-g5.crl0
+  - http://s.symcd.com0_
+  - http://sw.symcb.com/sw.crl0`
+  - http://sw.symcd.com0'
+  - http://sw1.symcb.com/sw.crt0
+  - http://www.360.cn 0
+  - http://www.digicert.com/CPS0
+  - https://d.symcb.com/cps0%
+  - https://d.symcb.com/rpa0
+  - https://d.symcb.com/rpa0)
+  - https://www.digicert.com/CPS0
+- guid (1):
+  - {6994ad05-93ef-11d0-a3cc-00a0c9223196}
+- path (2):
+  - C:\Program Files\Parallels\Parallels Tools\Services\prl_hook.dll
+  - c:\vmagent_new\bin\joblist\612429\src\3\360selfprotection_sys\objfre_w2K_x86\i386\360SelfProtection.pdb
+- api (52):
+  - NtClose
+  - NtFreeVirtualMemory
+  - NtUserAttachThreadInput
+  - NtUserCallOneParam
+  - NtUserFindWindowEx
+  - NtUserGetAncestor
+  - NtUserGetAsyncKeyState
+  - NtUserGetClassName
+  - NtUserGetForegroundWindow
+  - NtUserGetThreadState
+  - NtUserInternalGetWindowText
+  - NtUserMapDesktopObject
+  - NtUserQueryWindow
+  - NtUserUnhookWindowsHookEx
+  - ZwAllocateVirtualMemory
+  - ZwClose
+  - ZwCreateFile
+  - ZwCreateKey
+  - ZwCreateSection
+  - ZwDuplicateObject
+  - ZwEnumerateValueKey
+  - ZwFlushKey
+  - ZwFreeVirtualMemory
+  - ZwGetNextProcess
+  - ZwMakeTemporaryObject
+  - ZwMapViewOfSection
+  - ZwOpenDirectoryObject
+  - ZwOpenFile
+  - ZwOpenKey
+  - ZwOpenProcess
+  - ZwOpenSection
+  - ZwOpenSymbolicLinkObject
+  - ZwQueryDirectoryObject
+  - ZwQueryInformationFile
+  - ZwQueryInformationProcess
+  - ZwQueryInformationThread
+  - ZwQueryInformationToken
+  - ZwQueryKey
+  - ZwQueryObject
+  - ZwQuerySection
+  - ZwQuerySymbolicLinkObject
+  - ZwQuerySystemInformation
+  - ZwQueryValueKey
+  - ZwQueryVirtualMemory
+  - ZwQueryVolumeInformationFile
+  - ZwReadFile
+  - ZwSetInformationFile
+  - ZwSetInformationProcess
+  - ZwSetValueKey
+  - ZwTerminateProcess
+  - ZwUnmapViewOfSection
+  - \net\NtControlPipe
+- ioctl_hint (1):
+  - IoBuildDeviceIoControlRequest
+- protect (37):
+  - - SelfProtection
+  - 360SelfProtection
+  - 360antihijack
+  - 360selfprotection.SYS
+  - HookPort
+  - LEGACY_360ANTIHACKER
+  - LEGACY_360ANTIHIJACK
+  - LEGACY_360ANTISTEAL
+  - LEGACY_360SELFPROTECTION
+  - LEGACY_DISPROC
+  - LEGACY_HOOKPORT
+  - PsIsProtectedProcess
+  - SERVICES\360ANTIHACKER
+  - SERVICES\360ANTIHIJACK
+  - SERVICES\360ANTISTEAL
+  - SERVICES\360SELFPROTECTION
+  - SERVICES\DISPROC
+  - SERVICES\HOOKPORT
+  - SelfProtection
+  - SelfProtection.sys
+  - \360SelfProtection
+  - \Device\360AntiHacker
+  - \Device\360AntiHijack
+  - \Device\360HookPort
+  - \Device\360SelfProtection
+  - \DosDevices\360SelfProtection
+  - \Driver\360AntiHacker
+  - \Driver\360AntiHijack
+  - \HookPort
+  - \Registry\Machine\SYSTEM\CurrentControlSet\Services\360SelfProtection
+  - \Registry\Machine\SYSTEM\CurrentControlSet\Services\HookPort
+  - \SystemRoot\system32\drivers\360SelfProtection.sys
+  - \SystemRoot\system32\drivers\hookport.sys
+  - \safemon\SelfProtectApi2.dll
+  - c:\vmagent_new\bin\joblist\612429\src\3\360selfprotection_sys\objfre_w2K_x86\i386\360SelfProtection.pdb
+  - system32\drivers\360SelfProtection.sys
+  - system32\drivers\hookport.sys
+
+### safemon\360SelfProtection_win10.sys
+- arch: x86  size: 211,424
+- entry: 0x28e85
+- sections: .text(129300B), .rdata(12324B), .data(24468B), INIT(4308B), .rsrc(1016B), .reloc(10096B)
+- imports:
+  - ntoskrnl.exe: InterlockedExchange, RtlImageDirectoryEntryToData, ObfDereferenceObject, ObReferenceObjectByHandle, _stricmp, IoGetCurrentProcess, MmIsAddressValid, MmUserProbeAddress, PsLookupProcessByProcessId, PsProcessType, PsThreadType, PsLookupThreadByThreadId, RtlInitUnicodeString, ZwFreeVirtualMemory, ZwAllocateVirtualMemory, ZwClose, ZwQueryInformationProcess, ObOpenObjectByPointer, _wcsicmp, wcslen, ProbeForRead, KeGetCurrentThread, PsGetCurrentProcessId, MmSectionObjectType, IoFreeIrp, KeSetEvent, KeWaitForSingleObject, IofCallDriver, ExFreePool, IoAllocateIrp, KeClearEvent, IoGetRelatedDeviceObject, KeInitializeEvent, ExAllocatePoolWithTag, IoGetDeviceObjectPointer, ZwQuerySymbolicLinkObject, ZwOpenSymbolicLinkObject, ZwQueryValueKey, ZwOpenKey, RtlPrefixUnicodeString ...
+  - HAL.dll: KfLowerIrql, KeGetCurrentIrql, KfAcquireSpinLock, KfReleaseSpinLock, KfRaiseIrql
+- registry (36):
+  - SOFTWARE\360CN
+  - SOFTWARE\360SAFE
+  - SOFTWARE\360TOTALSECURITY
+  - SOFTWARE\MICROSOFT\WINDOWS NT\CURRENTVERSION\APPCOMPATFLAGS\LAYERS
+  - SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\EXPLORER\STARTUPAPPROVED\RUN
+  - SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\RUN
+  - SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\RUN\360DISABLE
+  - SOFTWARE\PSAFE\PROTEGE
+  - Software\Microsoft\Windows NT\CurrentVersion\Windows
+  - \FileSystem\Filters\FltMgr
+  - \FileSystem\Filters\qutmdrv
+  - \FileSystem\FltMgr
+  - \FileSystem\Ntfs
+  - \FileSystem\exfat
+  - \FileSystem\fastfat
+  - \REGISTRY\MACHINE\SYSTEM\CONTROLSET00%d\SERVICES
+  - \REGISTRY\MACHINE\SYSTEM\CURRENTCONTROLSET\ENUM
+  - \REGISTRY\MACHINE\SYSTEM\CURRENTCONTROLSET\SERVICES
+  - \Registry\Machine\SOFTWARE\360Safe\safemon
+  - \Registry\Machine\SOFTWARE\360Safe\softmgr\DisableSvc2
+  - \Registry\Machine\SOFTWARE\Microsoft\EnterpriseCertificates\Disallowed
+  - \Registry\Machine\SOFTWARE\Microsoft\SystemCertificates\Disallowed
+  - \Registry\Machine\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+  - \Registry\Machine\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\360Disabled
+  - \Registry\Machine\SOFTWARE\Policies\Microsoft\SystemCertificates\Disallowed
+  - \Registry\Machine\SYSTEM\CurrentControlSet\Control\Windows
+  - \Registry\Machine\SYSTEM\CurrentControlSet\Control\hivelist
+  - \Registry\Machine\SYSTEM\CurrentControlSet\Enum\SW\
+  - \Registry\Machine\SYSTEM\CurrentControlSet\Services\360SelfProtection
+  - \Registry\Machine\SYSTEM\CurrentControlSet\Services\HookPort
+  - \Registry\Machine\SYSTEM\Select
+  - \Registry\Machine\System\CurrentControlSet\Control
+  - \Registry\Machine\System\CurrentControlSet\Services\
+  - \SOFTWARE\Microsoft\SystemCertificates\Disallowed
+  - \SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+  - \SOFTWARE\Policies\Microsoft\SystemCertificates\Disallowed
+- service (13):
+  - 360selfprotection.SYS
+  - SelfProtection.sys
+  - \SystemRoot\System32\Win32k.sys
+  - \SystemRoot\System32\win32k.sys
+  - \SystemRoot\system32\drivers\360SelfProtection.sys
+  - \SystemRoot\system32\drivers\hookport.sys
+  - \SystemRoot\system32\drivers\srv.sys
+  - system32\drivers\360SelfProtection.sys
+  - system32\drivers\hookport.sys
+  - vmwvscrd.sys
+  - win32k.sys
+  - win32kbase.sys
+  - win32kfull.sys
+- url (41):
+  - "http://ocsp2.globalsign.com/rootr606
+  - %http://crl.globalsign.com/root-r6.crl0G
+  - &https://www.globalsign.com/repository/0
+  - (https://www.microsoft.com/en-us/windows 0
+  - *http://crl3.digicert.com/assured-cs-g1.crl00
+  - *http://crl4.digicert.com/assured-cs-g1.crl0L
+  - ,http://crl3.digicert.com/sha2-assured-ts.crl02
+  - ,http://crl4.digicert.com/sha2-assured-ts.crl0
+  - -http://ocsp.globalsign.com/ca/gstsacasha384g40C
+  - .http://www.digicert.com/ssl-cps-repository.htm0
+  - 0http://crl.globalsign.com/ca/gstsacasha384g4.crl0
+  - 1http://www.microsoft.com/PKI/docs/CPS/default.htm0@
+  - 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0:
+  - 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0P
+  - 4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0
+  - 4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
+  - 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
+  - 7http://secure.globalsign.com/cacert/gstsacasha384g4.crt0
+  - >http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+  - >http://www.microsoft.com/pki/certs/MicTimStaPCA_2010-07-01.crt0
+  - @http://cacerts.digicert.com/DigiCertAssuredIDCodeSigningCA-1.crt0
+  - Chttp://cacerts.digicert.com/DigiCertSHA2AssuredIDTimestampingCA.crt0
+  - Dhttp://crl.microsoft.com/pki/crl/products/MicrosoftCodeVerifRoot.crl0
+  - Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+  - Ehttp://crl.microsoft.com/pki/crl/products/MicTimStaPCA_2010-07-01.crl0Z
+  - chttp://www.microsoft.com/pkiops/crl/Microsoft%20Windows%20Third%20Party%20Component%20CA%202012.crl0
+  - ehttp://www.microsoft.com/pkiops/certs/Microsoft%20Windows%20Third%20Party%20Component%20CA%202012.crt0
+  - http://ocsp.digicert.com0C
+  - http://ocsp.digicert.com0L
+  - http://ocsp.digicert.com0O
+  - http://s.symcb.com/pca3-g5.crl0
+  - http://s.symcd.com0_
+  - http://sw.symcb.com/sw.crl0`
+  - http://sw.symcd.com0'
+  - http://sw1.symcb.com/sw.crt0
+  - http://www.360.cn 0
+  - http://www.digicert.com/CPS0
+  - https://d.symcb.com/cps0%
+  - https://d.symcb.com/rpa0
+  - https://d.symcb.com/rpa0)
+  - https://www.digicert.com/CPS0
+- guid (1):
+  - {6994ad05-93ef-11d0-a3cc-00a0c9223196}
+- path (2):
+  - C:\Program Files\Parallels\Parallels Tools\Services\prl_hook.dll
+  - c:\vmagent_new\bin\joblist\612429\src\3\360selfprotection_sys\objfre_w2K_x86\i386\360SelfProtection.pdb
+- api (52):
+  - NtClose
+  - NtFreeVirtualMemory
+  - NtUserAttachThreadInput
+  - NtUserCallOneParam
+  - NtUserFindWindowEx
+  - NtUserGetAncestor
+  - NtUserGetAsyncKeyState
+  - NtUserGetClassName
+  - NtUserGetForegroundWindow
+  - NtUserGetThreadState
+  - NtUserInternalGetWindowText
+  - NtUserMapDesktopObject
+  - NtUserQueryWindow
+  - NtUserUnhookWindowsHookEx
+  - ZwAllocateVirtualMemory
+  - ZwClose
+  - ZwCreateFile
+  - ZwCreateKey
+  - ZwCreateSection
+  - ZwDuplicateObject
+  - ZwEnumerateValueKey
+  - ZwFlushKey
+  - ZwFreeVirtualMemory
+  - ZwGetNextProcess
+  - ZwMakeTemporaryObject
+  - ZwMapViewOfSection
+  - ZwOpenDirectoryObject
+  - ZwOpenFile
+  - ZwOpenKey
+  - ZwOpenProcess
+  - ZwOpenSection
+  - ZwOpenSymbolicLinkObject
+  - ZwQueryDirectoryObject
+  - ZwQueryInformationFile
+  - ZwQueryInformationProcess
+  - ZwQueryInformationThread
+  - ZwQueryInformationToken
+  - ZwQueryKey
+  - ZwQueryObject
+  - ZwQuerySection
+  - ZwQuerySymbolicLinkObject
+  - ZwQuerySystemInformation
+  - ZwQueryValueKey
+  - ZwQueryVirtualMemory
+  - ZwQueryVolumeInformationFile
+  - ZwReadFile
+  - ZwSetInformationFile
+  - ZwSetInformationProcess
+  - ZwSetValueKey
+  - ZwTerminateProcess
+  - ZwUnmapViewOfSection
+  - \net\NtControlPipe
+- ioctl_hint (1):
+  - IoBuildDeviceIoControlRequest
+- protect (37):
+  - - SelfProtection
+  - 360SelfProtection
+  - 360antihijack
+  - 360selfprotection.SYS
+  - HookPort
+  - LEGACY_360ANTIHACKER
+  - LEGACY_360ANTIHIJACK
+  - LEGACY_360ANTISTEAL
+  - LEGACY_360SELFPROTECTION
+  - LEGACY_DISPROC
+  - LEGACY_HOOKPORT
+  - PsIsProtectedProcess
+  - SERVICES\360ANTIHACKER
+  - SERVICES\360ANTIHIJACK
+  - SERVICES\360ANTISTEAL
+  - SERVICES\360SELFPROTECTION
+  - SERVICES\DISPROC
+  - SERVICES\HOOKPORT
+  - SelfProtection
+  - SelfProtection.sys
+  - \360SelfProtection
+  - \Device\360AntiHacker
+  - \Device\360AntiHijack
+  - \Device\360HookPort
+  - \Device\360SelfProtection
+  - \DosDevices\360SelfProtection
+  - \Driver\360AntiHacker
+  - \Driver\360AntiHijack
+  - \HookPort
+  - \Registry\Machine\SYSTEM\CurrentControlSet\Services\360SelfProtection
+  - \Registry\Machine\SYSTEM\CurrentControlSet\Services\HookPort
+  - \SystemRoot\system32\drivers\360SelfProtection.sys
+  - \SystemRoot\system32\drivers\hookport.sys
+  - \safemon\SelfProtectApi2.dll
+  - c:\vmagent_new\bin\joblist\612429\src\3\360selfprotection_sys\objfre_w2K_x86\i386\360SelfProtection.pdb
+  - system32\drivers\360SelfProtection.sys
+  - system32\drivers\hookport.sys
+
+### safemon\hookport_win10.sys
+- arch: x86  size: 83,928
+- entry: 0xbc85
+- sections: .text(38204B), .rdata(4276B), .data(4356B), INIT(2618B), .rsrc(936B), .reloc(5428B)
+- imports:
+  - ntoskrnl.exe: IoCreateDevice, RtlCheckRegistryKey, InitSafeBootMode, PsGetVersion, _stricmp, RtlImageDirectoryEntryToData, KeGetCurrentThread, ProbeForWrite, ProbeForRead, ExGetPreviousMode, _except_handler3, ZwFreeVirtualMemory, ZwDeleteKey, ZwAllocateVirtualMemory, ZwClose, ZwCreateKey, ZwOpenKey, wcslen, RtlIntegerToUnicodeString, _wcsnicmp, ZwQueryValueKey, ExFreePool, ExAllocatePoolWithTag, MmUserProbeAddress, RtlInitAnsiString, ZwUnmapViewOfSection, ZwMapViewOfSection, ZwCreateSection, ZwOpenFile, ZwOpenSection, MmHighestUserAddress, KefReleaseSpinLockFromDpcLevel, KefAcquireSpinLockAtDpcLevel, InterlockedExchangeAdd, KeInsertQueueDpc, KeSetTargetProcessorDpc, KeSetImportanceDpc, KeInitializeDpc, KeQueryActiveProcessors, KeInitializeSpinLock ...
+  - HAL.dll: KfAcquireSpinLock, KfReleaseSpinLock, KeStallExecutionProcessor, KfRaiseIrql, KfLowerIrql, KeGetCurrentIrql
+- registry (1):
+  - \Registry\Machine\System\CurrentControlSet\Control\Keyboard Layouts
+- service (6):
+  - HookPort.sys
+  - \SystemRoot\System32\Win32k.sys
+  - hookport.SYS
+  - win32k.sys
+  - win32kbase.sys
+  - win32kfull.sys
+- url (38):
+  - "http://crl.globalsign.net/root.crl0
+  - %http://crl.globalsign.net/root-r3.crl0
+  - &https://www.globalsign.com/repository/0
+  - &https://www.globalsign.com/repository/03
+  - &https://www.globalsign.com/repository/06
+  - (https://www.microsoft.com/en-us/windows 0
+  - *http://crl3.digicert.com/assured-cs-g1.crl00
+  - *http://crl4.digicert.com/assured-cs-g1.crl0L
+  - .http://www.digicert.com/ssl-cps-repository.htm0
+  - 0http://ocsp2.globalsign.com/gstimestampingsha2g20
+  - 1http://crl.globalsign.com/gs/gstimestampingg2.crl0T
+  - 1http://www.microsoft.com/PKI/docs/CPS/default.htm0@
+  - 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0:
+  - 4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0
+  - 5http://crl.globalsign.com/gs/gstimestampingsha2g2.crl0
+  - 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
+  - 8http://secure.globalsign.com/cacert/gstimestampingg2.crt0
+  - <http://secure.globalsign.com/cacert/gstimestampingsha2g2.crt0<
+  - >http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+  - >http://www.microsoft.com/pki/certs/MicTimStaPCA_2010-07-01.crt0
+  - @http://cacerts.digicert.com/DigiCertAssuredIDCodeSigningCA-1.crt0
+  - Dhttp://crl.microsoft.com/pki/crl/products/MicrosoftCodeVerifRoot.crl0
+  - Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+  - Ehttp://crl.microsoft.com/pki/crl/products/MicTimStaPCA_2010-07-01.crl0Z
+  - chttp://www.microsoft.com/pkiops/crl/Microsoft%20Windows%20Third%20Party%20Component%20CA%202012.crl0
+  - ehttp://www.microsoft.com/pkiops/certs/Microsoft%20Windows%20Third%20Party%20Component%20CA%202012.crt0
+  - http://ocsp.digicert.com0C
+  - http://ocsp.digicert.com0L
+  - http://s.symcb.com/pca3-g5.crl0
+  - http://s.symcd.com0_
+  - http://sw.symcb.com/sw.crl0`
+  - http://sw.symcd.com0'
+  - http://sw1.symcb.com/sw.crt0
+  - http://www.360.cn 0
+  - https://d.symcb.com/cps0%
+  - https://d.symcb.com/rpa0
+  - https://d.symcb.com/rpa0)
+  - https://www.digicert.com/CPS0
+- path (1):
+  - c:\vmagent_new\bin\joblist\529960\src\h_capital\hookport_2014_sys\objfre_w2K_x86\i386\hookport.pdb
+- api (155):
+  - NtAccessCheck
+  - NtAdjustGroupsToken
+  - NtAlpcSendWaitReceivePort
+  - NtApphelpCacheControl
+  - NtAssignProcessToJobObject
+  - NtBuildLab
+  - NtContinue
+  - NtCreateMutant
+  - NtCreateProcess
+  - NtCreateProcessEx
+  - NtCreateProfile
+  - NtCreateThread
+  - NtCreateThreadEx
+  - NtCreateUserProcess
+  - NtDebugActiveProcess
+  - NtGdiAddFontMemResourceEx
+  - NtGdiAddFontResourceW
+  - NtGdiAddRemoteFontToDC
+  - NtGdiAlphaBlend
+  - NtGdiBitBlt
+  - NtGdiDeleteObjectApp
+  - NtGdiGetPixel
+  - NtGdiMaskBlt
+  - NtGdiOpenDCW
+  - NtGdiPlgBlt
+  - NtGdiStretchBlt
+  - NtGdiTransparentBlt
+  - NtGetNextProcess
+  - NtGetNextThread
+  - NtOpenMutant
+  - NtProtectVirtualMemory
+  - NtQueryAttributesFile
+  - NtQueryIntervalProfile
+  - NtQueueApcThread
+  - NtQueueApcThreadEx
+  - NtReadVirtualMemory
+  - NtRenameKey
+  - NtRequestPort
+  - NtResumeThread
+  - NtSetContextThread
+  - NtSetInformationJobObject
+  - NtSetIntervalProfile
+  - NtSuspendProcess
+  - NtSuspendThread
+  - NtSystemDebugControl
+  - NtTerminateJobObject
+  - NtTerminateThread
+  - NtUserAttachThreadInput
+  - NtUserBlockInput
+  - NtUserBuildHwndList
+  - NtUserCallHwndLock
+  - NtUserCallHwndParamLock
+  - NtUserCallHwndParamLockSafe
+  - NtUserCallNoParam
+  - NtUserCallOneParam
+  - NtUserCallTwoParam
+  - NtUserChildWindowFromPointEx
+  - NtUserClipCursor
+  - NtUserDestroyWindow
+  - NtUserEnableWindow
+- ioctl_hint (1):
+  - ZwDeviceIoControlFile
+- protect (12):
+  - - HookPort
+  - HookPort
+  - HookPort.sys
+  - HookPortDebug
+  - NtProtectVirtualMemory
+  - SafeBoot\Minimal\HookPort
+  - SafeBoot\Network\HookPort
+  - [HPPM]HookPort Time Out[%u] Class:%u Process:%s Pid:%u Tid:%u Mode:%u Client:%s TimeCost:%I64x
+  - \Device\360HookPort
+  - \DosDevices\360HookPort
+  - c:\vmagent_new\bin\joblist\529960\src\h_capital\hookport_2014_sys\objfre_w2K_x86\i386\hookport.pdb
+  - hookport.SYS
+
+### safemon\360AntiHijack64.sys
+- arch: x64  size: 112,200
+- entry: 0x19064
+- sections: .text(72516B), .rdata(5636B), .data(5368B), .pdata(1968B), PAGE(653B), INIT(2792B), .rsrc(904B), .reloc(470B)
+- imports:
+  - ntoskrnl.exe: ExAllocatePoolWithTag, IoBuildDeviceIoControlRequest, IoDeleteSymbolicLink, ExFreePoolWithTag, IoRegisterShutdownNotification, RtlInitUnicodeString, IoDeleteDevice, KeInitializeEvent, RtlGetVersion, IoGetDeviceObjectPointer, IofCompleteRequest, RtlCompareUnicodeString, RtlCompareMemory, IoCreateSymbolicLink, RtlCopyUnicodeString, ObfDereferenceObject, IoCreateDevice, IofCallDriver, MmGetSystemRoutineAddress, PsGetVersion, ProbeForRead, ExRaiseStatus, ExReleaseFastMutex, ExAcquireFastMutex, KeReleaseInStackQueuedSpinLock, IoIs32bitProcess, LpcPortObjectType, KeAcquireInStackQueuedSpinLock, ObReferenceObjectByHandle, ObReferenceObjectByName, RtlGetElementGenericTable, ExInitializeNPagedLookasideList, KeSetEvent, ExpInterlockedPushEntrySList, ExpInterlockedPopEntrySList, RtlDeleteElementGenericTable, KeDelayExecutionThread, ExSystemTimeToLocalTime, KeQueryTimeIncrement, ExQueryDepthSList ...
+- registry (3):
+  - \REGISTRY\MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\360safe.exe
+  - \REGISTRY\MACHINE\SOFTWARE\Wow6432Node\360Safe\safemon
+  - \REGISTRY\MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run
+- service (3):
+  - 360AntiHijack64.sys
+  - FWPKCLNT.SYS
+  - NDIS.SYS
+- url (20):
+  - "http://ocsp2.globalsign.com/rootr606
+  - %http://crl.globalsign.com/root-r6.crl0G
+  - &https://www.globalsign.com/repository/0
+  - (https://www.microsoft.com/en-us/windows 0
+  - -http://ocsp.globalsign.com/ca/gstsacasha384g40C
+  - -http://ocsp.globalsign.com/codesigningrootr450F
+  - 0http://crl.globalsign.com/ca/gstsacasha384g4.crl0
+  - 0http://crl.globalsign.com/codesigningrootr45.crl0U
+  - 3http://ocsp.globalsign.com/gsgccr45evcodesignca20200U
+  - 3http://www.microsoft.com/pkiops/Docs/Repository.htm0
+  - 6http://crl.globalsign.com/gsgccr45evcodesignca2020.crl0
+  - 7http://secure.globalsign.com/cacert/gstsacasha384g4.crt0
+  - :http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+  - >http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+  - @http://secure.globalsign.com/cacert/gsgccr45evcodesignca2020.crt0?
+  - Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+  - Nhttp://www.microsoft.com/pkiops/crl/Microsoft%20Time-Stamp%20PCA%202010(1).crl0l
+  - Phttp://www.microsoft.com/pkiops/certs/Microsoft%20Time-Stamp%20PCA%202010(1).crt0
+  - chttp://www.microsoft.com/pkiops/crl/Microsoft%20Windows%20Third%20Party%20Component%20CA%202012.crl0
+  - ehttp://www.microsoft.com/pkiops/certs/Microsoft%20Windows%20Third%20Party%20Component%20CA%202012.crt0
+- path (1):
+  - c:\vmagent_new\bin\joblist\856838\src\3\360dnsprotect_sys\objfre_win7_amd64\amd64\360AntiHijack64.pdb
+- api (14):
+  - NtBuildNumber
+  - ZwClose
+  - ZwCreateFile
+  - ZwOpenDirectoryObject
+  - ZwOpenKey
+  - ZwOpenSymbolicLinkObject
+  - ZwQueryDirectoryObject
+  - ZwQueryInformationFile
+  - ZwQueryInformationProcess
+  - ZwQuerySymbolicLinkObject
+  - ZwQuerySystemInformation
+  - ZwQueryValueKey
+  - ZwReadFile
+  - ZwSetValueKey
+- ioctl_hint (1):
+  - IoBuildDeviceIoControlRequest
+- protect (14):
+  - 360 360AntiHijack
+  - 360AntiHijack
+  - 360AntiHijack Monitor Sub layer
+  - 360AntiHijack Monitor Sub layer 2
+  - 360AntiHijack64.sys
+  - 360AntiHijackdat
+  - Callout of 360AntiHijack
+  - Filter Of 360AntiHijack
+  - \Device\360AntiHijack
+  - \Device\360AntiHijackPacket
+  - \Device\360SelfProtection
+  - \DosDevices\360AntiHijack
+  - \DosDevices\360AntiHijackPacket
+  - c:\vmagent_new\bin\joblist\856838\src\3\360dnsprotect_sys\objfre_win7_amd64\amd64\360AntiHijack64.pdb
+
+### safemon\360AntiExploit64.sys
+- arch: x64  size: 437,976
+- entry: 0x68064
+- sections: .text(58570B), .rdata(344796B), .data(4204B), .pdata(1380B), INIT(2980B), .rsrc(920B), .reloc(5486B)
+- imports:
+  - ntoskrnl.exe: MmSystemRangeStart, PsGetProcessPeb, ProbeForRead, PsProcessType, ExGetPreviousMode, PsGetThreadTeb, MmHighestUserAddress, IoGetCurrentProcess, ObReferenceObjectByHandle, PsGetCurrentProcessId, MmIsAddressValid, ObfDereferenceObject, RtlDeleteElementGenericTableAvl, RtlInsertElementGenericTableAvl, ExAllocatePoolWithTag, ExFreePoolWithTag, ExReleaseFastMutex, ExAcquireFastMutex, RtlGetElementGenericTableAvl, KeInitializeEvent, PsSetCreateProcessNotifyRoutine, RtlIsGenericTableEmptyAvl, RtlInitializeGenericTableAvl, RtlLookupElementGenericTableAvl, IoBuildDeviceIoControlRequest, IoGetDeviceObjectPointer, IofCompleteRequest, IofCallDriver, IoDeleteSymbolicLink, RtlInitUnicodeString, IoDeleteDevice, RtlGetVersion, IoCreateSymbolicLink, IoCreateDevice, MmGetSystemRoutineAddress, ZwQuerySystemInformation, RtlEqualUnicodeString, ZwClose, KeSetEvent, KeWaitForSingleObject ...
+- service (4):
+  - 360AntiExploit.sys
+  - 360AntiExploit64.sys
+  - RDPWD.SYS
+  - \SystemRoot\System32\DRIVERS\RDPWD.SYS
+- url (31):
+  - %http://crl.globalsign.net/root-r3.crl0
+  - &https://www.globalsign.com/repository/0
+  - &https://www.globalsign.com/repository/06
+  - *http://crl3.digicert.com/assured-cs-g1.crl00
+  - *http://crl4.digicert.com/assured-cs-g1.crl0L
+  - +http://ts-aia.ws.symantec.com/tss-ca-g2.cer0<
+  - +http://ts-crl.ws.symantec.com/tss-ca-g2.crl0(
+  - .http://crl.thawte.com/ThawteTimestampingCA.crl0
+  - .http://www.digicert.com/ssl-cps-repository.htm0
+  - 0http://ocsp2.globalsign.com/gstimestampingsha2g20
+  - 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0:
+  - 4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0
+  - 5http://crl.globalsign.com/gs/gstimestampingsha2g2.crl0
+  - 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
+  - <http://secure.globalsign.com/cacert/gstimestampingsha2g2.crt0<
+  - @http://cacerts.digicert.com/DigiCertAssuredIDCodeSigningCA-1.crt0
+  - Dhttp://crl.microsoft.com/pki/crl/products/MicrosoftCodeVerifRoot.crl0
+  - http://ocsp.digicert.com0C
+  - http://ocsp.digicert.com0L
+  - http://ocsp.thawte.com0
+  - http://s.symcb.com/pca3-g5.crl0
+  - http://s.symcd.com0_
+  - http://sw.symcb.com/sw.crl0`
+  - http://sw.symcd.com0'
+  - http://sw1.symcb.com/sw.crt0
+  - http://ts-ocsp.ws.symantec.com07
+  - http://www.360.cn 0
+  - https://d.symcb.com/cps0%
+  - https://d.symcb.com/rpa0
+  - https://d.symcb.com/rpa0)
+  - https://www.digicert.com/CPS0
+- path (1):
+  - c:\vmagent_new\bin\joblist\467672\src\3\360antiexploit64_sys\objfre_win7_amd64\amd64\360AntiExploit64.pdb
+- api (11):
+  - NtAllocateVirtualMemory
+  - NtProtectVirtualMemory
+  - ZwClose
+  - ZwOpenFile
+  - ZwOpenKey
+  - ZwOpenSymbolicLinkObject
+  - ZwQuerySymbolicLinkObject
+  - ZwQuerySystemInformation
+  - ZwQueryValueKey
+  - ZwQueryVirtualMemory
+  - ZwSetSystemInformation
+- ioctl_hint (1):
+  - IoBuildDeviceIoControlRequest
+- protect (9):
+  - 360AntiExploit
+  - 360AntiExploit.sys
+  - 360AntiExploit64.sys
+  - I286PROTECTED
+  - NtProtectVirtualMemory
+  - \Device\360AntiExploit
+  - \Device\360SelfProtection
+  - \DosDevices\360AntiExploit
+  - c:\vmagent_new\bin\joblist\467672\src\3\360antiexploit64_sys\objfre_win7_amd64\amd64\360AntiExploit64.pdb
+
+### safemon\360disproc64.sys
+- arch: x64  size: 88,328
+- entry: 0x1433c
+- sections: .text(46796B), .rdata(3580B), .data(11312B), .pdata(2028B), PAGE(2912B), .edata(88B), INIT(5166B), .rsrc(896B), .reloc(284B)
+- imports:
+  - ntoskrnl.exe: IoQueryFileDosDeviceName, DbgPrint, IoQueryVolumeInformation, FsRtlIsNameInExpression, KeDelayExecutionThread, RtlCopyUnicodeString, IoGetDeviceObjectPointer, KeAreApcsDisabled, MmGetSystemRoutineAddress, KeWaitForSingleObject, KeReleaseSemaphore, KeReadStateSemaphore, IoThreadToProcess, IoGetStackLimits, FsRtlIsPagingFile, IoVolumeDeviceToDosName, IoGetCurrentProcess, RtlPrefixUnicodeString, PsInitialSystemProcess, PsGetCurrentProcessId, PsGetProcessId, SeTokenIsAdmin, ProbeForRead, IoBuildDeviceIoControlRequest, PsReferencePrimaryToken, KeInitializeEvent, PsDereferencePrimaryToken, IofCallDriver, ZwQuerySymbolicLinkObject, ZwOpenSymbolicLinkObject, ExAcquireRundownProtection, PsLookupProcessByProcessId, ExInitializeNPagedLookasideList, ExpInterlockedPushEntrySList, ZwQuerySystemInformation, ExpInterlockedPopEntrySList, RtlInitializeBitMap, RtlSetBit, ExDeletePagedLookasideList, RtlClearAllBits ...
+  - FLTMGR.SYS: FltCloseCommunicationPort, FltFreeSecurityDescriptor, FltCreateCommunicationPort, FltCloseClientPort, FltSendMessage, FltStartFiltering, FltRegisterFilter, FltUnregisterFilter, FltGetDiskDeviceObject, FltIsVolumeWritable, FltCancelFileOpen, FltGetTunneledName, FltGetRequestorProcess, FltParseFileNameInformation, FltParseFileName, FltReleaseFileNameInformation, FltGetVolumeName, FltGetRoutineAddress, FltGetFileNameInformation, FltClose, FltQueryInformationFile, FltCreateFile, FltIsDirectory, FltGetDestinationFileNameInformation, FltSetVolumeContext, FltAcquireResourceExclusive, FltAllocateContext, FltReleaseContext, FltReleaseResource, FltSetStreamHandleContext, FltGetVolumeContext, FltGetStreamHandleContext, FltAcquireResourceShared, FltBuildDefaultSecurityDescriptor
+- service (2):
+  - 360disproc64.sys
+  - FLTMGR.SYS
+- url (34):
+  - "http://ocsp2.globalsign.com/rootr306
+  - "http://ocsp2.globalsign.com/rootr606
+  - %http://crl.globalsign.com/root-r3.crl0G
+  - %http://crl.globalsign.com/root-r6.crl0G
+  - &https://www.globalsign.com/repository/0
+  - *http://crl3.digicert.com/assured-cs-g1.crl00
+  - *http://crl4.digicert.com/assured-cs-g1.crl0L
+  - -http://ocsp.globalsign.com/ca/gstsacasha384g40C
+  - -http://ocsp.globalsign.com/codesigningrootr450F
+  - .http://www.digicert.com/ssl-cps-repository.htm0
+  - 0http://crl.globalsign.com/ca/gstsacasha384g4.crl0
+  - 0http://crl.globalsign.com/codesigningrootr45.crl0U
+  - 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+  - 3http://ocsp.globalsign.com/gsgccr45evcodesignca20200U
+  - 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  - 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0:
+  - 4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0
+  - 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  - 6http://crl.globalsign.com/gsgccr45evcodesignca2020.crl0
+  - 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
+  - 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  - 7http://secure.globalsign.com/cacert/gstsacasha384g4.crt0
+  - :http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+  - @http://cacerts.digicert.com/DigiCertAssuredIDCodeSigningCA-1.crt0
+  - @http://secure.globalsign.com/cacert/gsgccr45evcodesignca2020.crt0?
+  - Dhttp://crl.microsoft.com/pki/crl/products/MicrosoftCodeVerifRoot.crl0
+  - Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+  - Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+  - http://ocsp.digicert.com0A
+  - http://ocsp.digicert.com0C
+  - http://ocsp.digicert.com0L
+  - http://ocsp.digicert.com0X
+  - http://www.360.cn 0
+  - https://www.digicert.com/CPS0
+- path (1):
+  - c:\vmagent_new\bin\joblist\684991\src\3\360disproc_driver\driver\objfre_win7_amd64\amd64\360disproc64.pdb
+- api (5):
+  - ZwClose
+  - ZwOpenSymbolicLinkObject
+  - ZwQueryDirectoryFile
+  - ZwQuerySymbolicLinkObject
+  - ZwQuerySystemInformation
+- ioctl_hint (1):
+  - IoBuildDeviceIoControlRequest
+- protect (11):
+  - *\DISPROC\EXAMPLE.EXE
+  - 360disproc
+  - 360disproc64
+  - 360disproc64.sys
+  - Disproc
+  - ExAcquireRundownProtection
+  - ExReleaseRundownProtection
+  - \Device\360SelfProtection
+  - \Mfs360_DisProc_CaptureCommport
+  - \Mfs360_DisProc_Capture_AsyncCommport
+  - c:\vmagent_new\bin\joblist\684991\src\3\360disproc_driver\driver\objfre_win7_amd64\amd64\360disproc64.pdb
+
+### ipc\360AntiHacker64.sys
+- arch: x64  size: 200,944
+- entry: 0x33064
+- sections: .text(136441B), .rdata(22724B), .data(27328B), .pdata(4728B), PAGE(653B), INIT(4332B), .rsrc(896B), .reloc(818B)
+- imports:
+  - ntoskrnl.exe: ZwCreateKey, IoDeleteSymbolicLink, ExFreePoolWithTag, ExInitializeNPagedLookasideList, RtlInitUnicodeString, IoDeleteDevice, KeInitializeEvent, ZwSetValueKey, KeReleaseSpinLock, IoDetachDevice, IoFreeMdl, MmMapLockedPagesSpecifyCache, IoGetDeviceObjectPointer, ZwQueryValueKey, KeQueryTimeIncrement, ZwClose, IofCompleteRequest, MmProbeAndLockPages, IoCreateSymbolicLink, PsGetCurrentProcessId, ObfDereferenceObject, IoCreateDevice, ExDeleteNPagedLookasideList, IoAllocateMdl, IofCallDriver, KeAcquireSpinLockRaiseToDpc, ProbeForRead, ExGetPreviousMode, ProbeForWrite, MmGetSystemRoutineAddress, IoIs32bitProcess, RtlGetVersion, KeDelayExecutionThread, KeWaitForSingleObject, IoAttachDeviceToDeviceStack, PsGetVersion, PsGetCurrentThreadId, ExRaiseStatus, IoFreeWorkItem, ExpInterlockedPopEntrySList ...
+  - HAL.dll: KeQueryPerformanceCounter
+- registry (2):
+  - \Registry\Machine\Software\Microsoft\Windows\CurrentVersion\RunOnce
+  - \Registry\Machine\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce
+- service (4):
+  - 360AntiHacker.sys
+  - 360AntiHacker64.sys
+  - FWPKCLNT.sys
+  - NETIO.sys
+- url (22):
+  - "http://ocsp2.globalsign.com/rootr306
+  - "http://ocsp2.globalsign.com/rootr606
+  - %http://crl.globalsign.com/root-r3.crl0G
+  - %http://crl.globalsign.com/root-r6.crl0G
+  - &https://www.globalsign.com/repository/0
+  - (https://www.microsoft.com/en-us/windows 0
+  - -http://ocsp.globalsign.com/ca/gstsacasha384g40C
+  - -http://ocsp.globalsign.com/codesigningrootr450F
+  - 0http://crl.globalsign.com/ca/gstsacasha384g4.crl0
+  - 0http://crl.globalsign.com/codesigningrootr45.crl0U
+  - 3http://ocsp.globalsign.com/gsgccr45evcodesignca20200U
+  - 3http://www.microsoft.com/pkiops/Docs/Repository.htm0
+  - 6http://crl.globalsign.com/gsgccr45evcodesignca2020.crl0
+  - 7http://secure.globalsign.com/cacert/gstsacasha384g4.crt0
+  - :http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+  - >http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+  - @http://secure.globalsign.com/cacert/gsgccr45evcodesignca2020.crt0?
+  - Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+  - Nhttp://www.microsoft.com/pkiops/crl/Microsoft%20Time-Stamp%20PCA%202010(1).crl0l
+  - Phttp://www.microsoft.com/pkiops/certs/Microsoft%20Time-Stamp%20PCA%202010(1).crt0
+  - chttp://www.microsoft.com/pkiops/crl/Microsoft%20Windows%20Third%20Party%20Component%20CA%202012.crl0
+  - ehttp://www.microsoft.com/pkiops/certs/Microsoft%20Windows%20Third%20Party%20Component%20CA%202012.crt0
+- path (1):
+  - c:\vmagent_new\bin\joblist\771542\src\3\360antihacker_driver_git_qa\src\objfre_win7_amd64\amd64\360AntiHacker64.pdb
+- api (15):
+  - ZwAllocateVirtualMemory
+  - ZwClose
+  - ZwCreateFile
+  - ZwCreateKey
+  - ZwDeleteFile
+  - ZwDeleteValueKey
+  - ZwDeviceIoControlFile
+  - ZwFreeVirtualMemory
+  - ZwOpenFile
+  - ZwOpenKey
+  - ZwQueryInformationProcess
+  - ZwQuerySystemInformation
+  - ZwQueryValueKey
+  - ZwSetValueKey
+  - ZwWriteFile
+- ioctl_hint (2):
+  - IoBuildDeviceIoControlRequest
+  - ZwDeviceIoControlFile
+- protect (8):
+  - 360 AntiHacker Flow Establish
+  - 360AntiHacker
+  - 360AntiHacker.sys
+  - 360AntiHacker64.sys
+  - \Device\360AntiHacker
+  - \Device\360SelfProtection
+  - \DosDevices\360AntiHacker
+  - c:\vmagent_new\bin\joblist\771542\src\3\360antihacker_driver_git_qa\src\objfre_win7_amd64\amd64\360AntiHacker64.pdb
+
+### ipc\360hvm64.sys
+- arch: x64  size: 460,056
+- entry: 0xf9064
+- sections: .text(357787B), .rdata(15348B), .data(629112B), .pdata(7032B), INIT(4792B), .rsrc(960B), .reloc(7752B)
+- imports:
+  - ntoskrnl.exe: IoDeleteSymbolicLink, ExFreePoolWithTag, ExReleaseFastMutex, ExAcquireFastMutex, PsSetLoadImageNotifyRoutine, _wcsnicmp, ZwReadFile, RtlInitUnicodeString, IoDeleteDevice, KeSetEvent, ExGetPreviousMode, MmGetSystemRoutineAddress, IoCreateFile, KeInitializeEvent, KeInitializeDpc, ZwSetInformationFile, RtlFreeUnicodeString, MmGetPhysicalAddress, IoGetDeviceObjectPointer, ZwQueryValueKey, ExAllocatePool, KeQueryMaximumProcessorCount, InitSafeBootMode, KeInsertQueueDpc, ZwClose, IofCompleteRequest, KeWaitForSingleObject, ZwFlushBuffersFile, ExRegisterCallback, PsGetVersion, IoCreateSymbolicLink, RtlCopyUnicodeString, ObfDereferenceObject, IoCreateDevice, ZwQueryInformationFile, ExCreateCallback, ZwWriteFile, DbgPrintEx, MmAllocateContiguousMemorySpecifyCache, IofCallDriver ...
+  - NETIO.SYS: NsiAllocateAndGetTable, NsiDeregisterChangeNotification, NsiRegisterChangeNotification, NsiFreeTable, NsiGetAllParameters
+- registry (2):
+  - \FileSystem\Npfs
+  - \Registry\MachineSystem\CurrentControlSet\Services\Tcpip\Parameters
+- service (6):
+  - -hypervisor-amd64.sys
+  - 360HVM64.sys
+  - 360Hvm64.sys
+  - NETIO.SYS
+  - \SystemRoot\System32\win32k.sys
+  - win32k.sys
+- url (24):
+  - &https://www.globalsign.com/repository/0
+  - (https://www.microsoft.com/en-us/windows 0
+  - -http://ocsp.globalsign.com/codesigningrootr450F
+  - 0http://crl.globalsign.com/codesigningrootr45.crl0U
+  - 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+  - 3http://ocsp.globalsign.com/gsgccr45evcodesignca20200U
+  - 3http://www.microsoft.com/pkiops/Docs/Repository.htm0
+  - 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  - 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  - 6http://crl.globalsign.com/gsgccr45evcodesignca2020.crl0
+  - 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  - :http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+  - >http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+  - @http://secure.globalsign.com/cacert/gsgccr45evcodesignca2020.crt0?
+  - Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+  - Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0
+  - Nhttp://www.microsoft.com/pkiops/crl/Microsoft%20Time-Stamp%20PCA%202010(1).crl0l
+  - Phttp://www.microsoft.com/pkiops/certs/Microsoft%20Time-Stamp%20PCA%202010(1).crt0
+  - Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+  - chttp://www.microsoft.com/pkiops/crl/Microsoft%20Windows%20Third%20Party%20Component%20CA%202012.crl0
+  - ehttp://www.microsoft.com/pkiops/certs/Microsoft%20Windows%20Third%20Party%20Component%20CA%202012.crt0
+  - http://ocsp.digicert.com0A
+  - http://ocsp.digicert.com0C
+  - http://ocsp.digicert.com0]
+- api (142):
+  - NtAdjustGroupsToken
+  - NtAdjustPrivilegesToken
+  - NtAllocateVirtualMemory
+  - NtAllocateVirtualMemoryEx
+  - NtAlpcConnectPort
+  - NtAlpcConnectPortEx
+  - NtAlpcCreateSecurityContext
+  - NtAlpcImpersonateClientOfPort
+  - NtAlpcOpenSenderProcess
+  - NtAlpcOpenSenderThread
+  - NtAlpcSendWaitReceivePort
+  - NtAlpcSetInformation
+  - NtAssignProcessToJobObject
+  - NtAssociateWaitCompletionPacket
+  - NtBuildNumber
+  - NtChangeProcessState
+  - NtChangeThreadState
+  - NtClose
+  - NtConnectPort
+  - NtContinue
+  - NtContinueEx
+  - NtCreateEnclave
+  - NtCreateFile
+  - NtCreateIoCompletion
+  - NtCreateIoRing
+  - NtCreateMutant
+  - NtCreateProcess
+  - NtCreateProcessEx
+  - NtCreateSection
+  - NtCreateSectionEx
+  - NtCreateSymbolicLinkObject
+  - NtCreateThread
+  - NtCreateThreadEx
+  - NtCreateTransaction
+  - NtCreateTransactionManager
+  - NtCreateUserProcess
+  - NtCreateWnfStateName
+  - NtCreateWorkerFactory
+  - NtDebugActiveProcess
+  - NtDeleteFile
+  - NtDeleteKey
+  - NtDeleteValueKey
+  - NtDeleteWnfStateData
+  - NtDeleteWnfStateName
+  - NtDeviceIoControlFile
+  - NtDuplicateObject
+  - NtFreeVirtualMemory
+  - NtFsControlFile
+  - NtGetNextProcess
+  - NtGetNextThread
+  - NtGetNlsSectionPtr
+  - NtImpersonateAnonymousToken
+  - NtImpersonateClientOfPort
+  - NtImpersonateThread
+  - NtLoadDriver
+  - NtMapViewOfSection
+  - NtMapViewOfSectionEx
+  - NtOpenFile
+  - NtOpenKey
+  - NtOpenKeyEx
+- ioctl_hint (2):
+  - IoBuildDeviceIoControlRequest
+  - NtDeviceIoControlFile
+- protect (2):
+  - NtProtectVirtualMemory
+  - \Device\360SelfProtection
+
+### ipc\360Box64.sys
+- arch: x64  size: 352,344
+- entry: 0x54428
+- sections: .text(224563B), .rdata(34844B), .data(68000B), .pdata(5856B), INIT(9482B), .rsrc(960B), .reloc(6670B)
+- imports:
+  - ntoskrnl.exe: KeDelayExecutionThread, RtlMapGenericMask, ExAcquireResourceSharedLite, IoGetCurrentProcess, ExReleaseResourceLite, PsGetProcessInheritedFromUniqueProcessId, PsGetProcessSessionId, KeWaitForSingleObject, PsGetVersion, ExDeleteResourceLite, PsGetCurrentThreadId, PsGetCurrentProcessId, ExInitializeResourceLite, PsGetProcessId, RtlGetAce, RtlSubAuthoritySid, RtlLengthRequiredSid, _strnicmp, SeTokenIsAdmin, ProbeForRead, PsProcessType, IoBuildDeviceIoControlRequest, ZwAssignProcessToJobObject, IoGetBaseFileSystemDeviceObject, ObOpenObjectByName, RtlCreateAcl, PsGetProcessImageFileName, PsLookupProcessByProcessId, ZwReadFile, RtlSetDaclSecurityDescriptor, ZwSetInformationJobObject, wcsncpy, RtlEqualSid, PsReferencePrimaryToken, ZwQuerySecurityObject, IoQueryFileInformation, ZwQuerySystemInformation, ObInsertObject, RtlEqualUnicodeString, KeUnstackDetachProcess ...
+  - FLTMGR.SYS: FltCheckAndGrowNameControl, FltQueryInformationFile, FltCreateFile, FltReadFile, FltQuerySecurityObject, FltSetInformationFile, FltSetSecurityObject, FltFreeGenericWorkItem, FltQueueGenericWorkItem, FltWriteFile, FltAllocateGenericWorkItem, FltGetRoutineAddress, FltClose, FltGetFileNameInformationUnsafe, FltGetRequestorProcessId, FltSetVolumeContext, FltGetVolumeName, FltEnumerateVolumes, FltGetVolumeContext, FltAllocateCallbackData, FltGetVolumeFromFileObject, FltPerformSynchronousIo, FltGetVolumeInstanceFromName, FltFreeCallbackData, FltObjectDereference, FltParseFileNameInformation, FltReleaseFileNameInformation, FltGetFileNameInformation, FltAllocateContext, FltReleaseContext, FltSetCallbackDataDirty, FltGetDestinationFileNameInformation, FltSetStreamHandleContext, FltSendMessage, FltGetStreamHandleContext, FltStartFiltering, FltRegisterFilter, FltBuildDefaultSecurityDescriptor, FltCloseCommunicationPort, FltUnregisterFilter ...
+- registry (82):
+  - Software\Microsoft\SystemCertificates\Root\ProtectedRoots
+  - \FileSystem\Npfs
+  - \REGISTRY\MACHINE\SOFTWARE\MICROSOFT\WINDOWS NT\CURRENTVERSION\PERFLIB
+  - \Registry\Machine\SOFTWARE\Classes\AppId
+  - \Registry\Machine\SOFTWARE\Classes\PROTOCOLS
+  - \Registry\Machine\SOFTWARE\Classes\Typelib
+  - \Registry\Machine\SOFTWARE\Classes\Wow6432Node
+  - \Registry\Machine\SOFTWARE\Classes\Wow6432Node\AppId
+  - \Registry\Machine\SOFTWARE\Classes\Wow6432Node\PROTOCOLS
+  - \Registry\Machine\SOFTWARE\Classes\Wow6432Node\Typelib
+  - \Registry\Machine\SOFTWARE\Wow6432Node\Classes
+  - \Registry\Machine\Software\Classes
+  - \Registry\Machine\Software\Classes\Appid
+  - \Registry\Machine\Software\Classes\Clsid
+  - \Registry\Machine\Software\Classes\DirectShow
+  - \Registry\Machine\Software\Classes\HCP
+  - \Registry\Machine\Software\Classes\Interface
+  - \Registry\Machine\Software\Classes\Media Type
+  - \Registry\Machine\Software\Classes\MediaFoundation
+  - \Registry\Machine\Software\Clients
+  - \Registry\Machine\Software\Microsoft\COM3
+  - \Registry\Machine\Software\Microsoft\CTF\System&usBaseKey, Shared
+  - \Registry\Machine\Software\Microsoft\CTF\SystemShared
+  - \Registry\Machine\Software\Microsoft\CTF\TIP
+  - \Registry\Machine\Software\Microsoft\Cryptography\Calais\Current
+  - \Registry\Machine\Software\Microsoft\Cryptography\Calais\Readers
+  - \Registry\Machine\Software\Microsoft\Cryptography\Services
+  - \Registry\Machine\Software\Microsoft\DFS
+  - \Registry\Machine\Software\Microsoft\Driver Signing
+  - \Registry\Machine\Software\Microsoft\EnterpriseCertificates
+  - \Registry\Machine\Software\Microsoft\EventSystem
+  - \Registry\Machine\Software\Microsoft\MSMQ
+  - \Registry\Machine\Software\Microsoft\Non-Driver Signing
+  - \Registry\Machine\Software\Microsoft\Notepad\DefaultFonts
+  - \Registry\Machine\Software\Microsoft\OLE
+  - \Registry\Machine\Software\Microsoft\RAS
+  - \Registry\Machine\Software\Microsoft\RPC
+  - \Registry\Machine\Software\Microsoft\Software\Microsoft\&usBaseKey, Shared Tools\MsInfo
+  - \Registry\Machine\Software\Microsoft\Software\Microsoft\Shared Tools\MsInfo
+  - \Registry\Machine\Software\Microsoft\SystemCertificates
+  - \Registry\Machine\Software\Microsoft\TermServLicensing
+  - \Registry\Machine\Software\Microsoft\TransactionServer
+  - \Registry\Machine\Software\Microsoft\Windows\ControlPanel\Cursors\Schemes
+  - \Registry\Machine\Software\Microsoft\Windows\CurrentVersion\App Paths
+  - \Registry\Machine\Software\Microsoft\Windows\CurrentVersion\App Paths\360safe.exe
+  - \Registry\Machine\Software\Microsoft\Windows\CurrentVersion\Console
+  - \Registry\Machine\Software\Microsoft\Windows\CurrentVersion\Explorer\AutoplayHandlers
+  - \Registry\Machine\Software\Microsoft\Windows\CurrentVersion\Explorer\DriveIcon
+  - \Registry\Machine\Software\Microsoft\Windows\CurrentVersion\Explorer\KindMap
+  - \Registry\Machine\Software\Microsoft\Windows\CurrentVersion\FontDpi
+  - \Registry\Machine\Software\Microsoft\Windows\CurrentVersion\FontLink
+  - \Registry\Machine\Software\Microsoft\Windows\CurrentVersion\FontMapper
+  - \Registry\Machine\Software\Microsoft\Windows\CurrentVersion\FontSubstitutes
+  - \Registry\Machine\Software\Microsoft\Windows\CurrentVersion\Fonts
+  - \Registry\Machine\Software\Microsoft\Windows\CurrentVersion\Gre_Initialize
+  - \Registry\Machine\Software\Microsoft\Windows\CurrentVersion\Group Policy
+  - \Registry\Machine\Software\Microsoft\Windows\CurrentVersion\Image File Execution Options
+  - \Registry\Machine\Software\Microsoft\Windows\CurrentVersion\Language Pack
+  - \Registry\Machine\Software\Microsoft\Windows\CurrentVersion\NetworkCards
+  - \Registry\Machine\Software\Microsoft\Windows\CurrentVersion\Policies
+- service (3):
+  - 360Box64.sys
+  - FLTMGR.SYS
+  - win32k.sys
+- url (20):
+  - "http://ocsp2.globalsign.com/rootr606
+  - %http://crl.globalsign.com/root-r6.crl0G
+  - &https://www.globalsign.com/repository/0
+  - (https://www.microsoft.com/en-us/windows 0
+  - -http://ocsp.globalsign.com/ca/gstsacasha384g40C
+  - -http://ocsp.globalsign.com/codesigningrootr450F
+  - 0http://crl.globalsign.com/ca/gstsacasha384g4.crl0
+  - 0http://crl.globalsign.com/codesigningrootr45.crl0U
+  - 3http://ocsp.globalsign.com/gsgccr45evcodesignca20200U
+  - 3http://www.microsoft.com/pkiops/Docs/Repository.htm0
+  - 6http://crl.globalsign.com/gsgccr45evcodesignca2020.crl0
+  - 7http://secure.globalsign.com/cacert/gstsacasha384g4.crt0
+  - :http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+  - >http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+  - @http://secure.globalsign.com/cacert/gsgccr45evcodesignca2020.crt0?
+  - Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+  - Nhttp://www.microsoft.com/pkiops/crl/Microsoft%20Time-Stamp%20PCA%202010(1).crl0l
+  - Phttp://www.microsoft.com/pkiops/certs/Microsoft%20Time-Stamp%20PCA%202010(1).crt0
+  - chttp://www.microsoft.com/pkiops/crl/Microsoft%20Windows%20Third%20Party%20Component%20CA%202012.crl0
+  - ehttp://www.microsoft.com/pkiops/certs/Microsoft%20Windows%20Third%20Party%20Component%20CA%202012.crt0
+- path (4):
+  - c:\vmagent_new\bin\joblist\866778\src\x\x64_360box_mult_sys\ad\adrules.c
+  - c:\vmagent_new\bin\joblist\866778\src\x\x64_360box_mult_sys\filter\360filter.c
+  - c:\vmagent_new\bin\joblist\866778\src\x\x64_360box_mult_sys\filter\mspykern.h
+  - c:\vmagent_new\bin\joblist\866778\src\x\x64_360box_mult_sys\filter\objfre_win7_amd64\amd64\360Box64.pdb
+- api (42):
+  - NtProtectVirtualMemory
+  - NtQueryInformationProcess
+  - NtReadVirtualMemory
+  - ZwAllocateVirtualMemory
+  - ZwAssignProcessToJobObject
+  - ZwClose
+  - ZwCreateFile
+  - ZwCreateJobObject
+  - ZwCreateKey
+  - ZwCreateTimer
+  - ZwDeleteFile
+  - ZwDeleteKey
+  - ZwDeleteValueKey
+  - ZwEnumerateKey
+  - ZwEnumerateValueKey
+  - ZwFlushKey
+  - ZwFreeVirtualMemory
+  - ZwLoadKey
+  - ZwLoadKeyEx
+  - ZwOpenKey
+  - ZwOpenProcess
+  - ZwProtectVirtualMemory
+  - ZwQueryInformationFile
+  - ZwQueryInformationProcess
+  - ZwQueryKey
+  - ZwQueryObject
+  - ZwQuerySecurityObject
+  - ZwQuerySystemInformation
+  - ZwQueryValueKey
+  - ZwReadFile
+  - ZwRenameKey
+  - ZwSetInformationFile
+  - ZwSetInformationJobObject
+  - ZwSetInformationProcess
+  - ZwSetInformationToken
+  - ZwSetSecurityObject
+  - ZwSetValueKey
+  - ZwTerminateProcess
+  - ZwUnloadKey
+  - ZwWaitForSingleObject
+  - ZwWriteFile
+  - net\NtControlPipe
+- ioctl_hint (1):
+  - IoBuildDeviceIoControlRequest
+- protect (6):
+  - NtProtectVirtualMemory
+  - ProtectedRoots
+  - Software\Microsoft\SystemCertificates\Root\ProtectedRoots
+  - ZwProtectVirtualMemory
+  - \Device\360SelfProtection
+  - \RPC Control\protected_storage
+
+### ipc\qutmipc_win10.sys
+- arch: x86  size: 85,472
+- entry: 0xbfbe
+- sections: .text(39854B), .rdata(2460B), .data(5280B), INIT(2684B), .rsrc(1448B), .reloc(3726B)
+- imports:
+  - ntoskrnl.exe: IoDeleteDevice, IoCreateSymbolicLink, IoDeleteSymbolicLink, IoCreateDevice, KeTickCount, MmGetSystemRoutineAddress, RtlInitUnicodeString, PsGetVersion, IofCompleteRequest, MmMapLockedPagesSpecifyCache, memcpy, IofCallDriver, ObfDereferenceObject, IoBuildDeviceIoControlRequest, KeInitializeEvent, IoGetDeviceObjectPointer, PsTerminateSystemThread, KeDelayExecutionThread, ZwClose, PsCreateSystemThread, KeGetCurrentThread, RtlEqualUnicodeString, KeWaitForSingleObject, PsGetCurrentProcessSessionId, PsGetCurrentThreadId, _allmul, ExAllocatePoolWithTag, ZwQueryValueKey, ObOpenObjectByPointer, ObReferenceObjectByHandle, MmIsDriverVerifying, memset, _wcsnicmp, KeLeaveCriticalRegion, ExReleaseResourceLite, wcsncpy, ExAcquireResourceExclusiveLite, KeEnterCriticalRegion, ExFreePoolWithTag, _strnicmp ...
+  - HAL.dll: KfReleaseSpinLock, KfAcquireSpinLock
+- registry (2):
+  - \FileSystem\Filters\qutmdrv
+  - \FileSystem\qutmdrv
+- service (1):
+  - qutmipc.sys
+- url (41):
+  - "http://ocsp2.globalsign.com/rootr606
+  - %http://crl.globalsign.com/root-r6.crl0G
+  - &https://www.globalsign.com/repository/0
+  - (https://www.microsoft.com/en-us/windows 0
+  - *http://crl3.digicert.com/assured-cs-g1.crl00
+  - *http://crl4.digicert.com/assured-cs-g1.crl0L
+  - ,http://crl3.digicert.com/sha2-assured-ts.crl02
+  - ,http://crl4.digicert.com/sha2-assured-ts.crl0
+  - -http://ocsp.globalsign.com/ca/gstsacasha384g40C
+  - .http://www.digicert.com/ssl-cps-repository.htm0
+  - 0http://crl.globalsign.com/ca/gstsacasha384g4.crl0
+  - 1http://www.microsoft.com/PKI/docs/CPS/default.htm0@
+  - 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0:
+  - 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0P
+  - 4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0
+  - 4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
+  - 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
+  - 7http://secure.globalsign.com/cacert/gstsacasha384g4.crt0
+  - >http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+  - >http://www.microsoft.com/pki/certs/MicTimStaPCA_2010-07-01.crt0
+  - @http://cacerts.digicert.com/DigiCertAssuredIDCodeSigningCA-1.crt0
+  - Chttp://cacerts.digicert.com/DigiCertSHA2AssuredIDTimestampingCA.crt0
+  - Dhttp://crl.microsoft.com/pki/crl/products/MicrosoftCodeVerifRoot.crl0
+  - Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+  - Ehttp://crl.microsoft.com/pki/crl/products/MicTimStaPCA_2010-07-01.crl0Z
+  - chttp://www.microsoft.com/pkiops/crl/Microsoft%20Windows%20Third%20Party%20Component%20CA%202012.crl0
+  - ehttp://www.microsoft.com/pkiops/certs/Microsoft%20Windows%20Third%20Party%20Component%20CA%202012.crt0
+  - http://ocsp.digicert.com0C
+  - http://ocsp.digicert.com0L
+  - http://ocsp.digicert.com0O
+  - http://s.symcb.com/pca3-g5.crl0
+  - http://s.symcd.com0_
+  - http://sw.symcb.com/sw.crl0`
+  - http://sw.symcd.com0'
+  - http://sw1.symcb.com/sw.crt0
+  - http://www.360.cn 0
+  - http://www.digicert.com/CPS0
+  - https://d.symcb.com/cps0%
+  - https://d.symcb.com/rpa0
+  - https://d.symcb.com/rpa0)
+  - https://www.digicert.com/CPS0
+- guid (2):
+  - \REGISTRY\MACHINE\{26CEAE5B-627C-4ed6-9E96-2A2F0E93A13C}\10001
+  - \REGISTRY\MACHINE\{26CEAE5B-627C-4ed6-9E96-2A2F0E93A13C}\10002
+- path (1):
+  - c:\vmagent_new\bin\joblist\602583\src\q\qutmipc_obtracer_sys\hookportregchangedriver\objfre_wxp_x86\i386\qutmipc.pdb
+- api (9):
+  - ZwClose
+  - ZwDuplicateObject
+  - ZwOpenFile
+  - ZwOpenKey
+  - ZwOpenProcess
+  - ZwQueryInformationFile
+  - ZwQueryInformationProcess
+  - ZwQuerySystemInformation
+  - ZwQueryValueKey
+- ioctl_hint (1):
+  - IoBuildDeviceIoControlRequest
+- protect (4):
+  - \Device\360HookPort
+  - \Device\360SelfProtection
+  - baiduprotect.e
+  - c:\vmagent_new\bin\joblist\602583\src\q\qutmipc_obtracer_sys\hookportregchangedriver\objfre_wxp_x86\i386\qutmipc.pdb
+
+### deepscan\360fsflt.sys
+- arch: x64  size: 599,328
+- entry: 0xe9770
+- sections: .text(474529B), .rdata(53860B), .data(397944B), .pdata(12648B), INIT(12974B), .rsrc(920B), .reloc(3024B)
+- imports:
+  - ntoskrnl.exe: RtlCopySid, RtlEqualUnicodeString, FsRtlIsNameInExpression, PsGetProcessSessionId, ZwOpenProcess, ZwQueryInformationProcess, RtlLengthSid, FsRtlLegalAnsiCharacterArray, RtlCompareUnicodeString, IoThreadToProcess, IoAttachDeviceToDeviceStackSafe, IoGetDeviceObjectPointer, IofCompleteRequest, IoCreateDevice, PsGetProcessId, IofCallDriver, ExGetPreviousMode, RtlPrefixUnicodeString, _wcsicmp, ZwUnloadKey, ZwCreateKey, RtlCreateAcl, KeAreApcsDisabled, RtlSetDaclSecurityDescriptor, MmGetSystemRoutineAddress, IoCreateFile, ZwDeleteValueKey, ZwSaveKey, RtlAddAccessAllowedAce, ZwSetInformationFile, KeDelayExecutionThread, _vsnwprintf, ZwDeleteFile, SeExports, ZwLoadKey, ZwDeleteKey, ZwEnumerateKey, RtlCreateSecurityDescriptor, ExQueueWorkItem, _stricmp ...
+  - FLTMGR.SYS: FltParseFileName, FltCreateCommunicationPort, FltGetVolumeFromFileObject, FltGetTopInstance, FltSetInformationFile, FltGetFileNameInformationUnsafe, FltWriteFile, FltObjectDereference, FltParseFileNameInformation, FltReleaseFileNameInformation, FltGetRoutineAddress, FltGetFileNameInformation, FltAllocateContext, FltClose, FltReleaseContext, FltQueryInformationFile, FltCreateFile, FltReadFile, FltSetCallbackDataDirty, FltDeleteContext, FltGetDestinationFileNameInformation, FltCancelFileOpen, FltGetTunneledName, FltGetRequestorProcessId, FltSetStreamHandleContext, FltSendMessage, FltGetStreamHandleContext, FltGetDeviceObject, FltReferenceFileNameInformation, FltStartFiltering, FltRegisterFilter, FltBuildDefaultSecurityDescriptor, FltCloseCommunicationPort, FltUnregisterFilter, FltFreeSecurityDescriptor, FltCloseClientPort
+  - HAL.dll: KeQueryPerformanceCounter
+- registry (53):
+  - :SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards
+  - SOFTWARE\360CN
+  - SOFTWARE\360MachineSignature
+  - SOFTWARE\360SAFE
+  - SOFTWARE\360SECTX
+  - SOFTWARE\MICROSOFT\WINDOWS NT\CURRENTVERSION\APPCOMPATFLAGS\LAYERS
+  - SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\EXPLORER\STARTUPAPPROVED\RUN
+  - SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\POLICIES\EXPLORER\DISALLOWRUN
+  - SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\RUN
+  - SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\RUN\360DISABLE
+  - SOFTWARE\WOW6432NODE\360CN
+  - SOFTWARE\WOW6432NODE\360SAFE
+  - SOFTWARE\WOW6432NODE\MICROSOFT\WINDOWS NT\CURRENTVERSION\APPCOMPATFLAGS\LAYERS
+  - SOFTWARE\WOW6432NODE\MICROSOFT\WINDOWS\CURRENTVERSION\EXPLORER\STARTUPAPPROVED\RUN
+  - SOFTWARE\WOW6432NODE\MICROSOFT\WINDOWS\CURRENTVERSION\POLICIES\EXPLORER\DISALLOWRUN
+  - SOFTWARE\WOW6432NODE\MICROSOFT\WINDOWS\CURRENTVERSION\RUN
+  - SOFTWARE\WOW6432NODE\MICROSOFT\WINDOWS\CURRENTVERSION\RUN\360DISABLE
+  - Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.microsoftedge_8wekyb3d8bbwe\MicrosoftEdge\
+  - \FileSystem\Filters\FltMgr
+  - \FileSystem\MRxSmb
+  - \FileSystem\Mup
+  - \FileSystem\Npfs
+  - \FileSystem\srv
+  - \REGISTRY\MACHINE\SOFTWARE\CLASSES*
+  - \REGISTRY\MACHINE\SOFTWARE\MICROSOFT\WINDOWS NT\CURRENTVERSION\WINLOGON*
+  - \REGISTRY\MACHINE\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\EXPLORER\DESKTOP*
+  - \REGISTRY\MACHINE\SOFTWARE\WOW6432NODE\MICROSOFT\WINDOWS NT\CURRENTVERSION\WINLOGON*
+  - \REGISTRY\MACHINE\SOFTWARE\WOW6432NODE\MICROSOFT\WINDOWS\CURRENTVERSION\EXPLORER\DESKTOP*
+  - \REGISTRY\MACHINE\SYSTEM\CurrentControlSet\Services\360Hvm
+  - \REGISTRY\USER\*\SOFTWARE\CLASSES*
+  - \REGISTRY\USER\*\SOFTWARE\MICROSOFT\WINDOWS NT\CURRENTVERSION\WINLOGON*
+  - \REGISTRY\USER\*\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\EXPLORER\DESKTOP*
+  - \REGISTRY\USER\*\SOFTWARE\WOW6432NODE\MICROSOFT\WINDOWS NT\CURRENTVERSION\WINLOGON*
+  - \REGISTRY\USER\*\SOFTWARE\WOW6432NODE\MICROSOFT\WINDOWS\CURRENTVERSION\EXPLORER\DESKTOP*
+  - \Registry\Machine\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+  - \Registry\Machine\SOFTWARE\WOW6432NODE\Microsoft\Windows\CurrentVersion\Run
+  - \Registry\Machine\SOFTWARE\Wow6432Node\360Safe\Liveup\
+  - \Registry\Machine\SYSTEM\CurrentControlSet\Control\Windows
+  - \Registry\Machine\SYSTEM\CurrentControlSet\Services\lanmanserver\Shares
+  - \Registry\Machine\Software\Microsoft\Windows\CurrentVersion\App Paths\360safe.exe
+  - \Registry\Machine\Software\Microsoft\Windows\CurrentVersion\App Paths\360safebox.exe
+  - \Registry\Machine\Software\Microsoft\Windows\CurrentVersion\App Paths\360sd.exe
+  - \Registry\Machine\Software\Microsoft\Windows\CurrentVersion\App Paths\360sectx.exe
+  - \Registry\Machine\Software\Wow6432Node\360Safe\safemon
+  - \Registry\Machine\Software\Wow6432Node\360safe
+  - \Registry\Machine\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\App Paths\360safe.exe
+  - \Registry\Machine\System\ControlSet
+  - \Registry\Machine\System\ControlSet001\Enum
+  - \Registry\Machine\System\CurrentControlSet
+  - \Registry\Machine\System\CurrentControlSet\Services
+  - \Registry\Machine\System\CurrentControlSet\Services\LanmanServer\Parameters
+  - \Registry\Machine\System\Select
+  - \Software\Microsoft\Windows\CurrentVersion\RunNotification
+- service (28):
+  - 360AntiExploit64.sys
+  - 360AntiHacker64.sys
+  - 360AntiHijack64.sys
+  - 360AntiSteal64.sys
+  - 360Box64.sys
+  - 360Camera64.sys
+  - 360Elam64.sys
+  - 360FsFlt.sys
+  - 360Hvm64.sys
+  - 360fsflt.sys
+  - FLTMGR.SYS
+  - \System32\Drivers\dsark64.sys
+  - \SystemRoot\System32\Drivers\360AntiExploit64.sys
+  - \SystemRoot\System32\Drivers\360AntiHacker64.sys
+  - \SystemRoot\System32\Drivers\360AntiHijack64.sys
+  - \SystemRoot\System32\Drivers\360AntiSteal64.sys
+  - \SystemRoot\System32\Drivers\360Box64.sys
+  - \SystemRoot\System32\Drivers\360Camera64.sys
+  - \SystemRoot\System32\Drivers\360Elam64.sys
+  - \SystemRoot\System32\Drivers\360FsFlt.sys
+  - \SystemRoot\System32\Drivers\360Hvm64.sys
+  - \SystemRoot\System32\Drivers\bapidrv64.sys
+  - \srv.sys
+  - bapidrv64.sys
+  - dsark64.sys
+  - win32k.sys
+  - win32kbase.sys
+  - win32kfull.sys
+- url (25):
+  - (https://www.microsoft.com/en-us/windows 0
+  - 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+  - 3http://www.microsoft.com/pkiops/Docs/Repository.htm0
+  - 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  - 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  - 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  - :http://crl3.digicert.com/DigiCertHighAssuranceEVRootCA.crl0
+  - =http://cacerts.digicert.com/DigiCertHighAssuranceEVRootCA.crt0K
+  - >http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+  - Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+  - Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+  - Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0
+  - Nhttp://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl0
+  - Nhttp://www.microsoft.com/pkiops/crl/Microsoft%20Time-Stamp%20PCA%202010(1).crl0l
+  - Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+  - Phttp://www.microsoft.com/pkiops/certs/Microsoft%20Time-Stamp%20PCA%202010(1).crt0
+  - Qhttp://cacerts.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crt0_
+  - chttp://www.microsoft.com/pkiops/crl/Microsoft%20Windows%20Third%20Party%20Component%20CA%202012.crl0
+  - ehttp://www.microsoft.com/pkiops/certs/Microsoft%20Windows%20Third%20Party%20Component%20CA%202012.crt0
+  - http://ocsp.digicert.com0A
+  - http://ocsp.digicert.com0C
+  - http://ocsp.digicert.com0I
+  - http://ocsp.digicert.com0\
+  - http://ocsp.digicert.com0]
+  - http://www.digicert.com/CPS0
+- guid (2):
+  - /Processid:{12C21EA7-2EB8-4B55-9249-AC243DA8C666}
+  - {3F966BD9-FA04-4EC5-991C-D326973B5128}
+- ip (2):
+  - 127.0.0.1
+  - 53.0.0.31
+- path (12):
+  - c:\vmagent_new\bin\joblist\976701\src\3\360fsflt_sys_ac\ad\adrules.c
+  - c:\vmagent_new\bin\joblist\976701\src\3\360fsflt_sys_ac\ad\aklrules.c
+  - c:\vmagent_new\bin\joblist\976701\src\3\360fsflt_sys_ac\exploitcap\capfilters.c
+  - c:\vmagent_new\bin\joblist\976701\src\3\360fsflt_sys_ac\filter\360filter.c
+  - c:\vmagent_new\bin\joblist\976701\src\3\360fsflt_sys_ac\filter\dllcache.c
+  - c:\vmagent_new\bin\joblist\976701\src\3\360fsflt_sys_ac\filter\exception.c
+  - c:\vmagent_new\bin\joblist\976701\src\3\360fsflt_sys_ac\filter\hookwritembr.c
+  - c:\vmagent_new\bin\joblist\976701\src\3\360fsflt_sys_ac\filter\mspykern.h
+  - c:\vmagent_new\bin\joblist\976701\src\3\360fsflt_sys_ac\filter\objfre_win7_amd64\amd64\360FsFlt.pdb
+  - c:\vmagent_new\bin\joblist\976701\src\3\360fsflt_sys_ac\filter\protectiecom.c
+  - c:\vmagent_new\bin\joblist\976701\src\3\360fsflt_sys_ac\filter\rpcblock.c
+  - c:\vmagent_new\bin\joblist\976701\src\3\360fsflt_sys_ac\filter\rules.c
+- api (64):
+  - NtAllocateVirtualMemory
+  - NtClose
+  - NtCreateSection
+  - NtFindAtom
+  - NtFreeVirtualMemory
+  - NtProtectVirtualMemory
+  - NtQueryInformationAtom
+  - NtQueryInformationFile
+  - NtQueryInformationProcess
+  - NtQueryInformationThread
+  - NtQueryVirtualMemory
+  - NtReadVirtualMemory
+  - NtTerminateProcess
+  - NtUserGetCursorFrameInfo
+  - NtUserMapVirtualKeyEx
+  - NtUserSetCursor
+  - NtUserWindowFromDC
+  - ZwAllocateVirtualMemory
+  - ZwClose
+  - ZwCreateEvent
+  - ZwCreateFile
+  - ZwCreateKey
+  - ZwCreateSection
+  - ZwDeleteFile
+  - ZwDeleteKey
+  - ZwDeleteValueKey
+  - ZwDeviceIoControlFile
+  - ZwDuplicateObject
+  - ZwEnumerateKey
+  - ZwFreeVirtualMemory
+  - ZwFsControlFile
+  - ZwLoadKey
+  - ZwMapViewOfSection
+  - ZwOpenFile
+  - ZwOpenKey
+  - ZwOpenProcess
+  - ZwOpenSection
+  - ZwOpenSymbolicLinkObject
+  - ZwProtectVirtualMemory
+  - ZwQueryDirectoryFile
+  - ZwQueryInformationFile
+  - ZwQueryInformationJobObject
+  - ZwQueryInformationProcess
+  - ZwQueryInformationToken
+  - ZwQueryKey
+  - ZwQueryObject
+  - ZwQuerySection
+  - ZwQuerySymbolicLinkObject
+  - ZwQuerySystemInformation
+  - ZwQueryValueKey
+  - ZwQueryVirtualMemory
+  - ZwQueryVolumeInformationFile
+  - ZwReadFile
+  - ZwRenameKey
+  - ZwSaveKey
+  - ZwSetInformationFile
+  - ZwSetInformationProcess
+  - ZwSetValueKey
+  - ZwTerminateProcess
+  - ZwUnloadKey
+- ioctl_hint (2):
+  - IoBuildDeviceIoControlRequest
+  - ZwDeviceIoControlFile
+- protect (27):
+  - 360AntiExploit64.sys
+  - 360AntiHacker64.sys
+  - 360AntiHijack64.sys
+  - 360AntiSteal64.sys
+  - ExAcquireRundownProtection
+  - ExReleaseRundownProtection
+  - LEGACY_360ANTIEXPLOIT
+  - LEGACY_360ANTIHACKER
+  - LEGACY_360ANTIHIJACK
+  - LEGACY_360ANTISTEAL
+  - LEGACY_HOOKPORT
+  - NtProtectVirtualMemory
+  - QQPROTECT.EXE
+  - SERVICES\360ANTIEXPLOIT
+  - SERVICES\360ANTIHACKER
+  - SERVICES\360ANTIHIJACK
+  - SERVICES\360ANTISTEAL
+  - SERVICES\HOOKPORT
+  - ZwProtectVirtualMemory
+  - \Device\360SelfProtection
+  - \DosDevices\360SelfProtection
+  - \SystemRoot\System32\Drivers\360AntiExploit64.sys
+  - \SystemRoot\System32\Drivers\360AntiHacker64.sys
+  - \SystemRoot\System32\Drivers\360AntiHijack64.sys
+  - \SystemRoot\System32\Drivers\360AntiSteal64.sys
+  - \safemon\SelfProtectApi2.dll
+  - c:\vmagent_new\bin\joblist\976701\src\3\360fsflt_sys_ac\filter\protectiecom.c
+
+### deepscan\qutmdrv.sys
+- arch: x86  size: 415,552
+- entry: 0x5858a
+- sections: .text(300048B), .rdata(24340B), .data(24724B), PAGE(8897B), INIT(9474B), .rsrc(960B), .reloc(24234B)
+- imports:
+  - ntoskrnl.exe: IoCreateSymbolicLink, ExInitializePagedLookasideList, ObReferenceObjectByHandle, IoFileObjectType, ZwCreateFile, IoCreateFile, RtlPrefixUnicodeString, RtlCopyUnicodeString, PsGetCurrentProcessId, IoThreadToProcess, PsGetCurrentThreadId, ExGetPreviousMode, IoGetTopLevelIrp, ZwSetValueKey, ZwCreateKey, IoVolumeDeviceToDosName, RtlCompareMemory, MmMapLockedPagesSpecifyCache, RtlEqualString, RtlAppendUnicodeStringToString, IoGetCurrentProcess, RtlFreeUnicodeString, RtlStringFromGUID, ProbeForRead, _allshl, PsTerminateSystemThread, PsCreateSystemThread, FsRtlIsNameInExpression, RtlUpcaseUnicodeString, wcslen, KeQueryInterruptTime, _alldiv, PsLookupProcessByProcessId, ZwQueryInformationProcess, ZwOpenProcess, IoQueryFileInformation, RtlAnsiStringToUnicodeString, RtlInitAnsiString, ZwQuerySystemInformation, KeClearEvent ...
+  - HAL.dll: KeRaiseIrqlToDpcLevel, KfLowerIrql, KfAcquireSpinLock, KfReleaseSpinLock, ExAcquireFastMutex, ExReleaseFastMutex, KeGetCurrentIrql, KfRaiseIrql
+  - FLTMGR.SYS: FltSetCallbackDataDirty, FltIsDirectory, FltGetVolumeName, FltAllocateContext, FltSetVolumeContext, FltGetVolumeFromName, FltGetDiskDeviceObject, FltObjectDereference, FltGetDestinationFileNameInformation, FltGetDeviceObject, FltParseFileNameInformation, FltGetRoutineAddress, FltRegisterFilter, FltStartFiltering, FltUnregisterFilter, FltGetFileNameInformation, FltReleaseFileNameInformation, FltGetRequestorProcess, FltGetVolumeContext, FltReleaseContext, FltQueryInformationFile
+- registry (29):
+  - SOFTWARE\Classes\HTTP\shell
+  - Software\Classes
+  - Software\Microsoft\Windows\Shell\Associations\UrlAssociations\http\UserChoice
+  - \FileSystem\Filters\qutmdrv
+  - \FileSystem\Fs_Rec
+  - \FileSystem\MRxSmb
+  - \FileSystem\Mup
+  - \FileSystem\Npfs
+  - \FileSystem\qutmdrv
+  - \REGISTRY\MACHINE\SOFTWARE\CLASSES*
+  - \REGISTRY\MACHINE\SOFTWARE\MICROSOFT\WINDOWS NT\CURRENTVERSION\WINLOGON*
+  - \REGISTRY\MACHINE\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\EXPLORER\DESKTOP*
+  - \REGISTRY\USER\*\SOFTWARE\CLASSES
+  - \REGISTRY\USER\*\SOFTWARE\CLASSES*
+  - \REGISTRY\USER\*\SOFTWARE\MICROSOFT\WINDOWS NT\CURRENTVERSION\WINLOGON*
+  - \REGISTRY\USER\*\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\EXPLORER\DESKTOP*
+  - \Registry\Machine\SOFTWARE\360Safe\Liveup\
+  - \Registry\Machine\SOFTWARE\Classes
+  - \Registry\Machine\SOFTWARE\Classes\HTTP\shell
+  - \Registry\Machine\SYSTEM\CurrentControlSet\Services\lanmanserver\Shares
+  - \Registry\Machine\Software\360Safe\safemon
+  - \Registry\Machine\Software\Microsoft\Windows\CurrentVersion\App Paths\360safe.exe
+  - \Registry\Machine\System\ControlSet
+  - \Registry\Machine\System\ControlSet001\Enum
+  - \Registry\Machine\System\CurrentControlSet
+  - \Registry\Machine\System\CurrentControlSet\Services
+  - \Registry\Machine\System\CurrentControlSet\Services\LanmanServer\Parameters
+  - \Registry\Machine\System\CurrentControlSet\Services\Npfs\Aliases
+  - \Registry\Machine\System\Select
+- service (9):
+  - FLTMGR.SYS
+  - Win32k.sys
+  - \AndroidUsb.sys
+  - \SystemRoot\system32\win32k.sys
+  - \WinUsb.sys
+  - qutmdrv.sys
+  - win32k.sys
+  - win32kbase.sys
+  - win32kfull.sys
+- url (20):
+  - "http://ocsp2.globalsign.com/rootr606
+  - %http://crl.globalsign.com/root-r6.crl0G
+  - &https://www.globalsign.com/repository/0
+  - (https://www.microsoft.com/en-us/windows 0
+  - -http://ocsp.globalsign.com/ca/gstsacasha384g40C
+  - -http://ocsp.globalsign.com/codesigningrootr450F
+  - 0http://crl.globalsign.com/ca/gstsacasha384g4.crl0
+  - 0http://crl.globalsign.com/codesigningrootr45.crl0U
+  - 3http://ocsp.globalsign.com/gsgccr45evcodesignca20200U
+  - 3http://www.microsoft.com/pkiops/Docs/Repository.htm0
+  - 6http://crl.globalsign.com/gsgccr45evcodesignca2020.crl0
+  - 7http://secure.globalsign.com/cacert/gstsacasha384g4.crt0
+  - :http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+  - >http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+  - @http://secure.globalsign.com/cacert/gsgccr45evcodesignca2020.crt0?
+  - Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+  - Nhttp://www.microsoft.com/pkiops/crl/Microsoft%20Time-Stamp%20PCA%202010(1).crl0l
+  - Phttp://www.microsoft.com/pkiops/certs/Microsoft%20Time-Stamp%20PCA%202010(1).crt0
+  - chttp://www.microsoft.com/pkiops/crl/Microsoft%20Windows%20Third%20Party%20Component%20CA%202012.crl0
+  - ehttp://www.microsoft.com/pkiops/certs/Microsoft%20Windows%20Third%20Party%20Component%20CA%202012.crt0
+- guid (1):
+  - {3F966BD9-FA04-4EC5-991C-D326973B5128}
+- path (1):
+  - c:\vmagent_new\bin\joblist\858499\src\q\qutmdrv_pslproctimesinfo_sys\drv\objfre_wxp_x86\i386\qutmdrv.pdb
+- api (56):
+  - NtAllocateVirtualMemory
+  - NtClose
+  - NtCreateSection
+  - NtFreeVirtualMemory
+  - NtMapViewOfSection
+  - NtOpenProcess
+  - NtProtectVirtualMemory
+  - NtQueryInformationAtom
+  - NtQueryInformationFile
+  - NtQueryVirtualMemory
+  - NtUserGetClassName
+  - NtUserMapVirtualKeyEx
+  - NtUserWindowFromDC
+  - ZwAllocateVirtualMemory
+  - ZwClose
+  - ZwCreateEvent
+  - ZwCreateFile
+  - ZwCreateKey
+  - ZwCreateSection
+  - ZwDeleteFile
+  - ZwDeleteKey
+  - ZwDuplicateObject
+  - ZwEnumerateKey
+  - ZwFreeVirtualMemory
+  - ZwFsControlFile
+  - ZwLoadKey
+  - ZwMapViewOfSection
+  - ZwOpenDirectoryObject
+  - ZwOpenFile
+  - ZwOpenKey
+  - ZwOpenProcess
+  - ZwOpenSection
+  - ZwOpenSymbolicLinkObject
+  - ZwProtectVirtualMemory
+  - ZwQueryDirectoryFile
+  - ZwQueryInformationFile
+  - ZwQueryInformationProcess
+  - ZwQueryInformationThread
+  - ZwQueryKey
+  - ZwQueryObject
+  - ZwQuerySection
+  - ZwQuerySymbolicLinkObject
+  - ZwQuerySystemInformation
+  - ZwQueryValueKey
+  - ZwQueryVirtualMemory
+  - ZwQueryVolumeInformationFile
+  - ZwReadFile
+  - ZwRenameKey
+  - ZwSaveKey
+  - ZwSetInformationFile
+  - ZwSetValueKey
+  - ZwTerminateProcess
+  - ZwUnloadKey
+  - ZwUnmapViewOfSection
+  - ZwWaitForSingleObject
+  - ZwWriteFile
+- ioctl_hint (1):
+  - IoBuildDeviceIoControlRequest
+- protect (7):
+  - ExAcquireRundownProtection
+  - ExReleaseRundownProtection
+  - NtProtectVirtualMemory
+  - QQPROTECT.EXE
+  - ZwProtectVirtualMemory
+  - \Device\360HookPort
+  - \Device\360SelfProtection
+
+### deepscan\DsArk64_win10.sys
+- arch: x64  size: 182,000
+- entry: 0x27064
+- sections: .text(117825B), .rdata(18964B), .data(12068B), .pdata(2868B), INIT(4176B), .rsrc(1672B), .reloc(492B)
+- imports:
+  - ntoskrnl.exe: ZwQueryValueKey, ZwEnumerateValueKey, ZwClose, ZwFlushKey, ZwOpenProcess, ZwQueryInformationProcess, PsGetCurrentProcessId, MmIsAddressValid, ZwTerminateProcess, ZwDeleteKey, ZwEnumerateKey, ZwQueryKey, ZwOpenKey, PsProcessType, ExAllocatePool, IoGetCurrentProcess, PsGetVersion, ObOpenObjectByPointer, ExAcquireResourceExclusiveLite, ExReleaseFastMutexUnsafe, KeLeaveCriticalRegion, KeEnterCriticalRegion, ExAcquireFastMutexUnsafe, ExReleaseResourceLite, RtlAppendUnicodeStringToString, RtlCompareMemory, RtlCopyUnicodeString, KeInitializeEvent, RtlCompareUnicodeString, RtlAnsiStringToUnicodeString, _strlwr, strstr, IoCreateFile, RtlInitAnsiString, IoFreeMdl, ZwSetInformationFile, RtlFreeUnicodeString, ExAcquireResourceSharedLite, RtlPrefixUnicodeString, MmProbeAndLockPages ...
+  - FLTMGR.SYS: FltParseFileNameInformation, FltReleaseFileNameInformation, FltRegisterFilter, FltUnregisterFilter, FltGetFileNameInformation, FltSetCallbackDataDirty, FltGetDestinationFileNameInformation, FltStartFiltering
+- registry (16):
+  - :SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards
+  - SOFTWARE\360MachineSignature
+  - SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\EXPLORER\STARTUPAPPROVED\RUN
+  - SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\RUN
+  - SOFTWARE\WOW6432NODE\MICROSOFT\WINDOWS\CURRENTVERSION\EXPLORER\STARTUPAPPROVED\RUN
+  - SOFTWARE\WOW6432NODE\MICROSOFT\WINDOWS\CURRENTVERSION\RUN
+  - \REGISTRY\MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\
+  - \REGISTRY\MACHINE\SOFTWARE\WOW6432NODE\MYDRIVERS\DRIVERGENIUS
+  - \REGISTRY\MACHINE\SYSTEM\CONTROLSET
+  - \REGISTRY\MACHINE\SYSTEM\CURRENTCONTROLSET\SERVICES\
+  - \REGISTRY\MACHINE\SYSTEM\CURRENTCONTROLSET\SERVICES\DSARK
+  - \REGISTRY\MACHINE\SYSTEM\CurrentControlSet\Control\CI\State
+  - \REGISTRY\MACHINE\SYSTEM\CurrentControlSet\services\360FsFlt
+  - \Registry\Machine\System\CurrentControlSet\Control\ServiceGroupOrder
+  - \Registry\Machine\System\CurrentControlSet\Services\BAPIDRV
+  - \Registry\Machine\System\CurrentControlSet\Services\DsArk
+- service (3):
+  - DsArk64.sys
+  - FLTMGR.SYS
+  - \SystemRoot\System32\drivers\DsArk64.sys
+- url (22):
+  - "http://ocsp2.globalsign.com/rootr306
+  - "http://ocsp2.globalsign.com/rootr606
+  - %http://crl.globalsign.com/root-r3.crl0G
+  - %http://crl.globalsign.com/root-r6.crl0G
+  - &https://www.globalsign.com/repository/0
+  - (https://www.microsoft.com/en-us/windows 0
+  - -http://ocsp.globalsign.com/ca/gstsacasha384g40C
+  - -http://ocsp.globalsign.com/codesigningrootr450F
+  - 0http://crl.globalsign.com/ca/gstsacasha384g4.crl0
+  - 0http://crl.globalsign.com/codesigningrootr45.crl0U
+  - 3http://ocsp.globalsign.com/gsgccr45evcodesignca20200U
+  - 3http://www.microsoft.com/pkiops/Docs/Repository.htm0
+  - 6http://crl.globalsign.com/gsgccr45evcodesignca2020.crl0
+  - 7http://secure.globalsign.com/cacert/gstsacasha384g4.crt0
+  - :http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+  - >http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+  - @http://secure.globalsign.com/cacert/gsgccr45evcodesignca2020.crt0?
+  - Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+  - Nhttp://www.microsoft.com/pkiops/crl/Microsoft%20Time-Stamp%20PCA%202010(1).crl0l
+  - Phttp://www.microsoft.com/pkiops/certs/Microsoft%20Time-Stamp%20PCA%202010(1).crt0
+  - chttp://www.microsoft.com/pkiops/crl/Microsoft%20Windows%20Third%20Party%20Component%20CA%202012.crl0
+  - ehttp://www.microsoft.com/pkiops/certs/Microsoft%20Windows%20Third%20Party%20Component%20CA%202012.crt0
+- path (1):
+  - c:\vmagent_new\bin\joblist\781977\src\d_capital\dsark_sys_x64\objfre_win7_amd64\amd64\DsArk64.pdb
+- api (28):
+  - NtBuildNumber
+  - ZwClose
+  - ZwCreateEvent
+  - ZwCreateFile
+  - ZwCreateKey
+  - ZwDeleteFile
+  - ZwDeleteKey
+  - ZwDeleteValueKey
+  - ZwDeviceIoControlFile
+  - ZwEnumerateKey
+  - ZwEnumerateValueKey
+  - ZwFlushKey
+  - ZwOpenFile
+  - ZwOpenKey
+  - ZwOpenProcess
+  - ZwOpenSymbolicLinkObject
+  - ZwQueryInformationFile
+  - ZwQueryInformationProcess
+  - ZwQueryKey
+  - ZwQuerySymbolicLinkObject
+  - ZwQuerySystemInformation
+  - ZwQueryValueKey
+  - ZwReadFile
+  - ZwSetInformationFile
+  - ZwSetValueKey
+  - ZwTerminateProcess
+  - ZwWaitForSingleObject
+  - ZwWriteFile
+- ioctl_hint (2):
+  - IoBuildDeviceIoControlRequest
+  - ZwDeviceIoControlFile
+- protect (2):
+  - \Device\360SelfProtection
+  - \SERVICES\360ANTIHACKER
+
+### deepscan\BAPIDRV64.SYS
+- arch: x64  size: 227,528
+- entry: 0x33064
+- sections: .text(133902B), .rdata(13388B), .data(48416B), .pdata(2532B), INIT(4540B), .rsrc(824B), .reloc(5702B)
+- imports:
+  - ntoskrnl.exe: MmSystemRangeStart, ExAcquireResourceExclusiveLite, SeTokenIsAdmin, ExAllocatePoolWithTag, ProbeForRead, PsProcessType, IoBuildDeviceIoControlRequest, ExFreePoolWithTag, IoGetBaseFileSystemDeviceObject, KeLeaveCriticalRegion, RtlAnsiStringToUnicodeString, IoGetAttachedDevice, PsLookupProcessByProcessId, ZwReadFile, IoGetRelatedDeviceObject, ZwMapViewOfSection, RtlInitUnicodeString, IoDeleteDevice, KeSetEvent, ExGetPreviousMode, ProbeForWrite, MmGetSystemRoutineAddress, IoCreateFile, KeInitializeEvent, RtlInitAnsiString, IoIs32bitProcess, RtlGetVersion, ZwQuerySystemInformation, KeAcquireQueuedSpinLock, KeReleaseQueuedSpinLock, RtlEqualUnicodeString, ZwOpenSymbolicLinkObject, IoFreeMdl, KeUnstackDetachProcess, KeEnterCriticalRegion, RtlImageDirectoryEntryToData, ZwSetInformationFile, SeReleaseSubjectContext, RtlFreeUnicodeString, ObQueryNameString ...
+- registry (6):
+  - \FileSystem\FastFat
+  - \FileSystem\Fastfat
+  - \FileSystem\Ntfs
+  - \FileSystem\ReFS
+  - \FileSystem\exfat
+  - \Registry\Machine\System\Setup
+- service (3):
+  - BAPIDRV64.SYS
+  - fastfat.sys
+  - ntfs.sys
+- url (22):
+  - "http://ocsp2.globalsign.com/rootr306
+  - "http://ocsp2.globalsign.com/rootr606
+  - %http://crl.globalsign.com/root-r3.crl0G
+  - %http://crl.globalsign.com/root-r6.crl0G
+  - &https://www.globalsign.com/repository/0
+  - (https://www.microsoft.com/en-us/windows 0
+  - -http://ocsp.globalsign.com/ca/gstsacasha384g40C
+  - -http://ocsp.globalsign.com/codesigningrootr450F
+  - 0http://crl.globalsign.com/ca/gstsacasha384g4.crl0
+  - 0http://crl.globalsign.com/codesigningrootr45.crl0U
+  - 3http://ocsp.globalsign.com/gsgccr45evcodesignca20200U
+  - 3http://www.microsoft.com/pkiops/Docs/Repository.htm0
+  - 6http://crl.globalsign.com/gsgccr45evcodesignca2020.crl0
+  - 7http://secure.globalsign.com/cacert/gstsacasha384g4.crt0
+  - :http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+  - >http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+  - @http://secure.globalsign.com/cacert/gsgccr45evcodesignca2020.crt0?
+  - Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+  - Nhttp://www.microsoft.com/pkiops/crl/Microsoft%20Time-Stamp%20PCA%202010(1).crl0l
+  - Phttp://www.microsoft.com/pkiops/certs/Microsoft%20Time-Stamp%20PCA%202010(1).crt0
+  - chttp://www.microsoft.com/pkiops/crl/Microsoft%20Windows%20Third%20Party%20Component%20CA%202012.crl0
+  - ehttp://www.microsoft.com/pkiops/certs/Microsoft%20Windows%20Third%20Party%20Component%20CA%202012.crt0
+- path (1):
+  - c:\vmagent_new\bin\joblist\721695\src\b_capital\bapi_sys_x64\objfre_win7_amd64\amd64\BAPIDRV64.pdb
+- api (33):
+  - NtBuildNumber
+  - NtClose
+  - NtFindAtom
+  - NtOpenFile
+  - NtQuerySystemInformation
+  - NtSetEvent
+  - ZwClose
+  - ZwCreateFile
+  - ZwCreateKey
+  - ZwCreateSection
+  - ZwDeleteKey
+  - ZwDeleteValueKey
+  - ZwDuplicateObject
+  - ZwEnumerateKey
+  - ZwEnumerateValueKey
+  - ZwMapViewOfSection
+  - ZwOpenDirectoryObject
+  - ZwOpenFile
+  - ZwOpenKey
+  - ZwOpenProcess
+  - ZwOpenSymbolicLinkObject
+  - ZwQueryDirectoryFile
+  - ZwQueryInformationFile
+  - ZwQueryKey
+  - ZwQuerySystemInformation
+  - ZwQueryValueKey
+  - ZwReadFile
+  - ZwSetInformationFile
+  - ZwSetInformationObject
+  - ZwSetValueKey
+  - ZwUnmapViewOfSection
+  - ZwWaitForSingleObject
+  - ZwWriteFile
+- ioctl_hint (1):
+  - IoBuildDeviceIoControlRequest
+- protect (1):
+  - \Device\360SelfProtection
+
+### SoftMgr\360qpesv64.sys
+- arch: x64  size: 346,824
+- entry: 0x51064
+- sections: .text(196877B), .rdata(49836B), .data(64856B), .pdata(5220B), INIT(6236B), .rsrc(1000B), .reloc(6934B)
+- imports:
+  - ntoskrnl.exe: IoCreateDevice, IofCallDriver, MmSystemRangeStart, ExQueueWorkItem, _stricmp, PsGetProcessPeb, ExAcquireResourceExclusiveLite, _strnicmp, IoThreadToProcess, ProbeForRead, PsProcessType, RtlWalkFrameChain, ZwCreateKey, KeLeaveCriticalRegion, IoGetRequestorProcess, PsSetLoadImageNotifyRoutine, IoGetAttachedDevice, IoGetStackLimits, PsGetProcessImageFileName, PsLookupProcessByProcessId, ZwQuerySymbolicLinkObject, _wcsnicmp, IoGetRelatedDeviceObject, ProbeForWrite, MmGetSystemRoutineAddress, IoIsOperationSynchronous, RtlInitAnsiString, ZwSetValueKey, KeAcquireQueuedSpinLock, KeReleaseQueuedSpinLock, PsSetCreateProcessNotifyRoutine, RtlEqualUnicodeString, ZwOpenSymbolicLinkObject, KeUnstackDetachProcess, FsRtlIsNameInExpression, KeEnterCriticalRegion, RtlImageDirectoryEntryToData, KeDelayExecutionThread, RtlFreeUnicodeString, ObQueryNameString ...
+  - FLTMGR.SYS: FltReleasePushLock, FltInitializePushLock, FltAcquirePushLockShared, FltDeletePushLock, FltStartFiltering, FltParseFileNameInformation, FltParseFileName, FltReleaseFileNameInformation, FltRegisterFilter, FltUnregisterFilter, FltGetFileNameInformation, FltSetCallbackDataDirty, FltGetRequestorProcessId, FltGetRequestorProcess, FltBuildDefaultSecurityDescriptor, FltCloseCommunicationPort, FltFreeSecurityDescriptor, FltCreateCommunicationPort, FltCloseClientPort, FltSendMessage, FltAcquirePushLockExclusive
+- registry (26):
+  - :SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkCards
+  - SOFTWARE\360MachineSignature
+  - SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\EXPLORER\STARTUPAPPROVED\RUN
+  - SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\RUN
+  - SOFTWARE\WOW6432NODE\MICROSOFT\WINDOWS\CURRENTVERSION\EXPLORER\STARTUPAPPROVED\RUN
+  - SOFTWARE\WOW6432NODE\MICROSOFT\WINDOWS\CURRENTVERSION\RUN
+  - \FileSystem\360FsFlt
+  - \FileSystem\Filters\
+  - \FileSystem\Ntfs
+  - \FileSystem\SLBDriver
+  - \Registry\Machine\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\360safe.exe
+  - \Registry\Machine\SOFTWARE\Wow6432Node\360Safe\360krnlsvc
+  - \Registry\Machine\SOFTWARE\Wow6432Node\360Safe\safemon
+  - \Registry\Machine\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run
+  - \Registry\Machine\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run\QQDisabled
+  - \Registry\Machine\SYSTEM\CurrentControlSet\services\360FsFlt
+  - \Registry\Machine\SYSTEM\CurrentControlSet\services\360qpesv
+  - \Registry\Machine\SYSTEM\CurrentControlSet\services\360qpesv\Instances
+  - \Registry\Machine\SYSTEM\CurrentControlSet\services\360qpesv\Instances\360qpesvInstance
+  - \Registry\Machine\SYSTEM\CurrentControlSet\services\QMUdisk
+  - \Registry\Machine\SYSTEM\CurrentControlSet\services\QQPCRTP
+  - \Registry\Machine\SYSTEM\CurrentControlSet\services\SLBDriver
+  - \Registry\Machine\SYSTEM\CurrentControlSet\services\ZhuDongFangYu
+  - \Registry\Machine\SoftWare\Wow6432Node\360Safe\softmgr
+  - \Registry\Machine\System\CurrentControlSet\services\360qpesv
+  - \Registry\Machine\software\Wow6432Node\360safe\softmgr\qplog
+- service (30):
+  - *UCDRV-X64.SYS
+  - *\KISKNL.SYS
+  - *\KSAPI64.SYS
+  - *\QMUDISK64.SYS
+  - 360AntiHacker64.sys
+  - 360Box64.sys
+  - 360FsFlt.sys
+  - 360SelfProtection64.sys
+  - 360boost64.sys
+  - 360netmon.sys
+  - 360qpesv64.sys
+  - 360reskit64.sys
+  - BAPIDRV64.sys
+  - DsArk64.sys
+  - FLTMGR.SYS
+  - FltMgr.sys
+  - VIDEOPRT.sys
+  - Wdf01000.sys
+  - ahcache.sys
+  - cng.sys
+  - csc.sys
+  - ksecdd.sys
+  - mountmgr.sys
+  - peauth.sys
+  - spaceport.sys
+  - system32\DRIVERS\360FsFlt.sys
+  - system32\DRIVERS\360qpesv64.sys
+  - tcpip.sys
+  - usbhub.sys
+  - volmgr.sys
+- url (24):
+  - &https://www.globalsign.com/repository/0
+  - (https://www.microsoft.com/en-us/windows 0
+  - -http://ocsp.globalsign.com/codesigningrootr450F
+  - 0http://crl.globalsign.com/codesigningrootr45.crl0U
+  - 2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+  - 3http://ocsp.globalsign.com/gsgccr45evcodesignca20200U
+  - 3http://www.microsoft.com/pkiops/Docs/Repository.htm0
+  - 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+  - 5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+  - 6http://crl.globalsign.com/gsgccr45evcodesignca2020.crl0
+  - 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+  - :http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+  - >http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+  - @http://secure.globalsign.com/cacert/gsgccr45evcodesignca2020.crt0?
+  - Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+  - Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+  - Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+  - Nhttp://www.microsoft.com/pkiops/crl/Microsoft%20Time-Stamp%20PCA%202010(1).crl0l
+  - Phttp://www.microsoft.com/pkiops/certs/Microsoft%20Time-Stamp%20PCA%202010(1).crt0
+  - chttp://www.microsoft.com/pkiops/crl/Microsoft%20Windows%20Third%20Party%20Component%20CA%202012.crl0
+  - ehttp://www.microsoft.com/pkiops/certs/Microsoft%20Windows%20Third%20Party%20Component%20CA%202012.crt0
+  - http://ocsp.digicert.com0A
+  - http://ocsp.digicert.com0C
+  - http://ocsp.digicert.com0X
+- path (2):
+  - \??\C:\Windows\System32\_NA_
+  - c:\vmagent_new\bin\joblist\886431\src\3\360qpesv64_trunk\objfre_win7_amd64\amd64\360qpesv64.pdb
+- api (32):
+  - NtProtecH9
+  - NtPruF
+  - ZwAllocateVirtualMemory
+  - ZwClose
+  - ZwCreateKey
+  - ZwCreateSection
+  - ZwDeleteValueKey
+  - ZwDeviceIoControlFile
+  - ZwDuplicateObject
+  - ZwEnumerateKey
+  - ZwFlushKey
+  - ZwFreeVirtualMemory
+  - ZwMapViewOfSection
+  - ZwOpenFile
+  - ZwOpenKey
+  - ZwOpenProcess
+  - ZwOpenSymbolicLinkObject
+  - ZwProtectVirtualMemory
+  - ZwQueryInformationFile
+  - ZwQueryInformationProcess
+  - ZwQueryInformationThread
+  - ZwQuerySecurityObject
+  - ZwQuerySymbolicLinkObject
+  - ZwQuerySystemInformation
+  - ZwQueryValueKey
+  - ZwQueryVirtualMemory
+  - ZwReadFile
+  - ZwReadVirtualMemory
+  - ZwSetValueKey
+  - ZwTerminateProcess
+  - ZwUnmapViewOfSection
+  - ZwWriteVirtualMemory
+- ioctl_hint (2):
+  - IoBuildDeviceIoControlRequest
+  - ZwDeviceIoControlFile
+- protect (9):
+  - 360AntiHacker64.sys
+  - 360SelfProtection64.sys
+  - QMAccountProtection.exe
+  - QMProtect.dll
+  - SERVICES\360ANTIHACKER
+  - ZwProtectVirtualMemory
+  - \Device\360SelfProtection
+  - \Driver\2345WebProtectFrame
+  - baiduprotect.
+
+### SoftMgr\360elam64.sys
+- arch: x64  size: 18,048
+- entry: 0x6050
+- sections: .text(160B), .rdata(972B), .data(336B), .pdata(72B), PAGE(104B), INIT(348B), .rsrc(1680B), .reloc(32B)
+- imports:
+  - ntoskrnl.exe: IoUnregisterBootDriverCallback, IoRegisterBootDriverCallback, ExFreePoolWithTag
+- service (2):
+  - 360Elam.sys
+  - 360elam64.sys
+- url (9):
+  - (https://www.microsoft.com/en-us/windows 0
+  - 1http://www.microsoft.com/PKI/docs/CPS/default.htm0@
+  - 3http://www.microsoft.com/pkiops/Docs/Repository.htm0
+  - >http://www.microsoft.com/pki/certs/MicCodSigPCA_2010-07-06.crt0
+  - >http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+  - Ehttp://crl.microsoft.com/pki/crl/products/MicCodSigPCA_2010-07-06.crl0Z
+  - Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+  - Nhttp://www.microsoft.com/pkiops/crl/Microsoft%20Time-Stamp%20PCA%202010(1).crl0l
+  - Phttp://www.microsoft.com/pkiops/certs/Microsoft%20Time-Stamp%20PCA%202010(1).crt0
+- path (1):
+  - C:\vmagent_new\bin\joblist\712834\out\Release\360elam64.pdb
+
+### netmon\netdrv\wfp\360netmon_x64_wfp.sys
+- arch: x64  size: 103,648
+- entry: 0x5d064
+- sections: .text(65627B), .rdata(4180B), .data(290944B), .pdata(1620B), INIT(5308B), .rsrc(880B), .reloc(96B)
+- imports:
+  - ntoskrnl.exe: ZwSetValueKey, KeUnstackDetachProcess, IoFileObjectType, ZwCreateFile, ZwQueryDirectoryFile, IoGetCurrentProcess, ZwEnumerateValueKey, IoAttachDevice, ZwQueryInformationProcess, ZwOpenFile, IoQueryFileDosDeviceName, ObOpenObjectByPointer, KeStackAttachProcess, ZwQueryKey, IoFreeMdl, KeWaitForSingleObject, MmProbeAndLockPages, MmUnlockPages, ZwDeleteValueKey, ExAcquireResourceExclusiveLite, KeLeaveCriticalRegion, KeEnterCriticalRegion, ExReleaseResourceLite, _wcsicmp, IoBuildPartialMdl, IoMakeAssociatedIrp, ZwQuerySystemInformation, wcsstr, ExInterlockedInsertHeadList, IoFreeIrp, ExInterlockedRemoveHeadList, _wcsupr, _wcsnicmp, _stricmp, ExDeleteNPagedLookasideList, KeBugCheckEx, RtlIntegerToUnicodeString, PsLookupProcessByProcessId, ZwCreateKey, IoBuildDeviceIoControlRequest ...
+  - fwpkclnt.sys: FwpmCalloutEnum0, FwpsFlowAssociateContext0, FwpsAcquireWritableLayerDataPointer0, FwpsCalloutUnregisterById0, FwpmProviderDestroyEnumHandle0, FwpmSubLayerAdd0, FwpsApplyModifiedLayerData0, FwpsFreeCloneNetBufferList0, FwpsFlowRemoveContext0, FwpmCalloutDeleteByKey0, FwpsQueryPacketInjectionState0, FwpmCalloutDeleteById0, FwpmProviderEnum0, FwpmSubLayerDeleteByKey0, FwpmProviderCreateEnumHandle0, FwpsConstructIpHeaderForTransportPacket0, FwpmSubLayerEnum0, FwpsAllocateNetBufferAndNetBufferList0, FwpsInjectionHandleCreate0, FwpmTransactionCommit0, FwpmSubLayerCreateEnumHandle0, FwpmSubLayerDestroyEnumHandle0, FwpmCalloutAdd0, FwpmCalloutDestroyEnumHandle0, FwpmFilterDeleteByKey0, FwpsAllocateCloneNetBufferList0, FwpmBfeStateSubscribeChanges0, FwpmFilterEnum0, FwpmProviderAdd0, FwpsCalloutRegister0, FwpmTransactionAbort0, FwpmEngineOpen0, FwpsAcquireClassifyHandle0, FwpmFilterDestroyEnumHandle0, FwpmProviderDeleteByKey0, FwpmCalloutCreateEnumHandle0, FwpmFilterAdd0, FwpsCalloutRegister1, FwpsInjectTransportSendAsync0, FwpmTransactionBegin0 ...
+  - TDI.SYS: TdiMapUserRequest
+  - NDIS.SYS: NdisAdvanceNetBufferListDataStart, NdisGetDataBuffer, NdisAllocateNetBufferListPool, NdisRetreatNetBufferListDataStart, NdisCopyFromNetBufferToNetBuffer, NdisAllocateMdl, NdisFreeGenericObject, NdisSetTimer, NdisInitializeTimer, NdisCancelTimer, NdisAllocateGenericObject
+- registry (2):
+  - \REGISTRY\MACHINE\SOFTWARE\Wow6432Node\360Safe\360EntSecurity
+  - \REGISTRY\MACHINE\SOFTWARE\Wow6432Node\360Safe\360EntSecurity\NetFlux
+- service (7):
+  - 360netmon.sys
+  - 360netmon_x64_wfp.sys
+  - FWPKCLNT.SYS
+  - NDIS.SYS
+  - TDI.SYS
+  - c:\vmagent_new\bin\joblist\770204\src\w\wan_360netmon_x64_wfp.sys\output\amd64\360netmon_x64_wfp.pdb
+  - fwpkclnt.sys
+- url (22):
+  - "http://ocsp2.globalsign.com/rootr306
+  - "http://ocsp2.globalsign.com/rootr606
+  - %http://crl.globalsign.com/root-r3.crl0G
+  - %http://crl.globalsign.com/root-r6.crl0G
+  - &https://www.globalsign.com/repository/0
+  - (https://www.microsoft.com/en-us/windows 0
+  - -http://ocsp.globalsign.com/ca/gstsacasha384g40C
+  - -http://ocsp.globalsign.com/codesigningrootr450F
+  - 0http://crl.globalsign.com/ca/gstsacasha384g4.crl0
+  - 0http://crl.globalsign.com/codesigningrootr45.crl0U
+  - 3http://ocsp.globalsign.com/gsgccr45evcodesignca20200U
+  - 3http://www.microsoft.com/pkiops/Docs/Repository.htm0
+  - 6http://crl.globalsign.com/gsgccr45evcodesignca2020.crl0
+  - 7http://secure.globalsign.com/cacert/gstsacasha384g4.crt0
+  - :http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+  - >http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+  - @http://secure.globalsign.com/cacert/gsgccr45evcodesignca2020.crt0?
+  - Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+  - Nhttp://www.microsoft.com/pkiops/crl/Microsoft%20Time-Stamp%20PCA%202010(1).crl0l
+  - Phttp://www.microsoft.com/pkiops/certs/Microsoft%20Time-Stamp%20PCA%202010(1).crt0
+  - chttp://www.microsoft.com/pkiops/crl/Microsoft%20Windows%20Third%20Party%20Component%20CA%202012.crl0
+  - ehttp://www.microsoft.com/pkiops/certs/Microsoft%20Windows%20Third%20Party%20Component%20CA%202012.crt0
+- guid (2):
+  - \BaseNamedObjects\{0AB0C38E-F5A1-4a0a-AC04-6C4392AE58F4}
+  - \BaseNamedObjects\{D5E983E8-4DC1-443a-85B3-F2D3FFA8941C}
+- path (1):
+  - c:\vmagent_new\bin\joblist\770204\src\w\wan_360netmon_x64_wfp.sys\output\amd64\360netmon_x64_wfp.pdb
+- api (13):
+  - ZwClose
+  - ZwCreateFile
+  - ZwCreateKey
+  - ZwDeleteValueKey
+  - ZwEnumerateValueKey
+  - ZwOpenFile
+  - ZwOpenKey
+  - ZwQueryDirectoryFile
+  - ZwQueryInformationProcess
+  - ZwQueryKey
+  - ZwQuerySystemInformation
+  - ZwQueryValueKey
+  - ZwSetValueKey
+- ioctl_hint (1):
+  - IoBuildDeviceIoControlRequest
+- protect (1):
+  - \Device\360SelfProtection
+
+### deepscan\capi.dll
+- arch: x86  size: 448,256
+- entry: 0x93dd3
+- sections: .text(165391B), .rdata(192423B), .data(29124B), .vmp0(104986B), .vmp1(427368B), .reloc(140B), .rsrc(1237B)
+- imports:
+  - KERNEL32.dll: GetACP
+  - USER32.dll: wsprintfW
+  - CRYPT32.dll: CertFreeCertificateContext
+  - KERNEL32.dll: GetModuleFileNameW
+  - KERNEL32.dll: GetModuleHandleA, LoadLibraryA, LocalAlloc, LocalFree, GetModuleFileNameA, ExitProcess
+- url (31):
+  - "http://ocsp2.globalsign.com/rootr306
+  - "http://ocsp2.globalsign.com/rootr606
+  - %http://crl.globalsign.com/root-r3.crl0G
+  - %http://crl.globalsign.com/root-r6.crl0G
+  - &https://www.globalsign.com/repository/0
+  - *http://crl3.digicert.com/assured-cs-g1.crl00
+  - *http://crl4.digicert.com/assured-cs-g1.crl0L
+  - ,http://crl3.digicert.com/sha2-assured-ts.crl02
+  - ,http://crl4.digicert.com/sha2-assured-ts.crl0
+  - -http://ocsp.globalsign.com/ca/gstsacasha384g40C
+  - .http://www.digicert.com/ssl-cps-repository.htm0
+  - /http://crl3.digicert.com/sha2-assured-cs-g1.crl05
+  - /http://crl4.digicert.com/sha2-assured-cs-g1.crl0L
+  - 0http://crl.globalsign.com/ca/gstsacasha384g4.crl0
+  - 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0:
+  - 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0O
+  - 4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0P
+  - 4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0
+  - 4http://crl4.digicert.com/DigiCertAssuredIDRootCA.crl0:
+  - 7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0
+  - 7http://secure.globalsign.com/cacert/gstsacasha384g4.crt0
+  - @http://cacerts.digicert.com/DigiCertAssuredIDCodeSigningCA-1.crt0
+  - Bhttp://cacerts.digicert.com/DigiCertSHA2AssuredIDCodeSigningCA.crt0
+  - Chttp://cacerts.digicert.com/DigiCertSHA2AssuredIDTimestampingCA.crt0
+  - http://ocsp.digicert.com0C
+  - http://ocsp.digicert.com0L
+  - http://ocsp.digicert.com0N
+  - http://ocsp.digicert.com0O
+  - http://www.360.cn 0
+  - http://www.digicert.com/CPS0
+  - https://www.digicert.com/CPS0
+
+### deepscan\CheckSM.dll
+- arch: x86  size: 283,464
+- entry: 0x1a0de9
+- sections: .text(131742B), .rdata(31349B), .data(1158920B), .wow0(146071B), .wow1(272757B), .reloc(64B), .rsrc(1432B)
+- imports:
+  - KERNEL32.dll: RaiseException
+  - USER32.dll: MessageBoxW
+  - ADVAPI32.dll: OpenProcessToken
+  - SHLWAPI.dll: PathFileExistsA
+  - KERNEL32.dll: GetModuleFileNameW
+  - KERNEL32.dll: GetModuleHandleA, LoadLibraryA, LocalAlloc, LocalFree, GetModuleFileNameA, ExitProcess
+- url (16):
+  - #http://crl.verisign.com/pca3-g5.crl04
+  - #http://logo.verisign.com/vslogo.gif04
+  - /http://csc3-2010-aia.verisign.com/CSC3-2010.cer0
+  - /http://csc3-2010-crl.verisign.com/CSC3-2010.crl0D
+  - 1http://crl.usertrust.com/UTN-USERFirst-Object.crl05
+  - 2Terms of use at https://www.verisign.com/rpa (c)101.0,
+  - http://crl.verisign.com/pca3.crl0
+  - http://ocsp.usertrust.com0
+  - http://ocsp.verisign.com0
+  - http://ocsp.verisign.com0;
+  - http://ocsp.verisign.com0>
+  - http://www.360.cn 0
+  - http://www.usertrust.com1
+  - https://www.verisign.com/cps0
+  - https://www.verisign.com/cps0*
+  - https://www.verisign.com/rpa0

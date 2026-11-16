@@ -1,0 +1,7 @@
+== create interactive task 
+SUCCESS: The scheduled task "lcs_hrgui" has successfully been created.
+rc=0 
+SUCCESS: Attempted to run the scheduled task "lcs_hrgui".
+== installer process 
+huorong64.exe                 7456 Console                    1     31,924 K
+== end 18:20:27.39 

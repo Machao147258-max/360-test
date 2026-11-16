@@ -1,0 +1,74 @@
+== time 16:54:12.01 
+== loader process 
+INFO: No tasks are running which match the specified criteria.
+== trace (full) 
+The system cannot find the file specified.
+== defender active detections 
+
+
+ThreatID             : 2147810991
+Resources            : {file:_C:\Users\Public\loader.exe}
+InitialDetectionTime : 2026/10/4 16:20:00
+ActionSuccess        : True
+
+ThreatID             : 2147814523
+Resources            : {file:_C:\Users\Public\loader.exe}
+InitialDetectionTime : 2026/10/4 16:51:38
+ActionSuccess        : True
+
+ThreatID             : 2147810991
+Resources            : {file:_C:\Users\Public\loader.exe}
+InitialDetectionTime : 2026/10/4 16:26:59
+ActionSuccess        : True
+
+ThreatID             : 2147810991
+Resources            : {file:_C:\Users\Public\loader.exe}
+InitialDetectionTime : 2026/10/4 16:24:40
+ActionSuccess        : True
+
+ThreatID             : 2147731849
+Resources            : {file:_C:\Users\Public\loader.exe, process:_pid:4992,ProcessStart:134355761081550626}
+InitialDetectionTime : 2026/10/4 16:29:35
+ActionSuccess        : True
+
+
+
+
+== defender threat catalog 
+
+
+ThreatName : Trojan:Win32/Bearfoos.B!ml
+Resources  : 
+IsActive   : False
+
+ThreatName : Trojan:Win32/Sabsik.EN.A!ml
+Resources  : 
+IsActive   : False
+
+ThreatName : Trojan:Win32/Wacatac.H!ml
+Resources  : 
+IsActive   : False
+
+
+
+
+== defender operational log (last 12) 
+
+TimeCreated          Id LevelDisplayName
+-----------          -- ----------------
+2026/10/4 16:51:55 1117 資訊              
+2026/10/4 16:51:38 1116 警告              
+2026/10/4 16:49:47 1117 資訊              
+2026/10/4 16:49:47 1116 警告              
+2026/10/4 16:49:28 1116 警告              
+2026/10/4 16:49:28 1116 警告              
+2026/10/4 16:49:27 2010 資訊              
+2026/10/4 16:39:25 1117 資訊              
+2026/10/4 16:39:02 1116 警告              
+2026/10/4 16:36:17 1117 資訊              
+2026/10/4 16:35:59 2050 資訊              
+2026/10/4 16:35:56 1116 警告              
+
+
+
+== end 16:54:22.77 
